@@ -38,8 +38,8 @@ public class WaveSpawner : MonoBehaviour
 
 	void Update()
 	{
-		Debug.Log(EnemiesAlive);
-		Debug.Log(EnemiesKilled);
+		//Debug.Log(EnemiesAlive);
+		//Debug.Log(EnemiesKilled);
 		if (EnemiesKilled == 90)
 		{
 			EnemiesKilled = 0;
