@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class RaycastRecieve : MonoBehaviour
 {
+    bool outline;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +14,25 @@ public class RaycastRecieve : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (outline)
+        {
+            gameObject.GetComponent<Outline>().enabled = true;
+            outline = false;
+        }
+        else
+        {
+            gameObject.GetComponent<Outline>().enabled = false;
+        }
+    }
+    void toggleOutline()
+    {
         
+    }
+    void OnMouseOver()
+    {
+        if (!outline)
+        {
+            outline = true;
+        }
     }
 }
