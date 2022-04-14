@@ -94,6 +94,7 @@
      <Compile Include="Assets\Scenes\UI Screens\UI Scripts\TipsFromFlynn.cs" />
      <Compile Include="Assets\Scripts\EnemyMovement.cs" />
      <Compile Include="Assets\Scripts\WaveSpawner.cs" />
+     <Compile Include="Assets\QuickOutline\Scripts\RaycastRecieve.cs" />
      <Compile Include="Assets\3rdPerson+Fly\Scripts\PlayerScripts\FlyBehaviour.cs" />
      <Compile Include="Assets\Scripts\BashyScript.cs" />
      <Compile Include="Assets\3rdPerson+Fly\Scripts\LevelScripts\ThirdPersonOrbitCamBasic.cs" />

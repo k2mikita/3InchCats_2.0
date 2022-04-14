@@ -30,9 +30,13 @@ public class RaycastRecieve : MonoBehaviour
     }
     void OnMouseOver()
     {
-        if (!outline)
+        if (Input.GetKey(KeyCode.LeftAlt))
         {
-            outline = true;
+            if (!outline)
+            {
+                outline = true;
+            }
         }
+
     }
 }
