@@ -15,11 +15,10 @@ public class Rays : MonoBehaviour
     {
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
-        if (Physics.Raycast(ray, out hit))
+        if (Physics.Raycast(ray, out hit)) //change this to holding alt as well
         {
             if (hit.transform.gameObject.tag == "testTag")
             {
-                Debug.Log("screaming in agony");
 
             }
 

@@ -49,6 +49,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\AudioManager.cs" />
      <Compile Include="Assets\Scripts\NavMeshOnStart.cs" />
+     <Compile Include="Assets\QuickOutline\Scripts\Outline.cs" />
      <Compile Include="Assets\NavMeshComponents\Scripts\NavMeshSurface.cs" />
      <Compile Include="Assets\Scenes\UI Screens\UI Scripts\HowToPlay.cs" />
      <Compile Include="Assets\Scripts\StabbyScript.cs" />
@@ -61,6 +62,7 @@
      <Compile Include="Assets\Scenes\UI Screens\UI Scripts\LivesUI.cs" />
      <Compile Include="Assets\Scripts\CannonShootSound.cs" />
      <Compile Include="Assets\Scenes\UI Screens\UI Scripts\Menu.cs" />
+     <Compile Include="Assets\QuickOutline\Scripts\Rays.cs" />
      <Compile Include="Assets\Scripts\TurretBlueprint.cs" />
      <Compile Include="Assets\Scenes\UI Screens\UI Scripts\LoseScreen.cs" />
      <Compile Include="Assets\Scripts\TeddyBearWalkSound.cs" />
@@ -98,7 +100,10 @@
      <Compile Include="Assets\Scripts\BashSound.cs" />
      <Compile Include="Assets\Scenes\UI Screens\UI Scripts\ControlsMenu.cs" />
      <Compile Include="Assets\Scenes\UI Screens\UI Scripts\LevelSelectMenu.cs" />
+     <None Include="Assets\QuickOutline\Resources\Shaders\OutlineMask.shader" />
+     <None Include="Assets\QuickOutline\Readme.txt" />
      <None Include="Assets\SkySerie Freebie\Hdri setup.txt" />
+     <None Include="Assets\QuickOutline\Resources\Shaders\OutlineFill.shader" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>

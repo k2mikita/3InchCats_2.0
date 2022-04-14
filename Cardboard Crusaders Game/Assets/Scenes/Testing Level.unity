@@ -568,6 +568,7 @@ GameObject:
   - component: {fileID: 1256081790}
   - component: {fileID: 1256081789}
   - component: {fileID: 1256081793}
+  - component: {fileID: 1256081794}
   m_Layer: 0
   m_Name: ClamCube
   m_TagString: testTag
@@ -665,10 +666,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlineMode: 0
   outlineColor: {r: 0.955125, g: 1, b: 0, a: 1}
-  outlineWidth: 2.67
+  outlineWidth: 5.27
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
+--- !u!114 &1256081794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1256081788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 867c6fbcb2e980545813738565455cb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1305127391
 GameObject:
   m_ObjectHideFlags: 0
