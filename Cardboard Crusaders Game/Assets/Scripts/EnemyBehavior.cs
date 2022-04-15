@@ -16,7 +16,7 @@ public class EnemyBehavior : MonoBehaviour
     public float attackDamage = 5;
     public float attackSpeed = 1;
     public float attackCooldown = 0f;
-
+    public bool boom = false;
     public int worth = 50;
 
     UnityEngine.AI.NavMeshAgent x;
@@ -151,6 +151,10 @@ public class EnemyBehavior : MonoBehaviour
             }
 
             attackCooldown -= Time.deltaTime;
+            if (boom)
+            {
+                Die();
+            }
              
         }
     }

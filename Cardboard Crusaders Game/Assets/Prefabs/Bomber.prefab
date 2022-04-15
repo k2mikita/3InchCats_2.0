@@ -280,7 +280,7 @@ GameObject:
   - component: {fileID: 7755970395101376385}
   - component: {fileID: 8768599368091227441}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: Bomber
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -412,11 +412,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 168e3e274140cb840ae54063d4040de9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startSpeed: 5
+  startSpeed: 20
   speed: 0
-  startHealth: 10
-  attackDamage: 1
-  attackSpeed: 5
+  startHealth: 1
+  attackDamage: 8
+  attackSpeed: 3
   attackCooldown: 1
   worth: 50
   healthBar: {fileID: 966740628155583442}
