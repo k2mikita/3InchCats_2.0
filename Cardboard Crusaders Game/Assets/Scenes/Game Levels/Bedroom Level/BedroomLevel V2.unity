@@ -10030,6 +10030,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1286726160}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &678998042 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7780381468139082244, guid: e6686fce21d0779438824e797466d902,
+    type: 3}
+  m_PrefabInstance: {fileID: 6492642533017342704}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &683633380
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16184,6 +16196,12 @@ Transform:
   m_Father: {fileID: 1937550026}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1125766196 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3518143655897635744, guid: e6686fce21d0779438824e797466d902,
+    type: 3}
+  m_PrefabInstance: {fileID: 6492642533017342704}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1131908058 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1857898528177516169, guid: dc4fcc7ab57945649a6e22808339e42f,
@@ -18431,6 +18449,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4fcc7ab57945649a6e22808339e42f, type: 3}
+--- !u!223 &1297292248 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 4333028626857850449, guid: e6686fce21d0779438824e797466d902,
+    type: 3}
+  m_PrefabInstance: {fileID: 6492642533017342704}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1305532014
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31690,11 +31714,47 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2947227414231870743, guid: e6686fce21d0779438824e797466d902,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 212.35
+      objectReference: {fileID: 0}
     - target: {fileID: 4641102673085787523, guid: e6686fce21d0779438824e797466d902,
         type: 3}
       propertyPath: m_Name
       value: Knight_Flynn_Prefab
       objectReference: {fileID: 0}
+    - target: {fileID: 5302818218092648537, guid: e6686fce21d0779438824e797466d902,
+        type: 3}
+      propertyPath: AOE
+      value: 
+      objectReference: {fileID: 1125766196}
+    - target: {fileID: 5302818218092648537, guid: e6686fce21d0779438824e797466d902,
+        type: 3}
+      propertyPath: spellVFX
+      value: 
+      objectReference: {fileID: 1339483653523732529, guid: b7016aae7bbdcd54fb4bf3a41bf01a60,
+        type: 3}
+    - target: {fileID: 5302818218092648537, guid: e6686fce21d0779438824e797466d902,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5302818218092648537, guid: e6686fce21d0779438824e797466d902,
+        type: 3}
+      propertyPath: targetCircle
+      value: 
+      objectReference: {fileID: 678998042}
+    - target: {fileID: 5302818218092648537, guid: e6686fce21d0779438824e797466d902,
+        type: 3}
+      propertyPath: ability2Canvas
+      value: 
+      objectReference: {fileID: 1297292248}
+    - target: {fileID: 5302818218092648537, guid: e6686fce21d0779438824e797466d902,
+        type: 3}
+      propertyPath: indicatorRangeCircle
+      value: 
+      objectReference: {fileID: 678998042}
     - target: {fileID: 5414262325795665721, guid: e6686fce21d0779438824e797466d902,
         type: 3}
       propertyPath: m_RootOrder
