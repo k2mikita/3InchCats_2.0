@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6481463739620824389}
   - component: {fileID: 6481463739620824390}
   m_Layer: 0
-  m_Name: Smoke
+  m_Name: TowerBuiltVFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
