@@ -1,126 +1,123 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.19f1 (68f137dc9bbe) revision 6877495'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19044.1645; Version 2009; 64bit' Language: 'en' Physical Memory: 16310 MB
+OS: 'Windows 10 Home; OS build 19044.1645; Version 2009; 64bit' Language: 'en' Physical Memory: 32700 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-E:\PROGRAMS\UNITY\2020.3.19f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-E:/GMU/SPRING 2022/3INCHCATS_2.0/Cardboard Crusaders Game
+D:/GitHub/3InchCats_2.0/Cardboard Crusaders Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63585
-Successfully changed project path to: E:/GMU/SPRING 2022/3INCHCATS_2.0/Cardboard Crusaders Game
-E:/GMU/SPRING 2022/3INCHCATS_2.0/Cardboard Crusaders Game
+56560
+Successfully changed project path to: D:/GitHub/3InchCats_2.0/Cardboard Crusaders Game
+D:/GitHub/3InchCats_2.0/Cardboard Crusaders Game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 37.60 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 26.53 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
-[Subsystems] Discovering subsystems at path E:/PROGRAMS/UNITY/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path E:/GMU/SPRING 2022/3INCHCATS_2.0/Cardboard Crusaders Game/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GitHub/3InchCats_2.0/Cardboard Crusaders Game/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2488)
     Vendor:   
-    VRAM:     12142 MB
-    Driver:   30.0.15.1123
+    VRAM:     8043 MB
+    Driver:   30.0.15.1215
 Initialize mono
-Mono path[0] = 'E:/PROGRAMS/UNITY/2020.3.19f1/Editor/Data/Managed'
-Mono path[1] = 'E:/PROGRAMS/UNITY/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'E:/PROGRAMS/UNITY/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56704
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56504
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: E:/PROGRAMS/UNITY/2020.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: E:/PROGRAMS/UNITY/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001669 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001712 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 37.83 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 25.15 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.931 seconds
+- Completed reload, in  0.801 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1931ms)
-		BeginReloadAssembly (61ms)
+	ReloadAssembly (801ms)
+		BeginReloadAssembly (40ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (476ms)
-			LoadAssemblies (60ms)
+		EndReloadAssembly (311ms)
+			LoadAssemblies (38ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (180ms)
+			SetupTypeCache (119ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (184ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (115ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (38ms)
-				BeforeProcessingInitializeOnLoad (19ms)
-				ProcessInitializeOnLoadAttributes (91ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
+				RefreshPlugins (25ms)
+				BeforeProcessingInitializeOnLoad (6ms)
+				ProcessInitializeOnLoadAttributes (60ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002635 seconds.
+Registered in 0.001820 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.146 seconds
+- Completed reload, in  0.757 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1147ms)
-		BeginReloadAssembly (169ms)
+	ReloadAssembly (757ms)
+		BeginReloadAssembly (125ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (907ms)
-			LoadAssemblies (95ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (586ms)
+			LoadAssemblies (76ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (318ms)
+			SetupTypeCache (204ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (335ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (214ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (84ms)
-				ProcessInitializeOnLoadAttributes (236ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (161ms)
 				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1459 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 80.3 MB.
-System memory in use after: 80.4 MB.
+Unloading 1465 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.1 MB.
+System memory in use after: 81.2 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1911.
-Total: 3.178500 ms (FindLiveObjects: 0.173700 ms CreateObjectMapping: 0.040000 ms MarkObjects: 2.883200 ms  DeleteObjects: 0.080600 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1917.
+Total: 2.480500 ms (FindLiveObjects: 0.149900 ms CreateObjectMapping: 0.040100 ms MarkObjects: 2.229500 ms  DeleteObjects: 0.060000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -129,891 +126,143 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/VFX/Smoke.prefab
+  path: Assets/Prefabs/Catapult/Catapult.prefab
+  artifactKey: Guid(8be9786f012504a46be04284877a363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Catapult/Catapult.prefab using Guid(8be9786f012504a46be04284877a363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '546f46d34f9e1fee1c2bcf07db3acf9f') in 0.289486 seconds 
+  Import took 0.291587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 359.358380 seconds.
+  path: Assets/VFX/TowerBuiltVFX.prefab
   artifactKey: Guid(75b80d31f330fe340bf8381530261e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Smoke.prefab using Guid(75b80d31f330fe340bf8381530261e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ffc54c2961322dcbe012c1ce5fb25a9') in 0.161755 seconds 
-  Import took 0.164545 seconds .
+Start importing Assets/VFX/TowerBuiltVFX.prefab using Guid(75b80d31f330fe340bf8381530261e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acac9d3410c3b2b2cf411d662ddcdfb2') in 0.037159 seconds 
+  Import took 0.041494 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/VFX/FlynnSword with VFX.prefab
-  artifactKey: Guid(30bfafe1d19b8e646bfea60192629503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/FlynnSword with VFX.prefab using Guid(30bfafe1d19b8e646bfea60192629503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb312b8d78071d4086efdb6b6c8cf83f') in 0.043116 seconds 
-  Import took 0.045727 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
+  Time since last request: 42.463551 seconds.
   path: Assets/VFX/Hit VFX.prefab
   artifactKey: Guid(793835fb40b1259449fd708f672ac0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Hit VFX.prefab using Guid(793835fb40b1259449fd708f672ac0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '412982e5bd13eb285d0758e08cef2aa7') in 0.043538 seconds 
-  Import took 0.046425 seconds .
+Start importing Assets/VFX/Hit VFX.prefab using Guid(793835fb40b1259449fd708f672ac0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75d54ea832c1edfd1b25904a9c657a0c') in 0.027002 seconds 
+  Import took 0.029483 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/VFX/Projectile with VFX.prefab
-  artifactKey: Guid(bb1a2fa9d3d0b884eb10e3b4dcc6bc6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Projectile with VFX.prefab using Guid(bb1a2fa9d3d0b884eb10e3b4dcc6bc6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4d0718dfd62bd693a297215f9fdc7cf') in 0.099208 seconds 
-  Import took 0.101724 seconds .
+  Time since last request: 59.778340 seconds.
+  path: Assets/VFX/Smoke.prefab
+  artifactKey: Guid(75b80d31f330fe340bf8381530261e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Smoke.prefab using Guid(75b80d31f330fe340bf8381530261e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16f6622fa6070094af46e4702a9e448b') in 0.036238 seconds 
+  Import took 0.038359 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.695789 seconds.
-  path: Assets/VFX
-  artifactKey: Guid(df2be0970f3a0fa409b802c08bde52bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX using Guid(df2be0970f3a0fa409b802c08bde52bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f700b01ae2ee1b9ba24a5ade46701601') in 0.006518 seconds 
-  Import took 0.009330 seconds .
+  Time since last request: 115.145809 seconds.
+  path: Assets/VFX/Hit VFX.prefab
+  artifactKey: Guid(793835fb40b1259449fd708f672ac0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Hit VFX.prefab using Guid(793835fb40b1259449fd708f672ac0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5596aa60e5fe01b296f970a89a38155') in 0.022763 seconds 
+  Import took 0.025147 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.748979 seconds.
-  path: Assets/VFX/Spell VFX
-  artifactKey: Guid(f2d0f34abd70e224e94d3c10e1c84113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX using Guid(f2d0f34abd70e224e94d3c10e1c84113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31d4110c6f0e7448c3d88ea3d1bc770d') in 0.006904 seconds 
-  Import took 0.009666 seconds .
+  Time since last request: 2.247944 seconds.
+  path: Assets/VFX/Hit VFX.prefab
+  artifactKey: Guid(793835fb40b1259449fd708f672ac0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Hit VFX.prefab using Guid(793835fb40b1259449fd708f672ac0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a29303a33d1ef5ffd6b2ea0709ecab6') in 0.012589 seconds 
+  Import took 0.015238 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002525 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.088 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1088ms)
-		BeginReloadAssembly (130ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (882ms)
-			LoadAssemblies (98ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (318ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (309ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (77ms)
-				ProcessInitializeOnLoadAttributes (217ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1454 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 83.5 MB.
-System memory in use after: 83.6 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1928.
-Total: 3.662900 ms (FindLiveObjects: 0.186600 ms CreateObjectMapping: 0.039700 ms MarkObjects: 3.381300 ms  DeleteObjects: 0.053900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 214.640322 seconds.
-  path: Assets/VFX/Spell VFX/magic circle.png
-  artifactKey: Guid(b06431eaa2ed46943b56575da5976d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/magic circle.png using Guid(b06431eaa2ed46943b56575da5976d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd15512023dd7f1cdcaf75f3a29fd60') in 0.080895 seconds 
-  Import took 0.084291 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.554017 seconds.
-  path: Assets/VFX/Spell VFX/magic circle.png
-  artifactKey: Guid(b06431eaa2ed46943b56575da5976d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/magic circle.png using Guid(b06431eaa2ed46943b56575da5976d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88efb353d91394864acaa89c07c37a9f') in 0.032548 seconds 
-  Import took 0.035462 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 424.888518 seconds.
-  path: Assets/VFX/Spell VFX/Spell.cs
-  artifactKey: Guid(f03cafd72f8547d4cabf8632ad2f496e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/Spell.cs using Guid(f03cafd72f8547d4cabf8632ad2f496e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0ab9649963de371ae1103f95aa5349a') in 0.008620 seconds 
-  Import took 0.011535 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002608 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.094 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1094ms)
-		BeginReloadAssembly (122ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (894ms)
-			LoadAssemblies (96ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (314ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (328ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (82ms)
-				ProcessInitializeOnLoadAttributes (231ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1454 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 83.5 MB.
-System memory in use after: 83.6 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1933.
-Total: 3.141500 ms (FindLiveObjects: 0.186700 ms CreateObjectMapping: 0.039900 ms MarkObjects: 2.895200 ms  DeleteObjects: 0.017700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 95.808886 seconds.
-  path: Assets/VFX/Spell VFX/Effect_31_LumenJudgement
-  artifactKey: Guid(c3d9f27c64c56484491104ef21ab9155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/Effect_31_LumenJudgement using Guid(c3d9f27c64c56484491104ef21ab9155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d1d2e0b13ef0cb790002609a3f00ee') in 0.009850 seconds 
-  Import took 0.012889 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.077270 seconds.
-  path: Assets/VFX/Spell VFX/Effect_31_LumenJudgement/Effect_31_LumenJudgement.prefab
-  artifactKey: Guid(b7016aae7bbdcd54fb4bf3a41bf01a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/Effect_31_LumenJudgement/Effect_31_LumenJudgement.prefab using Guid(b7016aae7bbdcd54fb4bf3a41bf01a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d64b693e3830926ece40d3e0218dcd') in 0.085754 seconds 
-  Import took 0.089164 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002950 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.087 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1087ms)
-		BeginReloadAssembly (114ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (898ms)
-			LoadAssemblies (100ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (322ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (318ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (222ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1454 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 83.6 MB.
-System memory in use after: 83.7 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1937.
-Total: 3.042900 ms (FindLiveObjects: 0.181500 ms CreateObjectMapping: 0.040200 ms MarkObjects: 2.803800 ms  DeleteObjects: 0.016300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 201.792973 seconds.
-  path: Assets/3D Models/Characters/Flynn_02.fbx
-  artifactKey: Guid(859773fa79799a3468d1255b172a0acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Characters/Flynn_02.fbx using Guid(859773fa79799a3468d1255b172a0acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b5e50d3646a7fc1ae9ec71b784facdc') in 0.384157 seconds 
-  Import took 0.387863 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/3D Models/Characters/plz.fbx
-  artifactKey: Guid(c7ce816c039987047b4b94398a572db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Characters/plz.fbx using Guid(c7ce816c039987047b4b94398a572db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcb5e3022448635eef6561ca3cef1151') in 0.059067 seconds 
-  Import took 0.062247 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/3D Models/Characters/Knight_Flynn_Prefab Variant.prefab
-  artifactKey: Guid(e6686fce21d0779438824e797466d902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Characters/Knight_Flynn_Prefab Variant.prefab using Guid(e6686fce21d0779438824e797466d902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43a036e25fd1e84de70f5accce23ef46') in 0.305588 seconds 
-  Import took 0.311190 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/3D Models/Characters/weapon_re.fbx
-  artifactKey: Guid(017177d6f0d70df4088119f06565dae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Characters/weapon_re.fbx using Guid(017177d6f0d70df4088119f06565dae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01d869cbfaa252d4821fbdcca9352191') in 0.086332 seconds 
-  Import took 0.089787 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/3D Models/Characters/weapon_re.prefab
-  artifactKey: Guid(7eb9ce8bfdad90c418fe1876f19324f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Characters/weapon_re.prefab using Guid(7eb9ce8bfdad90c418fe1876f19324f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '378390f89b92b0c37fd62774e6cf3dd8') in 0.270266 seconds 
-  Import took 0.275434 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 132.636484 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial
-  artifactKey: Guid(c9b6f40369586a6459537476bd60c0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial using Guid(c9b6f40369586a6459537476bd60c0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d53d42f09695de608c5aa3bbdd466c1') in 0.008068 seconds 
-  Import took 0.010929 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 127.467558 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Effect_31_Materials
-  artifactKey: Guid(25e5f01b893d02d4ab2d5e912317b947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Effect_31_Materials using Guid(25e5f01b893d02d4ab2d5e912317b947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a55479e013da3c10f7fde4ab2598da4') in 0.006973 seconds 
-  Import took 0.010165 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.087255 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Effect_31_Materials/Effect_31_Mark.mat
-  artifactKey: Guid(7c339a4dfcc83054db832066cbc7b869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Effect_31_Materials/Effect_31_Mark.mat using Guid(7c339a4dfcc83054db832066cbc7b869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6cd76b11a19e134d7023b239fc2b4cc') in 0.021439 seconds 
-  Import took 0.024297 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Effect_31_Materials/Effect_31_Ring.mat
-  artifactKey: Guid(4ade396c75677c346b3ea8f4abc356f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Effect_31_Materials/Effect_31_Ring.mat using Guid(4ade396c75677c346b3ea8f4abc356f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '975ae2b515a5dc64fe7be5c1e6db88b1') in 0.012676 seconds 
-  Import took 0.015298 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Effect_31_Materials/Effect_31_Shockwave.mat
-  artifactKey: Guid(b124ea690c2211b49bfb4cc622be0d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Effect_31_Materials/Effect_31_Shockwave.mat using Guid(b124ea690c2211b49bfb4cc622be0d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9943f90b3ea6958fdb902ec31d735ad9') in 0.014764 seconds 
-  Import took 0.017487 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Effect_31_Materials/Effect_31_Particle.mat
-  artifactKey: Guid(6f037f15066a29e4ba927ff4a94327b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Effect_31_Materials/Effect_31_Particle.mat using Guid(6f037f15066a29e4ba927ff4a94327b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24e28c7aad625bbfe3fcb5c682eab59a') in 0.026097 seconds 
-  Import took 0.028816 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Effect_31_Materials/Effect_31_Smoke.mat
-  artifactKey: Guid(f106002f06ef06444a471f9f599ed07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Effect_31_Materials/Effect_31_Smoke.mat using Guid(f106002f06ef06444a471f9f599ed07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeb9edd3f56e9988e8bdcd945767a987') in 0.014606 seconds 
-  Import took 0.017280 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 174.058191 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Textures
-  artifactKey: Guid(d0684abad044e4a44b8adef38165a5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Textures using Guid(d0684abad044e4a44b8adef38165a5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b96792f4eb9192621a69e0f0f11f9d4') in 0.009642 seconds 
-  Import took 0.012900 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.079986 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Textures/Color.png
-  artifactKey: Guid(e59a9d83108957b4cb4d5a691cd66988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Textures/Color.png using Guid(e59a9d83108957b4cb4d5a691cd66988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d6e6aaa33b0aa706318e4f5ec30378') in 0.028376 seconds 
-  Import took 0.031331 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 140.609150 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/Mark/Mark_1.png
-  artifactKey: Guid(ec743a9b30e51bf4ea436ffbf6ffe397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/Mark/Mark_1.png using Guid(ec743a9b30e51bf4ea436ffbf6ffe397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce55279edb15e5916c9662bc9e6edc22') in 0.010682 seconds 
-  Import took 0.013939 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000297 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/Normal/Normal_9.png
-  artifactKey: Guid(1e9cc99abd098fe48a103984a0c8bbc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/Normal/Normal_9.png using Guid(1e9cc99abd098fe48a103984a0c8bbc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e4feb38f8988b791e00aa64e68459f') in 0.044370 seconds 
-  Import took 0.047371 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/Noise/GausianNoise_3.png
-  artifactKey: Guid(708d24fa8e8cc804aba4ce74d4e6a1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/Noise/GausianNoise_3.png using Guid(708d24fa8e8cc804aba4ce74d4e6a1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f21a4a6474b7d5ac97b1d8d00aa40a4') in 0.018039 seconds 
-  Import took 0.020964 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.140801 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/Mark/Chain.png
-  artifactKey: Guid(490f71488b8f9c347ac7c4b30e1ec40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/Mark/Chain.png using Guid(490f71488b8f9c347ac7c4b30e1ec40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8a4eeafee30347a69de427ad446ce1f') in 0.014272 seconds 
-  Import took 0.017324 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/Mark/LongHand.png
-  artifactKey: Guid(6b3c400d03adedb40bf5888014ea770c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/Mark/LongHand.png using Guid(6b3c400d03adedb40bf5888014ea770c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7feaf4d312f942e14f971d3da41bb923') in 0.014719 seconds 
-  Import took 0.017808 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/Mark/Mark_5.png
-  artifactKey: Guid(6d0b74839d655764184290a3e6fc8ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/Mark/Mark_5.png using Guid(6d0b74839d655764184290a3e6fc8ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11341941fcda375b61ae7051fe34983a') in 0.021118 seconds 
-  Import took 0.024078 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/Mark/ShipMark_1.png
-  artifactKey: Guid(be8f2069e6d5ba24192d742cc5ae568e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/Mark/ShipMark_1.png using Guid(be8f2069e6d5ba24192d742cc5ae568e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5c9bd11cf2b622b8983b8bceec0db55') in 0.013872 seconds 
-  Import took 0.016931 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/Mark/Mark_3.png
-  artifactKey: Guid(c37da87625a94f44a9c1a2c86ea56682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/Mark/Mark_3.png using Guid(c37da87625a94f44a9c1a2c86ea56682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d50f1f9c7a98c8bff6dc835fa83d1ed') in 0.011006 seconds 
-  Import took 0.014612 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/Mark/ShipMark_2.png
-  artifactKey: Guid(4287037e3173aa643835c6c697556377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/Mark/ShipMark_2.png using Guid(4287037e3173aa643835c6c697556377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5fe31f017587407a00d012d97c56930') in 0.011778 seconds 
-  Import took 0.015111 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/Mark/Spiderweb.png
-  artifactKey: Guid(53100275255753748a77eb3d174cf74c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/Mark/Spiderweb.png using Guid(53100275255753748a77eb3d174cf74c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b025c72fe07752552917db20684446f') in 0.010805 seconds 
-  Import took 0.013636 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000308 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/Mark/JetMark_1.png
-  artifactKey: Guid(134c60d58d909f44386b282e0a8b72d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/Mark/JetMark_1.png using Guid(134c60d58d909f44386b282e0a8b72d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '740ca73157a61da2aaad485a7ad6dbbe') in 0.011427 seconds 
-  Import took 0.014447 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/Mark/Mark_7.png
-  artifactKey: Guid(df538f538d4fd2e4287b35ae8c4ef2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/Mark/Mark_7.png using Guid(df538f538d4fd2e4287b35ae8c4ef2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26fa5ee143370057ae8a5a41f067b31c') in 0.010998 seconds 
-  Import took 0.013958 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/Mark/Mark_2.png
-  artifactKey: Guid(3472824716c9c154ea51bbbea1317189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/Mark/Mark_2.png using Guid(3472824716c9c154ea51bbbea1317189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea0bb763d8cf49ee9914c83eb7216504') in 0.011142 seconds 
-  Import took 0.014004 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/Mark/Mark_6.png
-  artifactKey: Guid(4cef770161e6762449252d06a7849317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/Mark/Mark_6.png using Guid(4cef770161e6762449252d06a7849317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7874e31eade3052c27c2ffb5770a7be0') in 0.010847 seconds 
-  Import took 0.013759 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/Mark/Mark_4.png
-  artifactKey: Guid(37199355253c5d54397d2eb500251aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/Mark/Mark_4.png using Guid(37199355253c5d54397d2eb500251aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '514595106df3e0263e4ab78720c97c9f') in 0.011108 seconds 
-  Import took 0.013879 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.261755 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/card_mask.png
-  artifactKey: Guid(c5ea5bafe9954bf449b83b4600416576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/card_mask.png using Guid(c5ea5bafe9954bf449b83b4600416576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28ff84858e3485507695467685f16d5d') in 0.032535 seconds 
-  Import took 0.035551 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/Crack_03.png
-  artifactKey: Guid(513f06679f8c5ad4fa8d2dffbb4ef72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/Crack_03.png using Guid(513f06679f8c5ad4fa8d2dffbb4ef72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d4804baee99af1583e8231126136143') in 0.019324 seconds 
-  Import took 0.022155 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/spark_3.png
-  artifactKey: Guid(2567c6646fefde74a854846f8ab46170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/spark_3.png using Guid(2567c6646fefde74a854846f8ab46170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28337e4cc2ee44df783b8b1cbacc9757') in 0.018880 seconds 
-  Import took 0.022525 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/spark_2.png
-  artifactKey: Guid(a52f2fbe139f7c24a89d8999c8632dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/spark_2.png using Guid(a52f2fbe139f7c24a89d8999c8632dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7e391807c804fbf151a3948d5b4a242') in 0.021250 seconds 
-  Import took 0.024176 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/mask_8.png
-  artifactKey: Guid(6dcb4aeca5bdbc04fb4c54cd253cae34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/mask_8.png using Guid(6dcb4aeca5bdbc04fb4c54cd253cae34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d5b827d4f28a01dc260256330191806') in 0.012746 seconds 
-  Import took 0.015654 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/planetexture.png
-  artifactKey: Guid(262a74cbba0f7bd418323f1a9278f6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/planetexture.png using Guid(262a74cbba0f7bd418323f1a9278f6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bee37fb92a7b396f0d15545be7f0ef1e') in 0.023023 seconds 
-  Import took 0.025723 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/mask_4.png
-  artifactKey: Guid(64acc315cec9d9944b17747525225440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/mask_4.png using Guid(64acc315cec9d9944b17747525225440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3676145129aca846fa825ed18776e5e4') in 0.012936 seconds 
-  Import took 0.015781 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/mask_9.png
-  artifactKey: Guid(3decad6cd1a7b7a47a32422e36dba030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/mask_9.png using Guid(3decad6cd1a7b7a47a32422e36dba030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f92bab39be383f2f3fb4103f9b44aa7') in 0.016714 seconds 
-  Import took 0.019422 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/mask_3.png
-  artifactKey: Guid(66f2f832bbd3e5e449cfd48127deabd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/mask_3.png using Guid(66f2f832bbd3e5e449cfd48127deabd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64d8f11ea3972ca106c4b18cc1d728db') in 0.017483 seconds 
-  Import took 0.020257 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/Crack_02.png
-  artifactKey: Guid(dc7881f67d109c24a8eac099529a2945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/Crack_02.png using Guid(dc7881f67d109c24a8eac099529a2945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a945110a181d5a452b3ba12aa7f513c1') in 0.018897 seconds 
-  Import took 0.021840 seconds .
-
-========================================================================
 Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/Fire_Single.png
-  artifactKey: Guid(40e0bf021bf66dd4f98db804a3e3c42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/Fire_Single.png using Guid(40e0bf021bf66dd4f98db804a3e3c42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d9567494348c6fcb534033917d6d59') in 0.017527 seconds 
-  Import took 0.020472 seconds .
+  Time since last request: 1168.781411 seconds.
+  path: Assets/VFX/HitImpact VFX.prefab
+  artifactKey: Guid(4d01d063271bff54489ebfbf3d1fdf4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/HitImpact VFX.prefab using Guid(4d01d063271bff54489ebfbf3d1fdf4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aab19578c5e53677a931532994466ee5') in 0.035698 seconds 
+  Import took 0.038651 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/spark_4.png
-  artifactKey: Guid(8a5bcc5600a04294c9a80987ba332a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/spark_4.png using Guid(8a5bcc5600a04294c9a80987ba332a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d32eb6d037b93c2dbd13cb6447d572d') in 0.013827 seconds 
-  Import took 0.017227 seconds .
+  Time since last request: 309.503395 seconds.
+  path: Assets/VFX/HitImpact VFX Version 2.prefab
+  artifactKey: Guid(3f886a9a00954fe4faef8f9b6bb8ae40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/HitImpact VFX Version 2.prefab using Guid(3f886a9a00954fe4faef8f9b6bb8ae40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c423cc6ce1306c422718f90a1942a8a8') in 0.021221 seconds 
+  Import took 0.023590 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/Crack.png
-  artifactKey: Guid(62f7d3d5517e2504b8afc94e091397e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/Crack.png using Guid(62f7d3d5517e2504b8afc94e091397e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd725ddbf3ea64f5f650f608d0e384329') in 0.016884 seconds 
-  Import took 0.019608 seconds .
+  Time since last request: 1172.254586 seconds.
+  path: Assets/VFX/CastleImpactVFX
+  artifactKey: Guid(6b0f498c920a5864caeab77891c67dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/CastleImpactVFX using Guid(6b0f498c920a5864caeab77891c67dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed95b106239dd81e1d4444d88b289416') in 0.010556 seconds 
+  Import took 0.012962 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/Crack_04.png
-  artifactKey: Guid(df44a09653fbaa64db78a118ce1bc02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/Crack_04.png using Guid(df44a09653fbaa64db78a118ce1bc02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddfbc822a8283789bdaac6f17a67237a') in 0.018969 seconds 
-  Import took 0.021576 seconds .
+  Time since last request: 20.289752 seconds.
+  path: Assets/VFX/CastleImpactVFX/Cardboard Scrap.png
+  artifactKey: Guid(dfbbcb284379ec34bb19b79fabffdb0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/CastleImpactVFX/Cardboard Scrap.png using Guid(dfbbcb284379ec34bb19b79fabffdb0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ca28c02c481560b8e6caafced02042b') in 0.051794 seconds 
+  Import took 0.054046 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/spark.png
-  artifactKey: Guid(a56198dae5bb8384d818c961477337e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/spark.png using Guid(a56198dae5bb8384d818c961477337e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66ce97a33d6d0933b6c58d5a08f2ef0c') in 0.012033 seconds 
-  Import took 0.014673 seconds .
+  Time since last request: 17.526524 seconds.
+  path: Assets/VFX/CastleImpactVFX/Cardboard Scrap.mat
+  artifactKey: Guid(d1bcada7795e11f48aa21c40b536f067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/CastleImpactVFX/Cardboard Scrap.mat using Guid(d1bcada7795e11f48aa21c40b536f067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc1bda3a5cf01285016ff3aad1804d1d') in 0.090027 seconds 
+  Import took 0.092265 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/Fire_Single_2.png
-  artifactKey: Guid(e48a5e9183e63374c8953afb42cebb26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/Fire_Single_2.png using Guid(e48a5e9183e63374c8953afb42cebb26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de096e324630bbfde5c31065137d07a2') in 0.014315 seconds 
-  Import took 0.016995 seconds .
+  Time since last request: 268.445750 seconds.
+  path: Assets/VFX/CastleImpactVFX/HitImpact VFX Version 2.prefab
+  artifactKey: Guid(3f886a9a00954fe4faef8f9b6bb8ae40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/CastleImpactVFX/HitImpact VFX Version 2.prefab using Guid(3f886a9a00954fe4faef8f9b6bb8ae40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf87b4dc89c2cf6c5ee21a8d35ef67f6') in 0.032542 seconds 
+  Import took 0.035011 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/Particle_01.png
-  artifactKey: Guid(1071ab01a543d1c4a91150e2ed7bbb08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/Particle_01.png using Guid(1071ab01a543d1c4a91150e2ed7bbb08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c68f6c9f7e509a17a377f359dcc13916') in 0.012670 seconds 
-  Import took 0.015298 seconds .
+  Time since last request: 502.401816 seconds.
+  path: Assets/VFX/CastleImpactVFX/HitImpact VFX Version 2.prefab
+  artifactKey: Guid(3f886a9a00954fe4faef8f9b6bb8ae40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/CastleImpactVFX/HitImpact VFX Version 2.prefab using Guid(3f886a9a00954fe4faef8f9b6bb8ae40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a48e22fd258df30d0960a4a3dffe42') in 0.009356 seconds 
+  Import took 0.012305 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/mask_2.png
-  artifactKey: Guid(0246de112c8ab944cb9eab2917797aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/mask_2.png using Guid(0246de112c8ab944cb9eab2917797aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8384d0a784001a537f7dc0639b9ec05') in 0.011716 seconds 
-  Import took 0.014373 seconds .
+  Time since last request: 3.267595 seconds.
+  path: Assets/VFX/HitImpact VFX.prefab
+  artifactKey: Guid(4d01d063271bff54489ebfbf3d1fdf4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/HitImpact VFX.prefab using Guid(4d01d063271bff54489ebfbf3d1fdf4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f585d2949afee4c24c18d22480fe6607') in 0.021185 seconds 
+  Import took 0.023792 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/mask_10.png
-  artifactKey: Guid(d085ab2129fd6494f879888099490d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/mask_10.png using Guid(d085ab2129fd6494f879888099490d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fb883ce84979b01c12adc961d6df3c3') in 0.010986 seconds 
-  Import took 0.014224 seconds .
+  Time since last request: 18.288670 seconds.
+  path: Assets/VFX/EnemyHitImpact VFX.prefab
+  artifactKey: Guid(4d01d063271bff54489ebfbf3d1fdf4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/EnemyHitImpact VFX.prefab using Guid(4d01d063271bff54489ebfbf3d1fdf4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a323ca8f2f54ac21d8d26d18f8671417') in 0.024783 seconds 
+  Import took 0.027125 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/mask_11.png
-  artifactKey: Guid(c86203786bc440a4cbfda186a9d26a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/mask_11.png using Guid(c86203786bc440a4cbfda186a9d26a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66f1864224379a70571efefffd1a6f9f') in 0.012604 seconds 
-  Import took 0.015404 seconds .
+  Time since last request: 14.108451 seconds.
+  path: Assets/VFX/CastleImpactVFX/CastleHitImpact VFX.prefab
+  artifactKey: Guid(3f886a9a00954fe4faef8f9b6bb8ae40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/CastleImpactVFX/CastleHitImpact VFX.prefab using Guid(3f886a9a00954fe4faef8f9b6bb8ae40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b63bd52e67a205b275de5fcea6dcfe8b') in 0.045088 seconds 
+  Import took 0.047817 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/Sphere.png
-  artifactKey: Guid(f98516024e22a7c49b0df275733f0133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/Sphere.png using Guid(f98516024e22a7c49b0df275733f0133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '561560b8a98ef46fd90f644a6ddd2fe2') in 0.011081 seconds 
-  Import took 0.013736 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/mark_1.png
-  artifactKey: Guid(cf5433500e78c9440af212e935af80e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/mark_1.png using Guid(cf5433500e78c9440af212e935af80e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd1eb8890ef10926c17a6ea1e90edb66') in 0.011322 seconds 
-  Import took 0.014259 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/mask_6.png
-  artifactKey: Guid(b20bd8ac7ad675b428d8872401b14491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/mask_6.png using Guid(b20bd8ac7ad675b428d8872401b14491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48f8dc88463775a9c3b0a429a127bc80') in 0.011687 seconds 
-  Import took 0.014332 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/mask_7.png
-  artifactKey: Guid(994106f4e40ea394aa87e615bc229265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/mask_7.png using Guid(994106f4e40ea394aa87e615bc229265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45e38f5cad097139ee2e03f065889dba') in 0.011544 seconds 
-  Import took 0.014451 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/mask_1.png
-  artifactKey: Guid(67e0d98570f0e144e96fec27ccbaffc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/mask_1.png using Guid(67e0d98570f0e144e96fec27ccbaffc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e435746a2ebe5aac2a5147820b77fe') in 0.010445 seconds 
-  Import took 0.013441 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/mask_12.png
-  artifactKey: Guid(3791f39578f24cc489092c40f5dd502a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/mask_12.png using Guid(3791f39578f24cc489092c40f5dd502a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03447c80dc96a3fabc8bf4bae85c8228') in 0.011110 seconds 
-  Import took 0.013824 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/HolyTexture.png
-  artifactKey: Guid(5d167a99f3188ee4cbba6504ebc30970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/HolyTexture.png using Guid(5d167a99f3188ee4cbba6504ebc30970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d7deb4e2e5cbab429a8230762356a3a') in 0.010930 seconds 
-  Import took 0.013592 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/mask_5.png
-  artifactKey: Guid(29b13744e326a5f44a2d20b257c7c052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Textures/SimpleTextures/mask_5.png using Guid(29b13744e326a5f44a2d20b257c7c052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4840f960cfe5586f7e675013515e15b5') in 0.032740 seconds 
-  Import took 0.035649 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.549733 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Textures/ShockWaves
-  artifactKey: Guid(243060381431a5f4cbd18b9890994994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Textures/ShockWaves using Guid(243060381431a5f4cbd18b9890994994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4178d68b050d964718285ba899d43a8') in 0.009019 seconds 
-  Import took 0.012336 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.719467 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Textures/ShockWaves/ShockWave_1.png
-  artifactKey: Guid(da7a539b248b80145bbaa5fe9828ca6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Textures/ShockWaves/ShockWave_1.png using Guid(da7a539b248b80145bbaa5fe9828ca6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17ff7fd851e52939fa226e0175ba9420') in 0.051188 seconds 
-  Import took 0.055471 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Textures/ShockWaves/ShockWave_5.png
-  artifactKey: Guid(9905f0bfba91aa94598123af22a8beb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Textures/ShockWaves/ShockWave_5.png using Guid(9905f0bfba91aa94598123af22a8beb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61b7a7e7447f9d56db4d6205ea357b01') in 0.046833 seconds 
-  Import took 0.051663 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Textures/ShockWaves/Shockwave_6.png
-  artifactKey: Guid(aecd92bfc5f5119479053fcad29400c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Textures/ShockWaves/Shockwave_6.png using Guid(aecd92bfc5f5119479053fcad29400c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a924b8b65d1b1d58198ac9fe39eb79fd') in 0.016354 seconds 
-  Import took 0.019033 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Textures/ShockWaves/ShockWave_2.png
-  artifactKey: Guid(a3df194275fec5743941e5363ee96e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Textures/ShockWaves/ShockWave_2.png using Guid(a3df194275fec5743941e5363ee96e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd88d55a115a85a0e0cae8bcab2852aab') in 0.035876 seconds 
-  Import took 0.040211 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Textures/ShockWaves/ShockWave_3.png
-  artifactKey: Guid(9930bb9d99db3a64586577b4f1935f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Textures/ShockWaves/ShockWave_3.png using Guid(9930bb9d99db3a64586577b4f1935f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9277092d3dd6c83e69c125b12206c2e1') in 0.041748 seconds 
-  Import took 0.045960 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/VFX/Spell VFX/SpellMaterial/Textures/ShockWaves/ShockWave_4.png
-  artifactKey: Guid(5e390e6a14e074d428706f3678b18577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Spell VFX/SpellMaterial/Textures/ShockWaves/ShockWave_4.png using Guid(5e390e6a14e074d428706f3678b18577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed02da6684e8cf6cecd8397c5f82f54f') in 0.037655 seconds 
-  Import took 0.041803 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002661 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.066 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1067ms)
-		BeginReloadAssembly (117ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (879ms)
-			LoadAssemblies (94ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (313ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (315ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (82ms)
-				ProcessInitializeOnLoadAttributes (216ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1457 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 98.5 MB.
-System memory in use after: 98.4 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1982.
-Total: 3.219600 ms (FindLiveObjects: 0.181400 ms CreateObjectMapping: 0.042800 ms MarkObjects: 2.840800 ms  DeleteObjects: 0.153000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002770 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.058 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1058ms)
-		BeginReloadAssembly (121ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (866ms)
-			LoadAssemblies (93ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (306ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (313ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (77ms)
-				ProcessInitializeOnLoadAttributes (219ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1457 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 98.5 MB.
-System memory in use after: 98.4 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1984.
-Total: 3.389700 ms (FindLiveObjects: 0.190000 ms CreateObjectMapping: 0.040900 ms MarkObjects: 2.988600 ms  DeleteObjects: 0.168900 ms)
+  Time since last request: 176.430007 seconds.
+  path: Assets/VFX/CastleImpactVFX/Cardboard Scrap.mat
+  artifactKey: Guid(d1bcada7795e11f48aa21c40b536f067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/CastleImpactVFX/Cardboard Scrap.mat using Guid(d1bcada7795e11f48aa21c40b536f067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73f801023b5752ae7f95ea398b748cb8') in 0.009195 seconds 
+  Import took 0.011705 seconds .
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
