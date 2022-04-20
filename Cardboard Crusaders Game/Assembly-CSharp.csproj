@@ -104,6 +104,7 @@
      <Compile Include="Assets\Scripts\BashSound.cs" />
      <Compile Include="Assets\Scenes\UI Screens\UI Scripts\ControlsMenu.cs" />
      <Compile Include="Assets\Scenes\UI Screens\UI Scripts\LevelSelectMenu.cs" />
+     <Compile Include="Assets\Scripts\WavePart.cs" />
      <None Include="Assets\VFX\Spell VFX\SpellMaterial\Shader_ForEffects\Shader_Decal.shader" />
      <None Include="Assets\QuickOutline\Resources\Shaders\OutlineMask.shader" />
      <None Include="Assets\VFX\Spell VFX\SpellMaterial\Shader_ForEffects\Shader_DistortionEffect.shader" />
