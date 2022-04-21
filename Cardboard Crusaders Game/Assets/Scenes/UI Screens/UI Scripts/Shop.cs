@@ -11,6 +11,7 @@ public class Shop : MonoBehaviour
     public TurretBlueprint Crossbow;
     public TurretBlueprint spinner;
     public TurretBlueprint canon;
+    public TurretBlueprint wall;
 
     BuildManager buildManager;
 
@@ -39,5 +40,11 @@ public class Shop : MonoBehaviour
     {
         Debug.Log("Crossbow turret Purchased");
         buildManager.SelectTurretToBuild(canon);
+    }
+
+    public void SelectWall()
+    {
+        Debug.Log("Wall Purchased");
+        buildManager.SelectTurretToBuild(wall);
     }
 }
