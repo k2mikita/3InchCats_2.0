@@ -35671,6 +35671,7 @@ GameObject:
   - component: {fileID: 6134694608242721549}
   - component: {fileID: 5528270442136961628}
   - component: {fileID: 292302745364501248}
+  - component: {fileID: 4447833261028997993}
   m_Layer: 0
   m_Name: Spawn 1
   m_TagString: Untagged
@@ -35678,6 +35679,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &4447833261028997993
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4447833261028997992}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3603018429310523365, guid: f64024bb537e50141b116169af6b7cc8, type: 3}
 --- !u!33 &5528270442136961628
 MeshFilter:
   m_ObjectHideFlags: 0
