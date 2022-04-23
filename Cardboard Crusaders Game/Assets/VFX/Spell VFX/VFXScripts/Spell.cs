@@ -8,14 +8,18 @@ public class Spell : MonoBehaviour
     public GameObject AOE;
     public GameObject spellVFX;
 
-    public Image targetCircle;
-    public Image indicatorRangeCircle;
-    public Canvas ability2Canvas;
+    public GameObject targetCircle;
+    
+    public Canvas spellCanvas;
+
+    
 
     // Start is called before the first frame update
     void Start()
     {
-        targetCircle.GetComponent<Image>().enabled = false;
+
+        //targetCircle.GetComponent<Image>().enabled = false;
+        targetCircle.SetActive(false);
     }
 
     // Update is called once per frame
@@ -33,7 +37,7 @@ public class Spell : MonoBehaviour
         }
 
 
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonUp(1))
         {
             SpellCast();
         }
@@ -42,15 +46,16 @@ public class Spell : MonoBehaviour
 
     void SpellCircle()
     {
-        indicatorRangeCircle.GetComponent<Image>().enabled = true;
-        targetCircle.GetComponent<Image>().enabled = true;
+        
+        targetCircle.SetActive(true);
 
     }
 
     void SpellCast()
     {
-        Instantiate(spellVFX,AOE.transform.position,AOE.transform.rotation);
-        indicatorRangeCircle.GetComponent<Image>().enabled = false;
-        targetCircle.GetComponent<Image>().enabled = false;
-    }
+        Instantiate(spellVFX, AOE.transform.position, AOE.transform.rotation);
+
+        targetCircle.SetActive(false);
+
+    }    
 }
