@@ -34,16 +34,17 @@ public class AudioManager : MonoBehaviour
         }
     }
 
-    void Start()
+    /*void Start()
     {
         Play("Space");
-    }
+    }*/
 
     public void Play (string name)
     {
        AudioSound s = Array.Find(sounds, sound => sound.name == name);
         if (s == null)
         {
+            Debug.LogWarning("Sound: " + name + " not found!");
             return;
         }
         s.source.Play();
@@ -57,8 +58,8 @@ public class AudioManager : MonoBehaviour
             return;
         }
 
-   //     s.source.volume = s.volume * (1f + UnityEngine.Random.Range(-s.volume / 2f, s.volume / 2f));
-    //    s.source.pitch = s.pitch * (1f + UnityEngine.Random.Range(-s.pitch / 2f, s.pitch / 2f));
+        s.source.volume = s.volume * (1f + UnityEngine.Random.Range(-s.volume / 2f, s.volume / 2f));
+        s.source.pitch = s.pitch * (1f + UnityEngine.Random.Range(-s.pitch / 2f, s.pitch / 2f));
 
         s.source.Stop();
     }

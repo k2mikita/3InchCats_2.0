@@ -7,7 +7,7 @@ public class Menu : MonoBehaviour
 {
     void Start()
     {
-        FindObjectOfType<AudioManager>().Play("Space");
+        //FindObjectOfType<AudioManager>().Play("Space");
         WaveSpawner.EnemiesKilled = 0;
     }
 
