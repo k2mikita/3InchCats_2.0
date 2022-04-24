@@ -9,6 +9,8 @@ TagManager:
   - Castle
   - Music
   - testTag
+  - mudZone
+  - iceFloor
   layers:
   - Default
   - TransparentFX

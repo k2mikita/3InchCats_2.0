@@ -5499,7 +5499,7 @@ GameObject:
   - component: {fileID: 336186373}
   m_Layer: 0
   m_Name: Spill (2)
-  m_TagString: Untagged
+  m_TagString: iceFloor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16894,7 +16894,7 @@ GameObject:
   - component: {fileID: 1051291892}
   m_Layer: 0
   m_Name: Spill (4)
-  m_TagString: Untagged
+  m_TagString: iceFloor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27048,7 +27048,7 @@ GameObject:
   - component: {fileID: 1563567103}
   m_Layer: 0
   m_Name: Spill (1)
-  m_TagString: Untagged
+  m_TagString: iceFloor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33330,7 +33330,7 @@ GameObject:
   - component: {fileID: 1981019568}
   m_Layer: 0
   m_Name: Spill
-  m_TagString: Untagged
+  m_TagString: iceFloor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34352,7 +34352,7 @@ GameObject:
   - component: {fileID: 2049393705}
   m_Layer: 0
   m_Name: Spill (3)
-  m_TagString: Untagged
+  m_TagString: iceFloor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

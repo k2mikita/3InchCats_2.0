@@ -17,6 +17,13 @@ public class MoveBehaviour : GenericBehaviour
 	private bool jump;                              // Boolean to determine whether or not the player started a jump.
 	private bool isColliding;                       // Boolean to determine if the player has collided with an obstacle.
 
+
+	private bool slowed = false;
+
+	private bool iced = false;
+
+	float oldh = 0;
+	float oldv = 0;
 	// Start is always called after any Awake functions.
 	void Start()
 	{
@@ -44,8 +51,15 @@ public class MoveBehaviour : GenericBehaviour
 	// LocalFixedUpdate overrides the virtual function of the base class.
 	public override void LocalFixedUpdate()
 	{
+		Debug.Log(speed);
 		// Call the basic movement manager.
-		MovementManagement(behaviourManager.GetH, behaviourManager.GetV);
+		if (!iced || speed < 1)
+		{
+			MovementManagement(behaviourManager.GetH, behaviourManager.GetV);
+	}
+
+
+		
 
 		// Call the jump manager.
 		JumpManagement();
@@ -100,6 +114,8 @@ public class MoveBehaviour : GenericBehaviour
 	// Deal with the basic player movement
 	void MovementManagement(float horizontal, float vertical)
 	{
+		oldh = horizontal;
+		oldv = vertical;
 		// On ground, obey gravity.
 		if (behaviourManager.IsGrounded())
 			behaviourManager.GetRigidBody.useGravity = true;
@@ -116,6 +132,14 @@ public class MoveBehaviour : GenericBehaviour
 		// Set proper speed.
 		Vector2 dir = new Vector2(horizontal, vertical);
 		speed = Vector2.ClampMagnitude(dir, 1f).magnitude;
+
+		//slow if in mud
+		if (slowed)
+        {
+			speed = (speed / 2);
+			
+        }
+
 		// This is for PC only, gamepads control speed via analog stick.
 		speedSeeker += Input.GetAxis("Mouse ScrollWheel");
 		speedSeeker = Mathf.Clamp(speedSeeker, walkSpeed, runSpeed);
@@ -139,34 +163,40 @@ public class MoveBehaviour : GenericBehaviour
 	// Rotate the player to match correct orientation, according to camera and key pressed.
 	Vector3 Rotating(float horizontal, float vertical)
 	{
-		// Get camera forward direction, without vertical component.
-		Vector3 forward = behaviourManager.playerCamera.TransformDirection(Vector3.forward);
+		if (iced)
+        {
+			Vector3 f = new Vector3(0.0f, 0.0f, 0.0f);
+			return f;
+        }
+			// Get camera forward direction, without vertical component.
+			Vector3 forward = behaviourManager.playerCamera.TransformDirection(Vector3.forward);
 
-		// Player is moving on ground, Y component of camera facing is not relevant.
-		forward.y = 0.0f;
-		forward = forward.normalized;
+			// Player is moving on ground, Y component of camera facing is not relevant.
+			forward.y = 0.0f;
+			forward = forward.normalized;
 
-		// Calculate target direction based on camera forward and direction key.
-		Vector3 right = new Vector3(forward.z, 0, -forward.x);
-		Vector3 targetDirection;
-		targetDirection = forward * vertical + right * horizontal;
+			// Calculate target direction based on camera forward and direction key.
+			Vector3 right = new Vector3(forward.z, 0, -forward.x);
+			Vector3 targetDirection;
+			targetDirection = forward * vertical + right * horizontal;
 
-		// Lerp current direction to calculated target direction.
-		if ((behaviourManager.IsMoving() && targetDirection != Vector3.zero))
-		{
-			Quaternion targetRotation = Quaternion.LookRotation(targetDirection);
+			// Lerp current direction to calculated target direction.
+			if ((behaviourManager.IsMoving() && targetDirection != Vector3.zero))
+			{
+				Quaternion targetRotation = Quaternion.LookRotation(targetDirection);
 
-			Quaternion newRotation = Quaternion.Slerp(behaviourManager.GetRigidBody.rotation, targetRotation, behaviourManager.turnSmoothing);
-			behaviourManager.GetRigidBody.MoveRotation(newRotation);
-			behaviourManager.SetLastDirection(targetDirection);
-		}
-		// If idle, Ignore current camera facing and consider last moving direction.
-		if (!(Mathf.Abs(horizontal) > 0.9 || Mathf.Abs(vertical) > 0.9))
-		{
-			behaviourManager.Repositioning();
-		}
+				Quaternion newRotation = Quaternion.Slerp(behaviourManager.GetRigidBody.rotation, targetRotation, behaviourManager.turnSmoothing);
+				behaviourManager.GetRigidBody.MoveRotation(newRotation);
+				behaviourManager.SetLastDirection(targetDirection);
+			}
+			// If idle, Ignore current camera facing and consider last moving direction.
+			if (!(Mathf.Abs(horizontal) > 0.9 || Mathf.Abs(vertical) > 0.9))
+			{
+				behaviourManager.Repositioning();
+			}
 
-		return targetDirection;
+			return targetDirection;
+
 	}
 
 	// Collision detection.
@@ -174,16 +204,39 @@ public class MoveBehaviour : GenericBehaviour
 	{
 		isColliding = true;
 		// Slide on vertical obstacles
-		if (behaviourManager.IsCurrentBehaviour(this.GetBehaviourCode()) && collision.GetContact(0).normal.y <= 0.1f)
+		if ((behaviourManager.IsCurrentBehaviour(this.GetBehaviourCode()) && collision.GetContact(0).normal.y <= 0.1f) )
 		{
 			GetComponent<CapsuleCollider>().material.dynamicFriction = 0f;
 			GetComponent<CapsuleCollider>().material.staticFriction = 0f;
 		}
+		if (collision.gameObject.tag == "iceFloor")
+        {
+			iced = true;
+		}
 	}
 	private void OnCollisionExit(Collision collision)
 	{
+		if (collision.gameObject.tag == "iceFloor")
+		{
+			iced = false;
+		}
 		isColliding = false;
+
 		GetComponent<CapsuleCollider>().material.dynamicFriction = 0.6f;
 		GetComponent<CapsuleCollider>().material.staticFriction = 0.6f;
+	}
+	private void OnTriggerEnter(Collider x)
+    {
+		if(x.gameObject.tag == "mudZone")
+        {
+			slowed = true;
+        }
+    }
+	private void OnTriggerExit(Collider x)
+	{
+		if (x.gameObject.tag == "mudZone")
+		{
+			slowed = false;
+		}
 	}
 }
