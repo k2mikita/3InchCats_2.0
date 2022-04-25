@@ -12,7 +12,7 @@ public class Spell : MonoBehaviour
     
     public Canvas spellCanvas;
 
-    
+    public GameObject MeteorDamage;
 
     // Start is called before the first frame update
     void Start()
@@ -54,7 +54,7 @@ public class Spell : MonoBehaviour
     void SpellCast()
     {
         Instantiate(spellVFX, AOE.transform.position, AOE.transform.rotation);
-
+        Instantiate(MeteorDamage, AOE.transform.position, AOE.transform.rotation);
         targetCircle.SetActive(false);
 
     }    

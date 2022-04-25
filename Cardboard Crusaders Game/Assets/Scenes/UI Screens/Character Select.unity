@@ -133,8 +133,9 @@ GameObject:
   m_Component:
   - component: {fileID: 105525336}
   - component: {fileID: 105525337}
+  - component: {fileID: 105525338}
   m_Layer: 0
-  m_Name: LoseMenuButtons
+  m_Name: CharacterSelectButtons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -163,7 +164,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 105525335}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fd294116cda3e14c90b72b374a34c09, type: 3}
+  m_Script: {fileID: 11500000, guid: 25bda63b859c7ba488182823e9af4d15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &105525338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 105525335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d24c6804c0bde584b8b34504d95fc3dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &201395563
@@ -316,8 +329,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 105525337}
-        m_TargetAssemblyTypeName: LoseScreen, Assembly-CSharp
-        m_MethodName: LoseMainMenuButton
+        m_TargetAssemblyTypeName: CharacterSelect, Assembly-CSharp
+        m_MethodName: SelectMage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -895,8 +908,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 105525337}
-        m_TargetAssemblyTypeName: LoseScreen, Assembly-CSharp
-        m_MethodName: LoseRetryMenuButton
+        m_TargetAssemblyTypeName: CharacterSelect, Assembly-CSharp
+        m_MethodName: SelectKnight
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
