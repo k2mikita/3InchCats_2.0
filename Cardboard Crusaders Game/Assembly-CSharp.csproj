@@ -69,6 +69,7 @@
      <Compile Include="Assets\Scripts\TurretBlueprint.cs" />
      <Compile Include="Assets\Scenes\UI Screens\UI Scripts\LoseScreen.cs" />
      <Compile Include="Assets\VFX\Spell VFX\VFXScripts\SpellShoot.cs" />
+     <Compile Include="Assets\spawnCharacter.cs" />
      <Compile Include="Assets\Scripts\TeddyBearWalkSound.cs" />
      <Compile Include="Assets\Scripts\WalkSoundScript.cs" />
      <Compile Include="Assets\Scripts\FuzzWalkSound.cs" />
@@ -109,13 +110,12 @@
      <Compile Include="Assets\3rdPerson+Fly\Scripts\PlayerScripts\FlyBehaviour.cs" />
      <Compile Include="Assets\Scripts\BashyScript.cs" />
      <Compile Include="Assets\3rdPerson+Fly\Scripts\LevelScripts\ThirdPersonOrbitCamBasic.cs" />
+     <Compile Include="Assets\Scenes\UI Screens\UI Scripts\CurrentCharacter.cs" />
      <Compile Include="Assets\Scripts\BashSound.cs" />
+     <Compile Include="Assets\Scenes\UI Screens\UI Scripts\CharacterSelect.cs" />
      <Compile Include="Assets\Scenes\UI Screens\UI Scripts\ControlsMenu.cs" />
      <Compile Include="Assets\Scenes\UI Screens\UI Scripts\LevelSelectMenu.cs" />
      <Compile Include="Assets\VFX\Spell VFX\VFXScripts\SpellDragon.cs" />
-     <Compile Include="Assets\Scenes\UI Screens\UI Scripts\CharacterSelect.cs" />
-     <Compile Include="Assets\Scenes\UI Screens\UI Scripts\CurrentCharacter.cs" />
-     <Compile Include="Assets\spawnCharacter.cs" />
      <None Include="Assets\VFX\Spell VFX\SpellMaterial\Shader_ForEffects\Shader_Decal.shader" />
      <None Include="Assets\QuickOutline\Resources\Shaders\OutlineMask.shader" />
      <None Include="Assets\VFX\Spell VFX\SpellMaterial\Shader_ForEffects\Shader_DistortionEffect.shader" />

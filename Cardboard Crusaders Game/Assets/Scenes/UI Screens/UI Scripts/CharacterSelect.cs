@@ -13,15 +13,15 @@ public class CharacterSelect : MonoBehaviour
     public void SelectKnight()
     {
         gameObject.SendMessage("setClass", "Knight");
-        SceneManager.LoadScene("BedroomLevel V2");
-       // FindObjectOfType<AudioManager>().Stop("BedroomMusic");
+        SceneManager.LoadScene(1);
+
     }
 
     public void SelectMage()
     {
         gameObject.SendMessage("setClass", "Mage");
-        SceneManager.LoadScene("BedroomLevel V2");
-     //   FindObjectOfType<AudioManager>().Stop("BedroomMusic");
+        SceneManager.LoadScene(1);
+
     }
 
 }
