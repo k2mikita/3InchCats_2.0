@@ -9013,7 +9013,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Attack Two = Right Click
+  m_Text: Right Click = Attack Two
 --- !u!222 &605163275
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17727,7 +17727,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Attack One = Left Click
+  m_Text: Left Click = Attack One
 --- !u!222 &1082614965
 CanvasRenderer:
   m_ObjectHideFlags: 0

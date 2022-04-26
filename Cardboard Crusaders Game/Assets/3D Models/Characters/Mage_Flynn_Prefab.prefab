@@ -121,6 +121,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   constBool: 0
   introTimer: 13.035
+--- !u!1 &6362908081287610046
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2868637281020193972}
+  m_Layer: 0
+  m_Name: Spawn Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2868637281020193972
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6362908081287610046}
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
+  m_LocalPosition: {x: 0, y: 1.701, z: 1.448}
+  m_LocalScale: {x: 1.3333334, y: 1.3333334, z: 1.3333334}
+  m_Children: []
+  m_Father: {fileID: 5414262325795665721}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &509025133212340749
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -153,7 +183,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 1707314985134969836}
-  firePoint: {fileID: 5414262325795665721}
+  firePoint: {fileID: 2868637281020193972}
   projectileSpeed: 10
   SingleSpellVFX: {fileID: 6756900743573701417, guid: e349bbae9d429b84ba737587c80ebc1c,
     type: 3}

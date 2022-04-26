@@ -35,4 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/UI Screens/Tips From Flynn.unity
     guid: 1099579380a13bf4a9c5f22af79d50d7
+  - enabled: 1
+    path: Assets/Scenes/UI Screens/Character Select.unity
+    guid: a5a815a3d2ccda24d80e0779dda5c8d1
   m_configObjects: {}

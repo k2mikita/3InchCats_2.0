@@ -1175,7 +1175,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Welcome to the Cardboard Crusaders Alpha! Will you be able to defend your
+  m_Text: Welcome to the Cardboard Crusaders Beta! Will you be able to defend your
     castle?
 --- !u!222 &826103792
 CanvasRenderer:
