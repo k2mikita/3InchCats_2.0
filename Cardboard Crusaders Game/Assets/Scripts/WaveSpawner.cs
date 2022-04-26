@@ -40,7 +40,7 @@ public class WaveSpawner : MonoBehaviour
 	{
 		//Debug.Log(EnemiesAlive);
 		//Debug.Log(EnemiesKilled);
-		if (EnemiesKilled == 90)
+		if (EnemiesKilled == 105)
 		{
 			EnemiesKilled = 0;
 			EnemiesAlive = 0;

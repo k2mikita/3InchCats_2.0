@@ -5034,7 +5034,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '$100
+  m_Text: '$150
 
 '
 --- !u!222 &325851596
@@ -28255,7 +28255,7 @@ MonoBehaviour:
   wall:
     prefab: {fileID: 4482573658511941430, guid: edc3f52e9f5e3eb4892658d25f365029,
       type: 3}
-    cost: 100
+    cost: 150
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
 --- !u!114 &1750443895

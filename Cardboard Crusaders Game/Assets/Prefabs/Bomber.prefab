@@ -420,7 +420,7 @@ MonoBehaviour:
   attackSpeed: 3
   attackCooldown: 1
   boom: 0
-  worth: 50
+  worth: 15
   healthBar: {fileID: 966740628155583442}
 --- !u!1001 &1479256756462617477
 PrefabInstance:

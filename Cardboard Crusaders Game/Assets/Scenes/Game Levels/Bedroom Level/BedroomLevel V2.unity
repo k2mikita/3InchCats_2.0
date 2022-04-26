@@ -22488,17 +22488,17 @@ MonoBehaviour:
     - enemy: {fileID: 6059904603282647607, guid: b3d14101371737b41b0857121003db4e,
         type: 3}
       count: 15
-      rate: 15
-    - enemy: {fileID: 6059904603282647607, guid: 4f73701f464a0f742a86872e86aae084,
+      rate: 5
+  - WParts:
+    - enemy: {fileID: 6059904603282647607, guid: b3d14101371737b41b0857121003db4e,
         type: 3}
-      count: 15
-      rate: 15
-    - enemy: {fileID: 6059904603282647607, guid: 28b019d2d9b3b5046b5846928ee37255,
+      count: 30
+      rate: 10
+  - WParts:
+    - enemy: {fileID: 6059904603282647607, guid: b3d14101371737b41b0857121003db4e,
         type: 3}
-      count: 15
-      rate: 15
-  - WParts: []
-  - WParts: []
+      count: 60
+      rate: 10
   spawnPoint:
   - {fileID: 715215469}
   - {fileID: 65210651}
@@ -24279,7 +24279,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '$100
+  m_Text: '$150
 
 '
 --- !u!222 &1617751574
@@ -32283,7 +32283,7 @@ MonoBehaviour:
   Crossbow:
     prefab: {fileID: 4482573658511941430, guid: edc3f52e9f5e3eb4892658d25f365029,
       type: 3}
-    cost: 100
+    cost: 150
     upgradedPrefab: {fileID: 4482573658511941430, guid: edc3f52e9f5e3eb4892658d25f365029,
       type: 3}
     upgradeCost: 0
@@ -32304,7 +32304,7 @@ MonoBehaviour:
   wall:
     prefab: {fileID: 4482573658511941430, guid: edc3f52e9f5e3eb4892658d25f365029,
       type: 3}
-    cost: 100
+    cost: 150
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
 --- !u!1 &4981471006574818346
