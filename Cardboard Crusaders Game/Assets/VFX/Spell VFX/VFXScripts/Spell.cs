@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Spell : MonoBehaviour
 {
-    public GameObject AOE;
+    public GameObject target;
     public GameObject spellVFX;
 
     public GameObject targetCircle;
@@ -53,8 +53,8 @@ public class Spell : MonoBehaviour
 
     void SpellCast()
     {
-        Instantiate(spellVFX, AOE.transform.position, AOE.transform.rotation);
-        Instantiate(MeteorDamage, AOE.transform.position, AOE.transform.rotation);
+        Instantiate(spellVFX, target.transform.position, target.transform.rotation);
+        Instantiate(MeteorDamage, target.transform.position, target.transform.rotation);
         targetCircle.SetActive(false);
 
     }    

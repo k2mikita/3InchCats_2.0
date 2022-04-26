@@ -51,7 +51,7 @@ public class MoveBehaviour : GenericBehaviour
 	// LocalFixedUpdate overrides the virtual function of the base class.
 	public override void LocalFixedUpdate()
 	{
-		Debug.Log(speed);
+		//Debug.Log(speed);
 		// Call the basic movement manager.
 		if (!iced || speed < 1)
 		{

@@ -163,7 +163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45f04cfa4b0fe9f40acb8266874940db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AOE: {fileID: 1960664326162318144}
+  target: {fileID: 1960664326162318144}
   spellVFX: {fileID: 4695398701779784281, guid: e9e18e876dae92a4ebdd20334a78337c,
     type: 3}
   targetCircle: {fileID: 1960664327556831067}

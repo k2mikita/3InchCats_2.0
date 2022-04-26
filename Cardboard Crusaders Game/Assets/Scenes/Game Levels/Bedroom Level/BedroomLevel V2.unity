@@ -32604,6 +32604,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5524205469430094975, guid: e6686fce21d0779438824e797466d902,
         type: 3}
+      propertyPath: SwordVFX
+      value: 
+      objectReference: {fileID: 4590096326947840201, guid: 30bfafe1d19b8e646bfea60192629503,
+        type: 3}
+    - target: {fileID: 5524205469430094975, guid: e6686fce21d0779438824e797466d902,
+        type: 3}
       propertyPath: playerCamera
       value: 
       objectReference: {fileID: 0}

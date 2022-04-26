@@ -47,6 +47,9 @@ public class BasicBehaviour : MonoBehaviour
 	// Get current default behaviour.
 	public int GetDefaultBehaviour {  get { return defaultBehaviour; } }
 
+	// Get Player Sword VFX
+	public GameObject SwordVFX;
+
 	void Awake ()
 	{
 		// Set up the references.
@@ -61,6 +64,9 @@ public class BasicBehaviour : MonoBehaviour
 		// Grounded verification variables.
 		groundedBool = Animator.StringToHash("Grounded");
 		colExtents = GetComponent<Collider>().bounds.extents;
+
+		//Hides Sword VFX
+		//SwordVFX.GetComponent<Renderer>().enabled = false;
 	}
 
 	void Update()
@@ -109,7 +115,9 @@ public class BasicBehaviour : MonoBehaviour
         {
 			attacking = true;
 			anim.SetBool("Attacking", true);
+			//SwordVFX.GetComponent<Renderer>().enabled = true;
 		}
+		
 		if (bashing)
 		{
 			timer++;

@@ -30,12 +30,19 @@ public class EnemyBehavior : MonoBehaviour
     private bool isDead = false;
 
 
+    //call Animator
+    private Animator anim;
+
+
     // Use this for initialization
     void Start()
     {
         speed = startSpeed;
         health = startHealth;
         x = gameObject.GetComponent<UnityEngine.AI.NavMeshAgent>();
+
+        anim = GetComponent<Animator>();
+        anim.SetBool("isAttacking", false);
     }
 
     // Update is called once per frame
@@ -89,11 +96,16 @@ public class EnemyBehavior : MonoBehaviour
     {
         if (collision.gameObject.tag.Equals("Castle") == true)
         {
+          
             if (attackCooldown <= 0f)
             {
                 PlayerStats.Lives -= attackDamage;
                 attackCooldown = 1f / attackSpeed;
 
+                //Attack Animation bool
+                anim.SetBool("isAttacking", true);
+                
+                
                 int num = Random.Range(1, 13);
                 //play collision sounds
                 if (num == 1)
