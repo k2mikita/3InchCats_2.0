@@ -31,7 +31,7 @@ public class EnemyBehavior : MonoBehaviour
 
 
     //call Animator
-    private Animator anim;
+    public Animator anim;
 
 
     // Use this for initialization
@@ -41,7 +41,7 @@ public class EnemyBehavior : MonoBehaviour
         health = startHealth;
         x = gameObject.GetComponent<UnityEngine.AI.NavMeshAgent>();
 
-        anim = GetComponent<Animator>();
+     //   anim = GetComponent<Animator>();
         anim.SetBool("isAttacking", false);
     }
 
@@ -165,7 +165,8 @@ public class EnemyBehavior : MonoBehaviour
             attackCooldown -= Time.deltaTime;
             if (boom)
             {
-                Die();
+
+                StartCoroutine("Fuse");
             }
              
         }
@@ -183,6 +184,11 @@ public class EnemyBehavior : MonoBehaviour
         }
         
     }
+private IEnumerator Fuse()
+{
+    yield return new WaitForSeconds(3);
+    Die();
+}
 }
 
 

@@ -22487,7 +22487,15 @@ MonoBehaviour:
   - WParts:
     - enemy: {fileID: 6059904603282647607, guid: b3d14101371737b41b0857121003db4e,
         type: 3}
-      count: 15
+      count: 3
+      rate: 5
+    - enemy: {fileID: 6059904603282647607, guid: 28b019d2d9b3b5046b5846928ee37255,
+        type: 3}
+      count: 3
+      rate: 5
+    - enemy: {fileID: 6059904603282647607, guid: 4f73701f464a0f742a86872e86aae084,
+        type: 3}
+      count: 3
       rate: 5
   - WParts:
     - enemy: {fileID: 6059904603282647607, guid: b3d14101371737b41b0857121003db4e,

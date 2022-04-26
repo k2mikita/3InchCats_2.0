@@ -442,6 +442,7 @@ MonoBehaviour:
   boom: 0
   worth: 25
   healthBar: {fileID: 966740628155583442}
+  anim: {fileID: 7107764607424887683}
 --- !u!95 &1748663212555599692
 Animator:
   serializedVersion: 3
@@ -455,7 +456,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 6872c10f0b61ab448aa6c79b1f565127, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
@@ -537,6 +538,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: ef45bb8275f7a874dad2d12dae180de3,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: ef45bb8275f7a874dad2d12dae180de3,
         type: 3}

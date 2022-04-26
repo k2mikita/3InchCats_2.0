@@ -441,6 +441,7 @@ MonoBehaviour:
   boom: 0
   worth: 30
   healthBar: {fileID: 966740628155583442}
+  anim: {fileID: 7798273453736186569}
 --- !u!1001 &1641191459282858318
 PrefabInstance:
   m_ObjectHideFlags: 0

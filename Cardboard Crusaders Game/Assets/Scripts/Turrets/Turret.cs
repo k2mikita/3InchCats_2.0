@@ -24,7 +24,7 @@ public class Turret : MonoBehaviour
 
     public GameObject bulletPrefab;
     public Transform firePoint;
-
+    public Animator anim;
     // Start is called before the first frame update
     void Start()
     {
@@ -56,6 +56,9 @@ public class Turret : MonoBehaviour
         {
             target = null;
         }
+
+
+
     }
 
     // Update is called once per frame
@@ -75,6 +78,8 @@ public class Turret : MonoBehaviour
         {
             Shoot();
             fireCountdown = 1f / fireRate;
+            anim.SetBool("isAttacking", true);
+
         }
 
         fireCountdown -= Time.deltaTime;
@@ -90,6 +95,7 @@ public class Turret : MonoBehaviour
         {
             bullet.Seek(target);
         }
+        anim.SetBool("isAttacking", false);
     }
 
     void OnDrawGizmosSelected()

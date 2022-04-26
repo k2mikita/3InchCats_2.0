@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1649725579699243707}
   - component: {fileID: 4098621797621080642}
   - component: {fileID: 8998056150247094682}
+  - component: {fileID: 7896251504234509290}
   m_Layer: 0
   m_Name: Box001
   m_TagString: Untagged
@@ -98,6 +99,25 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0.164}
   m_TimeToStationary: 0.5
+--- !u!95 &7896251504234509290
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2844738487653977727}
+  m_Enabled: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9d9f567a29d64764f85ac3ca3f3c17d9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &4161627976537786112
 GameObject:
   m_ObjectHideFlags: 0
@@ -110,6 +130,7 @@ GameObject:
   - component: {fileID: 8620633834731572858}
   - component: {fileID: 8181101360747608221}
   - component: {fileID: 2580378511391532369}
+  - component: {fileID: 1980311363456202499}
   m_Layer: 0
   m_Name: Cylinder001
   m_TagString: Untagged
@@ -197,6 +218,25 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.062000003, y: 0.36400002, z: 0}
   m_TimeToStationary: 0.5
+--- !u!95 &1980311363456202499
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4161627976537786112}
+  m_Enabled: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9d9f567a29d64764f85ac3ca3f3c17d9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &4667982431971180706
 GameObject:
   m_ObjectHideFlags: 0
@@ -207,6 +247,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5441423563415902744}
   - component: {fileID: 5479025438952505190}
+  - component: {fileID: 5063928734001610281}
   m_Layer: 0
   m_Name: Catapult 1
   m_TagString: Untagged
@@ -253,6 +294,26 @@ MonoBehaviour:
   bulletPrefab: {fileID: 7945606023034400684, guid: 3d33a5b294ab2654db5878fc1cd961c5,
     type: 3}
   firePoint: {fileID: 5479025439940005489}
+  anim: {fileID: 5063928734001610281}
+--- !u!95 &5063928734001610281
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4667982431971180706}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9d9f567a29d64764f85ac3ca3f3c17d9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &5479025439940005502
 GameObject:
   m_ObjectHideFlags: 0
@@ -296,6 +357,7 @@ GameObject:
   - component: {fileID: 8026546302081041475}
   - component: {fileID: -1380335457065103047}
   - component: {fileID: -8278992964872504753}
+  - component: {fileID: 3886304393852295461}
   m_Layer: 0
   m_Name: Catapult
   m_TagString: Untagged
@@ -380,3 +442,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 867c6fbcb2e980545813738565455cb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &3886304393852295461
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5934577848349016202}
+  m_Enabled: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9d9f567a29d64764f85ac3ca3f3c17d9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
