@@ -144,7 +144,7 @@ public class MoveBehaviour : GenericBehaviour
 		speedSeeker += Input.GetAxis("Mouse ScrollWheel");
 		speedSeeker = Mathf.Clamp(speedSeeker, walkSpeed, runSpeed);
 		speed *= speedSeeker;
-		if (behaviourManager.IsSprinting())
+		if (behaviourManager.IsSprinting() && !slowed)
 		{
 			speed = sprintSpeed;
 		}
