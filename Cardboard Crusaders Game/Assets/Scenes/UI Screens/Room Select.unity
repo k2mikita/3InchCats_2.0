@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 105525336}
   - component: {fileID: 105525337}
+  - component: {fileID: 105525338}
   m_Layer: 0
   m_Name: Shop&LevelSelect
   m_TagString: Untagged
@@ -170,6 +171,18 @@ MonoBehaviour:
   buttonKitchen: {fileID: 1465746934}
   buttonBackyard: {fileID: 815613190}
   buttonAttic: {fileID: 1450149258}
+--- !u!114 &105525338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 105525335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8526fab89b74dc34fb5cd57c0a0560e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &201395563
 GameObject:
   m_ObjectHideFlags: 0
@@ -624,7 +637,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &815613191
 RectTransform:
   m_ObjectHideFlags: 0
@@ -929,7 +942,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1450149259
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1141,7 +1154,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1465746935
 RectTransform:
   m_ObjectHideFlags: 0

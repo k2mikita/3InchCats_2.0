@@ -11,6 +11,7 @@ public class LevelSelectMenu : MonoBehaviour
     public GameObject buttonAttic;
     void Start()
     {
+        Debug.Log("a");
         //FindObjectOfType<AudioManager>().Play("Space");
 
         if (LevelTracker.StatusBedroom())
@@ -34,26 +35,31 @@ public class LevelSelectMenu : MonoBehaviour
     }
     public void LevelSelectBackButton()
     {
+        
         SceneManager.LoadScene("Main Menu");
     }
 
     public void BedRoomLevelButton()
     {
+        gameObject.SendMessage("setLevel", "Bedroom");
         SceneManager.LoadScene("Tips From Flynn");
         
     }
     public void KitchenLevelButton()
     {
+        gameObject.SendMessage("setLevel", "Kitchen");
         SceneManager.LoadScene("Kitchen Level");
 
     }
     public void AtticLevelButton()
     {
-        SceneManager.LoadScene("Attic");
+        gameObject.SendMessage("setLevel", "Attic");
+        SceneManager.LoadScene("Attic Level");
 
     }
     public void BackyardLevelButton()
     {
+        gameObject.SendMessage("setLevel", "Backyard");
         SceneManager.LoadScene("Backyard");
 
     }

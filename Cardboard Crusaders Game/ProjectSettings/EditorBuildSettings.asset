@@ -38,4 +38,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/UI Screens/Character Select.unity
     guid: a5a815a3d2ccda24d80e0779dda5c8d1
+  - enabled: 1
+    path: Assets/Scenes/Game Levels/Kitchen Level/Kitchen Level.unity
+    guid: 7933e22a96b40864ca1b87da946f0b6c
+  - enabled: 1
+    path: Assets/Scenes/Game Levels/Backyard Level/Backyard.unity
+    guid: d072ce8d1a4df9c4094222e321012c2a
+  - enabled: 1
+    path: Assets/Scenes/Game Levels/Attic Level/Attic Level.unity
+    guid: dbf18e4c47ae6594c8b2911f35db27a1
   m_configObjects: {}

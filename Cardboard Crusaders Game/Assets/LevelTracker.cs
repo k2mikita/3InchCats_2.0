@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class LevelTracker : MonoBehaviour
 {
-    public static bool Bedroom = false;
-    public static bool Attic = false;
-    public static bool Backyard = false;
-    public static bool Kitchen = false;
-
+    public static bool Bedroom;
+    public static bool Attic;
+    public static bool Backyard;
+    public static bool Kitchen;
+    public static string currentLevel;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,9 +20,14 @@ public class LevelTracker : MonoBehaviour
     {
         
     }
+    public void setLevel(string x)
+    {
+        currentLevel = x;
+    }
     public void winBedroom()
     {
         Bedroom = true;
+        Debug.Log("aaaa");
     }
     public void winAttic()
     {
@@ -52,6 +57,10 @@ public class LevelTracker : MonoBehaviour
     public static bool StatusKitchen()
     {
         return Kitchen;
+    }
+    public static string checkLevel()
+    {
+        return currentLevel;
     }
 
 

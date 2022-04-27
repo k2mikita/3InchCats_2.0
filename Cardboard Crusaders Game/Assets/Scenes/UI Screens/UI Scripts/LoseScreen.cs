@@ -15,14 +15,38 @@ public class LoseScreen : MonoBehaviour
 
     public void LoseMainMenuButton()
     {
-        SceneManager.LoadScene("Main Menu");
         FindObjectOfType<AudioManager>().Stop("BedroomMusic");
+        SceneManager.LoadScene("Main Menu");
+        
     }
 
     public void LoseRetryMenuButton()
     {
-        SceneManager.LoadScene("BedroomLevel V2");
         FindObjectOfType<AudioManager>().Stop("BedroomMusic");
+        if(LevelTracker.checkLevel() == "Bedroom")
+        {
+            SceneManager.LoadScene("BedroomLevel V2");
+        }
+        else if (LevelTracker.checkLevel() == "Attic")
+        {
+            SceneManager.LoadScene("Attic Level");
+        }
+        else if (LevelTracker.checkLevel() == "Kitchen")
+        {
+            SceneManager.LoadScene("Kitchen Level");
+        }
+        else if (LevelTracker.checkLevel() == "Backyard")
+        {
+            SceneManager.LoadScene("Backyard");
+        }
+        else
+        {
+            SceneManager.LoadScene("BedroomLevel V2");
+        }
+
+
+
+
     }
 
 }
