@@ -143,13 +143,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3310762983865410905}
-  m_LocalRotation: {x: -0.21842991, y: -0.20359911, z: 0.046775293, w: -0.9532302}
-  m_LocalPosition: {x: 14.798666, y: 2.9333339, z: 33.35385}
-  m_LocalScale: {x: 1.3333334, y: 1.3333334, z: 1.3333331}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.06, z: -3.62}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5414262325795665721}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 25.816, y: -155.89, z: -0.015}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!20 &1707314985134969836
 Camera:
   m_ObjectHideFlags: 0
@@ -215,7 +215,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 5414262325795665721}
   pivotOffset: {x: 0, y: 2.5, z: 0}
-  camOffset: {x: 0, y: -1, z: -2}
+  camOffset: {x: 0, y: -1, z: -3}
   smooth: 10
   horizontalAimingSpeed: 6
   verticalAimingSpeed: 6
@@ -296,7 +296,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 8368722655750445499, guid: d311678066e3ea94fb14b4b6191b5c18, type: 3}
+  - {fileID: 2100000, guid: ad4dec17e1b1de14fb5ee7c46d636cf8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -407,7 +407,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 8368722655750445499, guid: d311678066e3ea94fb14b4b6191b5c18, type: 3}
+  - {fileID: 2100000, guid: ad4dec17e1b1de14fb5ee7c46d636cf8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -455,7 +455,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4641102673085787523}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 32d9e062f38d5434eacd7e0a953f9596, type: 3}
   m_Name: 
@@ -1173,6 +1173,17 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 1360998165521610938, guid: 5bff0935f394c2246a14ca2f962ebb22,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -7727563708719884798, guid: fe9261c3c800e814a89c9866ed31fa94,
+        type: 3}
+    - target: {fileID: 1360998165521610938, guid: 5bff0935f394c2246a14ca2f962ebb22,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 327c6776762446f49b27a774b22d73d1, type: 2}
     - target: {fileID: 1397563845400115217, guid: 5bff0935f394c2246a14ca2f962ebb22,
         type: 3}
       propertyPath: m_Layer
@@ -1711,6 +1722,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1635814232159254692, guid: 7eb9ce8bfdad90c418fe1876f19324f4,
         type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1635814232159254692, guid: 7eb9ce8bfdad90c418fe1876f19324f4,
+        type: 3}
       propertyPath: sprintFOV
       value: 80
       objectReference: {fileID: 0}
@@ -1719,11 +1735,21 @@ PrefabInstance:
       propertyPath: playerCamera
       value: 
       objectReference: {fileID: 7987529650595061}
-    - target: {fileID: 1635814232159254695, guid: 7eb9ce8bfdad90c418fe1876f19324f4,
+    - target: {fileID: 1635814232159254693, guid: 7eb9ce8bfdad90c418fe1876f19324f4,
         type: 3}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1635814232159254695, guid: 7eb9ce8bfdad90c418fe1876f19324f4,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1635814232159254712, guid: 7eb9ce8bfdad90c418fe1876f19324f4,
+        type: 3}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 9000000, guid: 017177d6f0d70df4088119f06565dae1, type: 3}
     - target: {fileID: 1635814232159254712, guid: 7eb9ce8bfdad90c418fe1876f19324f4,
         type: 3}
       propertyPath: m_Enabled
