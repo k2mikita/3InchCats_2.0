@@ -218,6 +218,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3983206349949831740}
   - component: {fileID: 3516616896081882946}
+  - component: {fileID: 352473070644899879}
   m_Layer: 0
   m_Name: Crossbow
   m_TagString: Untagged
@@ -263,7 +264,26 @@ MonoBehaviour:
   bulletPrefab: {fileID: 805674920831133577, guid: 0c609ef95585fa548b19e04b26d74835,
     type: 3}
   firePoint: {fileID: 3516616895123725909}
-  anim: {fileID: 0}
+  anim: {fileID: 352473070644899879}
+--- !u!95 &352473070644899879
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4327081551803666566}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 338ae64234dc3de4e899c616d51d702f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &4842201018923652072
 GameObject:
   m_ObjectHideFlags: 0

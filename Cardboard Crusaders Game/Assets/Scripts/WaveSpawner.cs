@@ -13,6 +13,7 @@ using UnityEngine.SceneManagement;
 
 public class WaveSpawner : MonoBehaviour
 {
+	public string LevelName;
 	public static int EnemiesAlive = 0;
 	public static int EnemiesKilled = 0;
 	public Wave[] waves;
@@ -28,7 +29,7 @@ public class WaveSpawner : MonoBehaviour
 
 	public int waveIndex = 0;
 
-
+	public int wincondition;
 
 	void Start()
     {
@@ -40,8 +41,23 @@ public class WaveSpawner : MonoBehaviour
 	{
 		//Debug.Log(EnemiesAlive);
 		//Debug.Log(EnemiesKilled);
-		if (EnemiesKilled == 105)
+		if (EnemiesKilled >= wincondition)
 		{
+			switch (LevelName)
+            {
+				case "Bedroom":
+					gameObject.SendMessage("winBedroom");
+					break;
+				case "Attic":
+					gameObject.SendMessage("winAttic");
+					break;
+				case "Backyard":
+					gameObject.SendMessage("winBackyard");
+					break;
+				case "Kitchen":
+					gameObject.SendMessage("winKitchen");
+					break;
+			}
 			EnemiesKilled = 0;
 			EnemiesAlive = 0;
 			SceneManager.LoadScene("Win Screen");

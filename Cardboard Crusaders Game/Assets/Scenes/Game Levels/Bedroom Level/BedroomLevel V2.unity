@@ -22429,6 +22429,7 @@ GameObject:
   - component: {fileID: 1501918616}
   - component: {fileID: 1501918618}
   - component: {fileID: 1501918619}
+  - component: {fileID: 1501918620}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: GameController
@@ -22514,6 +22515,7 @@ MonoBehaviour:
   countdown: 1
   waveCountdownText: {fileID: 31413983}
   waveIndex: 0
+  wincondition: 0
 --- !u!114 &1501918619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22524,6 +22526,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1944de94de2e037479970b2a59992509, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1501918620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1501918615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebf216350a1ca804da182e9c7c446e52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1509861243

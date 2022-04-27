@@ -67,10 +67,10 @@
      <Compile Include="Assets\VFX\Spell VFX\VFXScripts\_ObjectsMakeBase.cs" />
      <Compile Include="Assets\QuickOutline\Scripts\Rays.cs" />
      <Compile Include="Assets\Scripts\TurretBlueprint.cs" />
-     <Compile Include="Assets\ShieldVFX.cs" />
+     <Compile Include="Assets\Scripts\ShieldVFX.cs" />
      <Compile Include="Assets\Scenes\UI Screens\UI Scripts\LoseScreen.cs" />
      <Compile Include="Assets\VFX\Spell VFX\VFXScripts\SpellShoot.cs" />
-     <Compile Include="Assets\spawnCharacter.cs" />
+     <Compile Include="Assets\Scripts\spawnCharacter.cs" />
      <Compile Include="Assets\Scripts\TeddyBearWalkSound.cs" />
      <Compile Include="Assets\Scripts\WalkSoundScript.cs" />
      <Compile Include="Assets\Scripts\FuzzWalkSound.cs" />
@@ -103,9 +103,9 @@
      <Compile Include="Assets\NavMeshComponents\Scripts\NavMeshModifier.cs" />
      <Compile Include="Assets\Scripts\Level1Audio.cs" />
      <Compile Include="Assets\3rdPerson+Fly\Scripts\PlayerScripts\AimBehaviourBasic.cs" />
-     <Compile Include="Assets\Fuzzclops_ANIM.cs" />
+     <Compile Include="Assets\Scripts\Fuzzclops_ANIM.cs" />
      <Compile Include="Assets\Scenes\UI Screens\UI Scripts\TipsFromFlynn.cs" />
-     <Compile Include="Assets\Hide_Show.cs" />
+     <Compile Include="Assets\Scripts\Hide_Show.cs" />
      <Compile Include="Assets\Scripts\EnemyMovement.cs" />
      <Compile Include="Assets\Scripts\WaveSpawner.cs" />
      <Compile Include="Assets\Scripts\fireballDamage.cs" />
@@ -119,6 +119,7 @@
      <Compile Include="Assets\Scenes\UI Screens\UI Scripts\ControlsMenu.cs" />
      <Compile Include="Assets\Scenes\UI Screens\UI Scripts\LevelSelectMenu.cs" />
      <Compile Include="Assets\VFX\Spell VFX\VFXScripts\SpellDragon.cs" />
+     <Compile Include="Assets\LevelTracker.cs" />
      <None Include="Assets\VFX\Spell VFX\SpellMaterial\Shader_ForEffects\Shader_Decal.shader" />
      <None Include="Assets\QuickOutline\Resources\Shaders\OutlineMask.shader" />
      <None Include="Assets\VFX\Spell VFX\SpellMaterial\Shader_ForEffects\Shader_DistortionEffect.shader" />

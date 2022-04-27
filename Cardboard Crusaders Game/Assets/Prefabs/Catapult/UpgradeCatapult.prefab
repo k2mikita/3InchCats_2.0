@@ -40,6 +40,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2877032722977916324}
   - component: {fileID: 2335115829412749530}
+  - component: {fileID: 8415417555488610797}
   m_Layer: 0
   m_Name: Catapult 1
   m_TagString: Untagged
@@ -86,7 +87,26 @@ MonoBehaviour:
   bulletPrefab: {fileID: 7189164862442898766, guid: 961700c230869f949aafeb21684e2c33,
     type: 3}
   firePoint: {fileID: 2335115830652408269}
-  anim: {fileID: 0}
+  anim: {fileID: 8415417555488610797}
+--- !u!95 &8415417555488610797
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3217424632889368350}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9d9f567a29d64764f85ac3ca3f3c17d9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &4482573658511941430
 GameObject:
   m_ObjectHideFlags: 0

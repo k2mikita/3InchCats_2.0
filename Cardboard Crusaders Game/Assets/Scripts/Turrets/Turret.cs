@@ -64,6 +64,7 @@ public class Turret : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        anim.SetBool("isAttacking", false);
         if ( target == null)
             return;
         
@@ -73,12 +74,13 @@ public class Turret : MonoBehaviour
         Vector3 rotation = Quaternion.Lerp(partToRotate.rotation, lookRotation, Time.deltaTime * turnSpeed).eulerAngles;
         partToRotate.rotation = Quaternion.Euler (0f, rotation.y, 0f);
 
-
-        if(fireCountdown <= 0f)
+        
+        if (fireCountdown <= 0f)
         {
-            Shoot();
-            fireCountdown = fireRate;
             anim.SetBool("isAttacking", true);
+            Shoot();
+            fireCountdown = 1/fireRate;
+            
 
         }
 
@@ -95,7 +97,7 @@ public class Turret : MonoBehaviour
         {
             bullet.Seek(target);
         }
-        anim.SetBool("isAttacking", false);
+        
     }
 
     void OnDrawGizmosSelected()
