@@ -55,7 +55,7 @@ public class SpellShoot : MonoBehaviour
 
     void InstantiateSpell(Transform firePoint)
     {
-        var projectileObj = Instantiate(SingleSpellVFX, firePoint.position, Quaternion.Euler(new Vector3(0,-90,0)));
+        var projectileObj = Instantiate(SingleSpellVFX, firePoint.position, Quaternion.Euler(new Vector3(0,90,0)));
         projectileObj.GetComponent<Rigidbody>().velocity = (destination - firePoint.position).normalized * projectileSpeed;
     }
     void GetInput()

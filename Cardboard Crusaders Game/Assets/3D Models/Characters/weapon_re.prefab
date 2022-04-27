@@ -1150,6 +1150,7 @@ MonoBehaviour:
   sprintButton: Sprint
   attacking: 0
   bashing: 0
+  SwordVFX: {fileID: 0}
 --- !u!114 &1635814232159254693
 MonoBehaviour:
   m_ObjectHideFlags: 0
