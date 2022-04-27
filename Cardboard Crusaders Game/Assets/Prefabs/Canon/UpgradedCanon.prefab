@@ -298,8 +298,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   targetEnemy: {fileID: 0}
-  range: 15
-  fireRate: 0.3
+  range: 16
+  fireRate: 0.4
   fireCountdown: 0
   enemyTag: Enemy
   partToRotate: {fileID: 3953183206884933628}

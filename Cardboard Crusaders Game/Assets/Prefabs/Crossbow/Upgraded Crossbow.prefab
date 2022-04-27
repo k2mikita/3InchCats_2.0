@@ -226,7 +226,7 @@ MonoBehaviour:
   target: {fileID: 0}
   targetEnemy: {fileID: 0}
   range: 18
-  fireRate: 1.8
+  fireRate: 0.5
   fireCountdown: 0
   enemyTag: Enemy
   partToRotate: {fileID: 6763081952848056308}

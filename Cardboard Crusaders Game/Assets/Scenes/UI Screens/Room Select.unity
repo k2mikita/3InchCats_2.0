@@ -152,7 +152,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2137103811}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &105525337
 MonoBehaviour:
@@ -166,10 +166,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e5c8e5092adcc146884c980864e70c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buttonBed: {fileID: 0}
-  buttonKitchen: {fileID: 0}
-  buttonBackyard: {fileID: 0}
-  buttonAttic: {fileID: 0}
+  buttonBed: {fileID: 1586289962}
+  buttonKitchen: {fileID: 1465746934}
+  buttonBackyard: {fileID: 815613190}
+  buttonAttic: {fileID: 1450149258}
 --- !u!1 &201395563
 GameObject:
   m_ObjectHideFlags: 0
@@ -306,7 +306,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Bedroom
+  m_Text: Kitchen
 --- !u!222 &212646712
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -385,7 +385,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Bedroom
+  m_Text: Backyard
 --- !u!222 &219463105
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -426,11 +426,11 @@ RectTransform:
   m_Children:
   - {fileID: 1460354021}
   m_Father: {fileID: 2137103811}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -704, y: 190}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -584, y: 36}
   m_SizeDelta: {x: 309.9453, y: 85.906006}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &369449251
@@ -557,7 +557,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2137103811}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -642,7 +642,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -445, y: -352}
+  m_AnchoredPosition: {x: -592, y: -337}
   m_SizeDelta: {x: 310.16675, y: 86.13031}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &815613192
@@ -947,7 +947,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 26, y: 219}
+  m_AnchoredPosition: {x: 9, y: 219}
   m_SizeDelta: {x: 310.16675, y: 86.13031}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1450149260
@@ -1159,7 +1159,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -89, y: -317}
+  m_AnchoredPosition: {x: -83, y: -317}
   m_SizeDelta: {x: 310.16675, y: 86.13031}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1465746936
@@ -1371,7 +1371,7 @@ RectTransform:
   m_Children:
   - {fileID: 890120526}
   m_Father: {fileID: 2137103811}
-  m_RootOrder: 1
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1542,7 +1542,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Bedroom
+  m_Text: Attic
 --- !u!222 &1915363034
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1718,10 +1718,10 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 2113128445}
-  - {fileID: 1586289963}
   - {fileID: 369449250}
   - {fileID: 105525336}
   - {fileID: 511385058}
+  - {fileID: 1586289963}
   - {fileID: 1465746935}
   - {fileID: 815613191}
   - {fileID: 1450149259}

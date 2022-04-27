@@ -22484,19 +22484,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26cded3a9658e0a4480b4198d33cc96e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  LevelName: Bedroom
   waves:
   - WParts:
     - enemy: {fileID: 6059904603282647607, guid: b3d14101371737b41b0857121003db4e,
         type: 3}
-      count: 3
-      rate: 5
-    - enemy: {fileID: 6059904603282647607, guid: 28b019d2d9b3b5046b5846928ee37255,
-        type: 3}
-      count: 3
-      rate: 5
-    - enemy: {fileID: 6059904603282647607, guid: 4f73701f464a0f742a86872e86aae084,
-        type: 3}
-      count: 3
+      count: 15
       rate: 5
   - WParts:
     - enemy: {fileID: 6059904603282647607, guid: b3d14101371737b41b0857121003db4e,
@@ -22512,10 +22505,10 @@ MonoBehaviour:
   - {fileID: 715215469}
   - {fileID: 65210651}
   timeBetweenWaves: 15
-  countdown: 1
+  countdown: 30
   waveCountdownText: {fileID: 31413983}
   waveIndex: 0
-  wincondition: 0
+  wincondition: 90
 --- !u!114 &1501918619
 MonoBehaviour:
   m_ObjectHideFlags: 0

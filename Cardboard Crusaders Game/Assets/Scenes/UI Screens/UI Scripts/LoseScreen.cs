@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class LoseScreen : MonoBehaviour
 {
+    private int prevSceneToLoad;
+        
+
     private void Start()
     {
         Cursor.visible = true;
