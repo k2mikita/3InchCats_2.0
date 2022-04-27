@@ -77,7 +77,7 @@ public class Turret : MonoBehaviour
         if(fireCountdown <= 0f)
         {
             Shoot();
-            fireCountdown = 1f / fireRate;
+            fireCountdown = fireRate;
             anim.SetBool("isAttacking", true);
 
         }
