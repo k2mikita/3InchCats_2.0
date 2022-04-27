@@ -78,7 +78,7 @@ MonoBehaviour:
   target: {fileID: 0}
   targetEnemy: {fileID: 0}
   range: 9
-  fireRate: 2
+  fireRate: 0.5
   fireCountdown: 0
   enemyTag: Enemy
   partToRotate: {fileID: 2877032722977916324}
@@ -86,6 +86,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 7189164862442898766, guid: 961700c230869f949aafeb21684e2c33,
     type: 3}
   firePoint: {fileID: 2335115830652408269}
+  anim: {fileID: 0}
 --- !u!1 &4482573658511941430
 GameObject:
   m_ObjectHideFlags: 0
