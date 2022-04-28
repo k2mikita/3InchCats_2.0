@@ -31,6 +31,7 @@ public class ThirdPersonOrbitCamBasic : MonoBehaviour
 
 	void Awake()
 	{
+		gameObject.transform.parent = null;
 		// Reference to the camera transform.
 		cam = transform;
 

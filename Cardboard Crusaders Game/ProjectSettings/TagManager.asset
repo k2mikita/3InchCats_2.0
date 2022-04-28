@@ -12,6 +12,7 @@ TagManager:
   - mudZone
   - iceFloor
   - AudioManager
+  - Follow
   layers:
   - Default
   - TransparentFX
