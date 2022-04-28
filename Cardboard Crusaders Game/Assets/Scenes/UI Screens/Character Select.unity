@@ -642,7 +642,7 @@ MonoBehaviour:
 
     Attack Two: Meteor
 
-    (Two Second Cooldown)'
+    (Four Second Cooldown)'
 --- !u!222 &727724135
 CanvasRenderer:
   m_ObjectHideFlags: 0

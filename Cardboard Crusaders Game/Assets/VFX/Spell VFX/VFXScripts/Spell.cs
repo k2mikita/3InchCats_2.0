@@ -63,7 +63,7 @@ public class Spell : MonoBehaviour
     }    
     private IEnumerator Cooldown()
     {
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(4);
         offcooldown = true;
     }
 }
