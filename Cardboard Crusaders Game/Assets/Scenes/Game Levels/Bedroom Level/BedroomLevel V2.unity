@@ -32234,7 +32234,7 @@ MonoBehaviour:
     cost: 300
     upgradedPrefab: {fileID: 4482573658511941430, guid: 459ff206ee2bc2b4b81fc416daf9fe8f,
       type: 3}
-    upgradeCost: 600
+    upgradeCost: 250
   Crossbow:
     prefab: {fileID: 4482573658511941430, guid: edc3f52e9f5e3eb4892658d25f365029,
       type: 3}
@@ -32248,14 +32248,14 @@ MonoBehaviour:
     cost: 200
     upgradedPrefab: {fileID: 3359469718228537518, guid: 4e911a054942c1a4497b34e7f859b8ab,
       type: 3}
-    upgradeCost: 800
+    upgradeCost: 150
   canon:
     prefab: {fileID: 3359469718228537518, guid: cbea741554a62cf4d9361b15243e2f5f,
       type: 3}
     cost: 400
     upgradedPrefab: {fileID: 3359469718228537518, guid: 196bf40236e604d4f92eb443823455d1,
       type: 3}
-    upgradeCost: 800
+    upgradeCost: 350
   wall:
     prefab: {fileID: 4482573658511941430, guid: edc3f52e9f5e3eb4892658d25f365029,
       type: 3}
