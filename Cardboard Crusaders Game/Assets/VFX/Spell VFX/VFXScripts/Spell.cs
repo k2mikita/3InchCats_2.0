@@ -9,7 +9,7 @@ public class Spell : MonoBehaviour
     public GameObject spellVFX;
 
     public GameObject targetCircle;
-    
+    bool offcooldown = true;
     public Canvas spellCanvas;
 
     public GameObject MeteorDamage;
@@ -37,8 +37,9 @@ public class Spell : MonoBehaviour
         }
 
 
-        if (Input.GetMouseButtonUp(1))
+        if (Input.GetMouseButtonUp(1) && offcooldown)
         {
+         
             SpellCast();
         }
         
@@ -53,9 +54,16 @@ public class Spell : MonoBehaviour
 
     void SpellCast()
     {
+        StartCoroutine(Cooldown());
         Instantiate(spellVFX, target.transform.position, target.transform.rotation);
         Instantiate(MeteorDamage, target.transform.position, target.transform.rotation);
         targetCircle.SetActive(false);
+        offcooldown = false;
 
     }    
+    private IEnumerator Cooldown()
+    {
+        yield return new WaitForSeconds(2);
+        offcooldown = true;
+    }
 }
