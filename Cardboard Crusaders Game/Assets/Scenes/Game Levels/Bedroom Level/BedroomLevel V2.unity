@@ -21466,7 +21466,7 @@ MonoBehaviour:
   countdown: 30
   waveCountdownText: {fileID: 31413983}
   waveIndex: 0
-  wincondition: 1
+  wincondition: 90
 --- !u!114 &1501918619
 MonoBehaviour:
   m_ObjectHideFlags: 0
