@@ -21407,7 +21407,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 950006e8a00364e4682bbdf624da20c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  standardTurretPrefab: {fileID: 5934577848349016202, guid: 8be9786f012504a46be04284877a363e,
+  standardTurretPrefab: {fileID: 5934577848349016202, guid: b1190c9720bfa6a4fb73a8ae8d25ec9d,
     type: 3}
   MissileTurretPrefab: {fileID: 3359469718228537518, guid: 1489e0e9ee100e94582a52a9cf7fe9c8,
     type: 3}
@@ -21463,7 +21463,7 @@ MonoBehaviour:
   - {fileID: 715215469}
   - {fileID: 65210651}
   timeBetweenWaves: 15
-  countdown: 30
+  countdown: 1
   waveCountdownText: {fileID: 31413983}
   waveIndex: 0
   wincondition: 105
@@ -30451,10 +30451,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   standardTurret:
-    prefab: {fileID: 5934577848349016202, guid: 8be9786f012504a46be04284877a363e,
+    prefab: {fileID: 5934577848349016202, guid: b1190c9720bfa6a4fb73a8ae8d25ec9d,
       type: 3}
     cost: 300
-    upgradedPrefab: {fileID: 4482573658511941430, guid: 459ff206ee2bc2b4b81fc416daf9fe8f,
+    upgradedPrefab: {fileID: 5934577848349016202, guid: de436ce257b8ffa43b33779648a45cfc,
       type: 3}
     upgradeCost: 350
   Crossbow:
