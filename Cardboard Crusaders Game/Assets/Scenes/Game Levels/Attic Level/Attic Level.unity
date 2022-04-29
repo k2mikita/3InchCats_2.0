@@ -97,7 +97,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: a3f9a67b727852f47a264809a083f3cd,
+    type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -23635,7 +23636,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!154 &1500599229
 TerrainCollider:
   m_ObjectHideFlags: 0
@@ -26699,7 +26700,7 @@ MonoBehaviour:
   countdown: 30
   waveCountdownText: {fileID: 0}
   waveIndex: 0
-  wincondition: 0
+  wincondition: 1
 --- !u!114 &1697726362
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32267,6 +32268,26 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: e7417778a9d36c24d96019e66399eeed, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e0e83974298102449836ac10010ed894, type: 3}
+--- !u!1 &1941561382 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -5388867356167283329, guid: e0e83974298102449836ac10010ed894,
+    type: 3}
+  m_PrefabInstance: {fileID: 1941561381}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1941561383
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1941561382}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3580058529086509294, guid: e0e83974298102449836ac10010ed894, type: 3}
 --- !u!1 &1948401428
 GameObject:
   m_ObjectHideFlags: 0
