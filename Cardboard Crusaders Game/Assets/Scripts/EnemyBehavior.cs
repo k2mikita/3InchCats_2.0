@@ -40,7 +40,7 @@ public class EnemyBehavior : MonoBehaviour
         speed = startSpeed;
         health = startHealth;
         x = gameObject.GetComponent<UnityEngine.AI.NavMeshAgent>();
-
+        x.speed = speed;
      //   anim = GetComponent<Animator>();
         anim.SetBool("isAttacking", false);
     }
@@ -54,7 +54,7 @@ public class EnemyBehavior : MonoBehaviour
             if (timer == 300)
             {
                 stunned = false;
-                x.speed = 1.5f;
+                x.speed = speed;
                 timer = 0;
             }
         }
