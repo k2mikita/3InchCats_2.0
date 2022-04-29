@@ -36,7 +36,7 @@ public class meteorSplash : MonoBehaviour
         if (x.tag == "Enemy")
         {
 
-                x.SendMessage("TakeDamage", 2);
+                x.SendMessage("TakeDamage", 4);
             
 
         }
