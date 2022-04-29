@@ -16,6 +16,25 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0.164}
   m_TimeToStationary: 0.5
+--- !u!95 &6491091435199444851
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5483830786284580078}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9d9f567a29d64764f85ac3ca3f3c17d9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &5386614029455150146
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40,25 +59,6 @@ MonoBehaviour:
     type: 3}
   firePoint: {fileID: 9221010550090148280}
   anim: {fileID: 6491091435199444851}
---- !u!95 &6491091435199444851
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5483830786284580078}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 9d9f567a29d64764f85ac3ca3f3c17d9, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &5934577848349016202
 GameObject:
   m_ObjectHideFlags: 0
@@ -253,6 +253,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Catapult_Animations_Final_FBX
       objectReference: {fileID: 0}
+    - target: {fileID: 4431670454091400558, guid: 66199222be25c1b47ad49d0e0c2532ed,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5785770c55710ab468391f611d3b20cd, type: 2}
+    - target: {fileID: 8424073627695423409, guid: 66199222be25c1b47ad49d0e0c2532ed,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e4d4248ef73f0b14e8088b4193d1d2c9, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 66199222be25c1b47ad49d0e0c2532ed, type: 3}
 --- !u!1 &5483830786284580078 stripped

@@ -24869,31 +24869,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   standardTurret:
-    prefab: {fileID: 5934577848349016202, guid: 8be9786f012504a46be04284877a363e,
+    prefab: {fileID: 5934577848349016202, guid: b1190c9720bfa6a4fb73a8ae8d25ec9d,
       type: 3}
     cost: 300
-    upgradedPrefab: {fileID: 4482573658511941430, guid: 459ff206ee2bc2b4b81fc416daf9fe8f,
+    upgradedPrefab: {fileID: 5934577848349016202, guid: de436ce257b8ffa43b33779648a45cfc,
       type: 3}
     upgradeCost: 350
   Crossbow:
-    prefab: {fileID: 3359469718228537518, guid: 1489e0e9ee100e94582a52a9cf7fe9c8,
+    prefab: {fileID: 3359469718228537518, guid: b9f37ee681c5d1341b1f429413d54308,
       type: 3}
     cost: 500
-    upgradedPrefab: {fileID: 2710564274240646912, guid: a7ab3bd793f5a0f4ab1f53878778eb89,
+    upgradedPrefab: {fileID: 3359469718228537518, guid: 24e4145b841b8854198eb1d66ba952fc,
       type: 3}
     upgradeCost: 550
   spinner:
-    prefab: {fileID: 3359469718228537518, guid: 0365e76e015da2146b95b2c632c7b557,
+    prefab: {fileID: 3359469718228537518, guid: 78432b923c6418a4fbbb44e84294692d,
       type: 3}
     cost: 200
-    upgradedPrefab: {fileID: 3359469718228537518, guid: 4e911a054942c1a4497b34e7f859b8ab,
+    upgradedPrefab: {fileID: 3359469718228537518, guid: 2427886e7c26ea547bd5b5ee0644a564,
       type: 3}
     upgradeCost: 250
   canon:
-    prefab: {fileID: 3359469718228537518, guid: cbea741554a62cf4d9361b15243e2f5f,
+    prefab: {fileID: 3359469718228537518, guid: eff7208dfbf633a45bec31490c3d8e91,
       type: 3}
     cost: 400
-    upgradedPrefab: {fileID: 3359469718228537518, guid: 196bf40236e604d4f92eb443823455d1,
+    upgradedPrefab: {fileID: 3359469718228537518, guid: a7f77d7181395ed4195b36b6bb242189,
       type: 3}
     upgradeCost: 450
   wall:
@@ -26159,7 +26159,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1887885157
 RectTransform:
   m_ObjectHideFlags: 0
@@ -26176,9 +26176,9 @@ RectTransform:
   m_Father: {fileID: 1809581383}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 63.945915, y: -269.4048}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 127.8918, y: 91.404}
   m_Pivot: {x: 0.5000001, y: 0.5}
 --- !u!114 &1887885158
