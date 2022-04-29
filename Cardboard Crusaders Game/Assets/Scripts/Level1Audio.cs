@@ -10,6 +10,7 @@ public class Level1Audio : MonoBehaviour
 
     void Start()
     {
+        FindObjectOfType<AudioManager>().Stop("MenuLoop");
         FindObjectOfType<AudioManager>().Play("Level1Intro");
         constBool = false;
     }

@@ -11,8 +11,8 @@ public class GameManager : MonoBehaviour
     public static int EnemiesKilled;
     void Start()
     {
-        FindObjectOfType<AudioManager>().Play("BedroomMusic");
-        FindObjectOfType<AudioManager>().Stop("Space");
+        //FindObjectOfType<AudioManager>().Play("BedroomMusic");
+        //FindObjectOfType<AudioManager>().Stop("Space");
         gameHasEnded = false;
         gameHasWon = false;
     }

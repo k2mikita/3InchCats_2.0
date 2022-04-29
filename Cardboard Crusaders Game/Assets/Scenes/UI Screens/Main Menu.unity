@@ -1217,18 +1217,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - name: MenuIntro
-    clip: {fileID: 8300000, guid: 9f755e111bd96994aab06eb1b678af4d, type: 3}
-    volume: 0.5
-    pitch: 1
-    loop: 0
-    source: {fileID: 0}
-  - name: MenuLoop
-    clip: {fileID: 8300000, guid: ebd5b5257c41bcb40a9a3949b389fa05, type: 3}
-    volume: 0.5
-    pitch: 1
-    loop: 1
-    source: {fileID: 0}
   - name: CastleDamage1
     clip: {fileID: 8300000, guid: 943a36c0658a08d4cb766a38a45bcd45, type: 3}
     volume: 0.5
@@ -1524,13 +1512,13 @@ MonoBehaviour:
     loop: 0
     source: {fileID: 0}
   - name: Level1Loop
-    clip: {fileID: 8300000, guid: ebd5b5257c41bcb40a9a3949b389fa05, type: 3}
+    clip: {fileID: 8300000, guid: 220b0b9008b8364478093859fd54e241, type: 3}
     volume: 0.5
     pitch: 1
     loop: 1
     source: {fileID: 0}
   - name: MenuLoop
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: ebd5b5257c41bcb40a9a3949b389fa05, type: 3}
     volume: 0.5
     pitch: 1
     loop: 1
