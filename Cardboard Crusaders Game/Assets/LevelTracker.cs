@@ -27,7 +27,6 @@ public class LevelTracker : MonoBehaviour
     public void winBedroom()
     {
         Bedroom = true;
-        Debug.Log("aaaa");
     }
     public void winAttic()
     {
@@ -41,7 +40,14 @@ public class LevelTracker : MonoBehaviour
     {
         Kitchen = true;
     }
+    public void resetData()
+    {
+        Bedroom = false;
+        Attic = false;
+        Backyard = false;
+        Kitchen = false;
 
+    }
     public static bool StatusBedroom()
     {
         return Bedroom;
