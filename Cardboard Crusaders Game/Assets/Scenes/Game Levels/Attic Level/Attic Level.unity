@@ -4450,12 +4450,12 @@ PrefabInstance:
     - target: {fileID: 1998291812615048619, guid: 4c297b4dbfe4dde44bfaa686274bb196,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 504.4489
+      value: 479.77
       objectReference: {fileID: 0}
     - target: {fileID: 1998291812615048619, guid: 4c297b4dbfe4dde44bfaa686274bb196,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1998291812615048619, guid: 4c297b4dbfe4dde44bfaa686274bb196,
         type: 3}
@@ -4465,7 +4465,7 @@ PrefabInstance:
     - target: {fileID: 1998291812615048619, guid: 4c297b4dbfe4dde44bfaa686274bb196,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1998291812615048619, guid: 4c297b4dbfe4dde44bfaa686274bb196,
         type: 3}
@@ -4480,7 +4480,7 @@ PrefabInstance:
     - target: {fileID: 1998291812615048619, guid: 4c297b4dbfe4dde44bfaa686274bb196,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 180
       objectReference: {fileID: 0}
     - target: {fileID: 1998291812615048619, guid: 4c297b4dbfe4dde44bfaa686274bb196,
         type: 3}
@@ -23585,7 +23585,15 @@ MonoBehaviour:
   - WParts:
     - enemy: {fileID: 6059904603282647607, guid: b3d14101371737b41b0857121003db4e,
         type: 3}
-      count: 400
+      count: 1
+      rate: 40
+    - enemy: {fileID: 6059904603282647607, guid: 28b019d2d9b3b5046b5846928ee37255,
+        type: 3}
+      count: 1
+      rate: 40
+    - enemy: {fileID: 6059904603282647607, guid: 4f73701f464a0f742a86872e86aae084,
+        type: 3}
+      count: 1
       rate: 40
   - WParts: []
   - WParts: []
