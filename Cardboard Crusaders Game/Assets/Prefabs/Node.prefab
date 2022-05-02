@@ -108,9 +108,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f96106dd5dccff468940fbfde755a0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  waveSpawner: {fileID: 0}
   hoverColor: {r: 0, g: 1, b: 0.17519307, a: 0}
   notEnoughMoneyColor: {r: 1, g: 0, b: 0, a: 0}
   positionOffset: {x: 0, y: 0, z: 0}
+  turretBuildVFX: {fileID: 6481463739620824391, guid: 75b80d31f330fe340bf8381530261e0f,
+    type: 3}
   turret: {fileID: 0}
   turretBlueprint:
     prefab: {fileID: 0}

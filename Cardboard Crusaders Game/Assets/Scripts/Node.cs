@@ -15,6 +15,7 @@ public class Node : MonoBehaviour
     public Vector3 positionOffset;
     public static bool buildmode = false;
     private bool render = true;
+    public GameObject turretBuildVFX;
 
     [HideInInspector]
     public GameObject turret;
@@ -82,6 +83,8 @@ public class Node : MonoBehaviour
 
         PlayerStats.Money -= blueprint.cost;
         GameObject _turret = (GameObject)Instantiate(blueprint.prefab, GetBuildPosition(), Quaternion.identity);
+        //Instantiates turret  building VFX
+        Instantiate(turretBuildVFX, GetBuildPosition(), Quaternion.identity);
         turret = _turret;
 
         turretBlueprint = blueprint;
@@ -104,6 +107,8 @@ public class Node : MonoBehaviour
         Destroy(turret);
 
         GameObject _turret = (GameObject)Instantiate(turretBlueprint.upgradedPrefab, GetBuildPosition(), Quaternion.identity);
+        //Instantiates turret  building VFX
+        Instantiate(turretBuildVFX, GetBuildPosition(), Quaternion.identity);
         turret = _turret;
 
         isUpgraded = true;

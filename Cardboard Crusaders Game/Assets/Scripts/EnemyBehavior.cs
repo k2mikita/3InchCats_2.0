@@ -6,6 +6,8 @@ using UnityEngine.UI;
 public class EnemyBehavior : MonoBehaviour
 {
     public float startSpeed = 10f;
+    public GameObject ImpactVFX;
+    public GameObject target;
 
     [HideInInspector]
     public float speed;
@@ -19,6 +21,8 @@ public class EnemyBehavior : MonoBehaviour
     public bool boom = false;
     public int worth = 50;
 
+    
+
     UnityEngine.AI.NavMeshAgent x;
     bool stunned = false;
     int timer = 0;
@@ -28,6 +32,7 @@ public class EnemyBehavior : MonoBehaviour
    public Image healthBar;
 
     private bool isDead = false;
+    
 
 
     //call Animator
@@ -88,6 +93,7 @@ public class EnemyBehavior : MonoBehaviour
 
         Debug.Log("Enemy Dead:" + WaveSpawner.EnemiesKilled);
 
+        // Add Enemy Death VFX here
         Destroy(gameObject);
     }
 
@@ -105,8 +111,9 @@ public class EnemyBehavior : MonoBehaviour
 
                 //Attack Animation bool
                 anim.SetBool("isAttacking", true);
-                
-                
+                // Instantiate Castle Impact VFX
+                Instantiate(ImpactVFX, target.transform.position, target.transform.rotation);
+
                 int num = Random.Range(1, 13);
                 //play collision sounds
                 if (num == 1)
