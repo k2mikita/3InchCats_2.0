@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 899978405}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.2659928, y: 0.2659928, z: 0.2659928}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 3017696336086138589}
   m_RootOrder: 3
@@ -4907,7 +4907,7 @@ Transform:
   m_GameObject: {fileID: 1452511746713131776}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.2659928, y: 0.2659928, z: 0.2659928}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 3017696336086138589}
   m_RootOrder: 1
@@ -9787,7 +9787,7 @@ Transform:
   m_GameObject: {fileID: 3306955435110960703}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.75586, y: 0.75586, z: 0.75586}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 3017696336086138589}
   m_RootOrder: 0
@@ -14649,6 +14649,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3017696336086138589}
+  - component: {fileID: 3310572385574246165}
   m_Layer: 0
   m_Name: CastleHitImpact VFX
   m_TagString: Untagged
@@ -14675,6 +14676,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3310572385574246165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5529669765663685590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfc4402bc2e4e004bb4deb8e1cccd3f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6423100141040248820
 GameObject:
   m_ObjectHideFlags: 0
@@ -14702,7 +14715,7 @@ Transform:
   m_GameObject: {fileID: 6423100141040248820}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.2645359, y: 0.2645359, z: 0.2645359}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 3017696336086138589}
   m_RootOrder: 4
@@ -19564,7 +19577,7 @@ Transform:
   m_GameObject: {fileID: 7889545878707833957}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.2659928, y: 0.2659928, z: 0.2659928}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 3017696336086138589}
   m_RootOrder: 2

@@ -30937,7 +30937,8 @@ MonoBehaviour:
     prefab: {fileID: 4482573658511941430, guid: edc3f52e9f5e3eb4892658d25f365029,
       type: 3}
     cost: 50
-    upgradedPrefab: {fileID: 0}
+    upgradedPrefab: {fileID: 4482573658511941430, guid: edc3f52e9f5e3eb4892658d25f365029,
+      type: 3}
     upgradeCost: 0
 --- !u!1 &4981471006574818346
 GameObject:
