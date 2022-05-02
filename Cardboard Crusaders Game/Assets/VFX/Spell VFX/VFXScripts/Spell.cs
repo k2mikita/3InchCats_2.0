@@ -11,7 +11,7 @@ public class Spell : MonoBehaviour
     public GameObject targetCircle;
     bool offcooldown = true;
     public Canvas spellCanvas;
-
+    float cdtimer = 0;
     public GameObject MeteorDamage;
 
     // Start is called before the first frame update
@@ -25,12 +25,6 @@ public class Spell : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        GetInput();
-    }
-
-    void GetInput()
-    {
-        
         if (Input.GetMouseButtonDown(1))
         {
             SpellCircle();
@@ -39,9 +33,16 @@ public class Spell : MonoBehaviour
 
         if (Input.GetMouseButtonUp(1) && offcooldown)
         {
-         
+            Debug.Log("a");
+            offcooldown = false;
             SpellCast();
         }
+    }
+
+    void GetInput()
+    {
+        
+        
         
     }
 
@@ -54,16 +55,27 @@ public class Spell : MonoBehaviour
 
     void SpellCast()
     {
+        cdtimer = 20;
         StartCoroutine(Cooldown());
         Instantiate(spellVFX, target.transform.position, target.transform.rotation);
         Instantiate(MeteorDamage, target.transform.position, target.transform.rotation);
         targetCircle.SetActive(false);
-        offcooldown = false;
+        
+
 
     }    
     private IEnumerator Cooldown()
     {
-        yield return new WaitForSeconds(4);
+        yield return new WaitForSeconds(10);
+
         offcooldown = true;
+    }
+    void OnGUI()
+    {
+        if (!offcooldown)
+        {
+            GUI.Label(new Rect(Screen.width - 100, Screen.height - 100, 100, 20), (cdtimer/2).ToString());
+            cdtimer -= Time.deltaTime;
+        }
     }
 }

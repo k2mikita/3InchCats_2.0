@@ -123,7 +123,6 @@ public class BasicBehaviour : MonoBehaviour
 			timer++;
 			if (timer == 60)
 			{
-				Debug.Log("bash over");
 				timer = 0;
 				bashing = false;
 				anim.SetBool("Bashing", false);

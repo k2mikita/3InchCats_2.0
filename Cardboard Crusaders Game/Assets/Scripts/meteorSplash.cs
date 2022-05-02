@@ -32,7 +32,6 @@ public class meteorSplash : MonoBehaviour
     }
     private void OnTriggerStay(Collider x)
     {
-        Debug.Log("a");
         if (x.tag == "Enemy")
         {
 
