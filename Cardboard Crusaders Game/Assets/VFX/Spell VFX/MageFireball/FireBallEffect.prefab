@@ -14423,6 +14423,7 @@ GameObject:
   - component: {fileID: 6756900743573701416}
   - component: {fileID: 7380877326083692533}
   - component: {fileID: 5129260808689335223}
+  - component: {fileID: 6277228366049844194}
   m_Layer: 0
   m_Name: FireBallEffect
   m_TagString: Untagged
@@ -14473,11 +14474,23 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6756900743573701417}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.0956052
+  m_Radius: 0.0556052
   m_Center: {x: 3, y: 0, z: 1.4210841e-14}
+--- !u!114 &6277228366049844194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6756900743573701417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 247178aee3315c14ea7532d918d10198, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6756900743845308178
 GameObject:
   m_ObjectHideFlags: 0

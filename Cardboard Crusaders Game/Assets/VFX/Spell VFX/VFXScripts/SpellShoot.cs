@@ -8,7 +8,7 @@ public class SpellShoot : MonoBehaviour
     private Vector3 destination;
     public Transform firePoint;
     public float projectileSpeed = 10f;
-
+    public LayerMask Ignoreme;
     public GameObject SingleSpellVFX;
     //public GameObject SpellSpawn;
 
@@ -30,10 +30,12 @@ public class SpellShoot : MonoBehaviour
 
     void ShootSpell()
     {
+
         Ray ray = cam.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0));
+
         RaycastHit hit;
 
-        if(Physics.Raycast(ray, out hit))
+        if(Physics.Raycast(ray, out hit, ~Ignoreme))
         {
             destination = hit.point;
         }
