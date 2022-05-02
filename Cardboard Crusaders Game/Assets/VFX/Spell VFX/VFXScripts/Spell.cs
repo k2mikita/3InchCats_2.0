@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -74,7 +75,7 @@ public class Spell : MonoBehaviour
     {
         if (!offcooldown)
         {
-            GUI.Label(new Rect(Screen.width - 100, Screen.height - 100, 100, 20), (cdtimer/2).ToString());
+            GUI.Label(new Rect(Screen.width - 100, Screen.height - 100, 100, 20), Math.Ceiling((cdtimer/2)).ToString());
             cdtimer -= Time.deltaTime;
         }
     }

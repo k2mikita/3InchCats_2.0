@@ -438,7 +438,7 @@ MonoBehaviour:
   startHealth: 1
   attackDamage: 8
   attackSpeed: 3
-  attackCooldown: 1e+9
+  attackCooldown: 1
   boom: 1
   worth: 15
   healthBar: {fileID: 966740628155583442}

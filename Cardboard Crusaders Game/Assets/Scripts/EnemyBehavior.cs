@@ -96,9 +96,10 @@ public class EnemyBehavior : MonoBehaviour
     {
         if (collision.gameObject.tag.Equals("Castle") == true)
         {
-          
+           
             if (attackCooldown <= 0f)
             {
+
                 PlayerStats.Lives -= attackDamage;
                 attackCooldown = 1f / attackSpeed;
 
@@ -160,14 +161,15 @@ public class EnemyBehavior : MonoBehaviour
                 {
                     FindObjectOfType<AudioManager>().Play("CastleDamage13");
                 }
+                if (boom)
+                {
+
+                    Die();
+                }
             }
 
             attackCooldown -= Time.deltaTime;
-            if (boom)
-            {
-
-                StartCoroutine("Fuse");
-            }
+            
              
         }
     }
