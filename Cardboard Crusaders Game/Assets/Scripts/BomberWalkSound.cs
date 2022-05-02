@@ -26,4 +26,14 @@ public class BomberWalkSound : MonoBehaviour
         
 
     }
+    public void BombStepStop()
+    {
+       
+            FindObjectOfType<AudioManager>().Stop("BomberWalk1");
+       
+            FindObjectOfType<AudioManager>().Stop("BomberWalk2");
+        
+
+
+    }
 }

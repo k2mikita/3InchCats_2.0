@@ -58,7 +58,15 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 0.19691311
+        functionName: CrossbowShoot
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: fab3c4ba9f6e92a4e8c7f5055eb1dc74,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}

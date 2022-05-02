@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Level1Audio : MonoBehaviour
+public class Level3Audio : MonoBehaviour
 {
     public bool constBool = false;
 
@@ -18,16 +18,15 @@ public class Level1Audio : MonoBehaviour
     void Update()
     {
         introTimer -= Time.deltaTime;
-        if (introTimer <= 0  && constBool == false)
+        if (introTimer <= 0 && constBool == false)
         {
-            Level1Loop();
+            Level3Loop();
             constBool = true;
         }
     }
-    
-    public void Level1Loop()
+
+    public void Level3Loop()
     {
         FindObjectOfType<AudioManager>().Play("Level1Loop");
     }
-    
 }

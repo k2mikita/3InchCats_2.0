@@ -1419,31 +1419,31 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 37c42659bc606f847b139aa3af987be9, type: 3}
     volume: 0.5
     pitch: 1
-    loop: 0
+    loop: 1
     source: {fileID: 0}
   - name: BomberWalk2
     clip: {fileID: 8300000, guid: dd195ce47e2f764469c09fde7d63312a, type: 3}
     volume: 0.5
     pitch: 1
-    loop: 0
+    loop: 1
     source: {fileID: 0}
   - name: FuzzclopsWalk1
     clip: {fileID: 8300000, guid: b722e2433354a9b49a4307c0d50f34ab, type: 3}
     volume: 0.5
     pitch: 1
-    loop: 0
+    loop: 1
     source: {fileID: 0}
   - name: FuzzclopsWalk2
     clip: {fileID: 8300000, guid: fda64ff78ee709f4a8a9f232c95cd066, type: 3}
     volume: 0.5
     pitch: 1
-    loop: 0
+    loop: 1
     source: {fileID: 0}
   - name: FuzzclopsWalk3
     clip: {fileID: 8300000, guid: 6e856f0679022c44fabc462597e7f692, type: 3}
     volume: 0.5
     pitch: 1
-    loop: 0
+    loop: 1
     source: {fileID: 0}
   - name: FuzzclopsDeath1
     clip: {fileID: 8300000, guid: 5f37a888c26cdd442879d729a8ab0766, type: 3}
@@ -1505,12 +1505,6 @@ MonoBehaviour:
     pitch: 1
     loop: 0
     source: {fileID: 0}
-  - name: Level1Intro
-    clip: {fileID: 8300000, guid: 9f755e111bd96994aab06eb1b678af4d, type: 3}
-    volume: 0.5
-    pitch: 1
-    loop: 0
-    source: {fileID: 0}
   - name: Level1Loop
     clip: {fileID: 8300000, guid: 220b0b9008b8364478093859fd54e241, type: 3}
     volume: 0.5
@@ -1525,9 +1519,27 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: MenuIntro
     clip: {fileID: 8300000, guid: 9f755e111bd96994aab06eb1b678af4d, type: 3}
+    volume: 0.507
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Level2Loop
+    clip: {fileID: 8300000, guid: e0845790ccba8d242b69863ff581d3e3, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: BossIntro
+    clip: {fileID: 8300000, guid: ee984a9486ee3fe4c97c0c2726c2dbec, type: 3}
     volume: 0.5
     pitch: 1
     loop: 0
+    source: {fileID: 0}
+  - name: BossLoop
+    clip: {fileID: 8300000, guid: 79c465b696ce98f4f99ed642166092b8, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 1
     source: {fileID: 0}
 --- !u!82 &864110548
 AudioSource:
@@ -2167,6 +2179,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1225036893}
   m_CullTransparentMesh: 1
+--- !u!1 &1285576283
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1285576285}
+  - component: {fileID: 1285576284}
+  m_Layer: 0
+  m_Name: AudioObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1285576284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1285576283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a0c7fa26450d6642a3267288b3b2474, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  introTimer: 1
+  menuBool: 0
+--- !u!4 &1285576285
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1285576283}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 605.08777, y: 208.88367, z: 223.22371}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1288744359
 GameObject:
   m_ObjectHideFlags: 0
@@ -2652,7 +2709,6 @@ GameObject:
   - component: {fileID: 1744515358}
   - component: {fileID: 1744515357}
   - component: {fileID: 1744515356}
-  - component: {fileID: 1744515359}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2725,20 +2781,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1744515359
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1744515355}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a0c7fa26450d6642a3267288b3b2474, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  introTimer: 13.035
-  menuBool: 0
 --- !u!1 &1776010685
 GameObject:
   m_ObjectHideFlags: 0

@@ -29,4 +29,15 @@ public class FuzzWalkSound : MonoBehaviour
         }
         
     }
+    public void FuzzStepStop()
+    {
+       
+            FindObjectOfType<AudioManager>().Stop("FuzzclopsWalk1");
+       
+            FindObjectOfType<AudioManager>().Stop("FuzzclopsWalk2");
+       
+            FindObjectOfType<AudioManager>().Stop("FuzzclopsWalk3");
+        
+
+    }
 }

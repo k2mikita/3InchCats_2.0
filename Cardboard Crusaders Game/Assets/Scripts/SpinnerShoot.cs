@@ -11,14 +11,16 @@ public class SpinnerShoot : MonoBehaviour
     {
         //int num = Random.Range(1, 8);
         //play collision sounds
-        /*if (Turret.targetEnemy != null)
-        {
-            FindObjectOfType<AudioManager>().Play("FidgetSpinner1");
-        }
-        else
-        {
-            FindObjectOfType<AudioManager>().Stop("FidgetSpinner1");
-        }*/
         
+            FindObjectOfType<AudioManager>().Play("FidgetSpinner1");
+        
+    }
+    public void SpinShootStop()
+    {
+        //int num = Random.Range(1, 8);
+        //play collision sounds
+
+        FindObjectOfType<AudioManager>().Stop("FidgetSpinner1");
+
     }
 }

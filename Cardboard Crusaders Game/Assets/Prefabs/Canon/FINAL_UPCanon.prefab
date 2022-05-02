@@ -214,6 +214,18 @@ MonoBehaviour:
     type: 3}
   firePoint: {fileID: 1723079634213560258}
   anim: {fileID: 4071721760886009137}
+--- !u!114 &3510110590163375252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8111021048886272452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b70086843a614ff4d88e06b96269dac5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &9061155808243768890
 GameObject:
   m_ObjectHideFlags: 0
