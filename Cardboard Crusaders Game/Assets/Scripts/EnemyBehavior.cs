@@ -21,7 +21,7 @@ public class EnemyBehavior : MonoBehaviour
     public bool boom = false;
     public int worth = 50;
 
-    
+    bool slowed;
 
     UnityEngine.AI.NavMeshAgent x;
     bool stunned = false;
@@ -193,7 +193,23 @@ public class EnemyBehavior : MonoBehaviour
         }
         
     }
-private IEnumerator Fuse()
+    private void OnTriggerEnter(Collider y)
+    {
+        Debug.Log("a");
+        if (y.gameObject.tag == "mudZone")
+        {
+            x.speed = speed/2;
+        }
+    }
+    private void OnTriggerExit(Collider y)
+    {
+        Debug.Log("b");
+        if (y.gameObject.tag == "mudZone")
+        {
+            x.speed = speed;
+        }
+    }
+    private IEnumerator Fuse()
 {
     yield return new WaitForSeconds(3);
     Die();
