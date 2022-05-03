@@ -30,11 +30,16 @@ public class WaveSpawner : MonoBehaviour
 	public int waveIndex = 0;
 
 	public int wincondition;
+	bool fireonce = true;
+
+	public GameObject dragonAttack;
+	public GameObject dragonAttackvfx;
 
 	void Start()
     {
 		EnemiesKilled = 0;
 		EnemiesAlive = 0;
+
 	}
 
 	void Update()
@@ -72,6 +77,11 @@ public class WaveSpawner : MonoBehaviour
 		if (countdown <= 0f)
 		{
 			StartCoroutine(SpawnWave());
+			if (LevelName == "Attic" && fireonce)
+            {
+				StartCoroutine(spawnAttacks());
+				fireonce = false;
+			}
 			countdown = timeBetweenWaves;
 			//Debug.Log("Clock reset");
 			return;
@@ -121,6 +131,19 @@ public class WaveSpawner : MonoBehaviour
 		Instantiate(enemy, spawnPoint[x].position, spawnPoint[x].rotation);
 		EnemiesAlive++;
 	}
-	
+	private IEnumerator spawnAttacks()
+    {
+
+		GameObject[] nodes = GameObject.FindGameObjectsWithTag("Node");
+		for (int i = 0; i < 12; i++)
+        {
+			int x = Random.Range(0, nodes.Length);
+			Instantiate(dragonAttack, nodes[x].transform.position, nodes[x].transform.rotation);
+			Instantiate(dragonAttackvfx, nodes[x].transform.position, nodes[x].transform.rotation);
+		}
+
+		yield return new WaitForSeconds(10);
+		StartCoroutine(spawnAttacks());
+	}
 
 }

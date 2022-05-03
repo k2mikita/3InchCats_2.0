@@ -29,7 +29,7 @@ public class meteorSplash : MonoBehaviour
         if (delay)
         {
             
-                if (timer == 10)
+                if (timer == 3)
             {
                 Destroy(gameObject);
             }
@@ -47,7 +47,7 @@ public class meteorSplash : MonoBehaviour
             
 
         }
-        timer = 10;
+        timer = 3;
     }
     private IEnumerator timedelay()
     {

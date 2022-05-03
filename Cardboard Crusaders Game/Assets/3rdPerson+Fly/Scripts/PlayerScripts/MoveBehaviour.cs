@@ -1,4 +1,7 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
 
 // MoveBehaviour inherits from GenericBehaviour. This class corresponds to basic walk and run behaviour, it is the default behaviour.
 public class MoveBehaviour : GenericBehaviour
@@ -16,7 +19,7 @@ public class MoveBehaviour : GenericBehaviour
 	private int groundedBool;                       // Animator variable related to whether or not the player is on ground.
 	private bool jump;                              // Boolean to determine whether or not the player started a jump.
 	private bool isColliding;                       // Boolean to determine if the player has collided with an obstacle.
-
+	private bool stunned = false;
 
 	private bool slowed = false;
 
@@ -139,12 +142,15 @@ public class MoveBehaviour : GenericBehaviour
 			speed = (speed / 2);
 			
         }
-
+		if (stunned)
+        {
+			speed = 0;
+        }
 		// This is for PC only, gamepads control speed via analog stick.
 		speedSeeker += Input.GetAxis("Mouse ScrollWheel");
 		speedSeeker = Mathf.Clamp(speedSeeker, walkSpeed, runSpeed);
 		speed *= speedSeeker;
-		if (behaviourManager.IsSprinting() && !slowed)
+		if (behaviourManager.IsSprinting() && !slowed && !stunned)
 		{
 			speed = sprintSpeed;
 		}
@@ -231,12 +237,22 @@ public class MoveBehaviour : GenericBehaviour
         {
 			slowed = true;
         }
-    }
+		if (x.gameObject.tag == "stunZone" && !stunned)
+		{
+			stunned = true;
+			StartCoroutine(stunTimer());
+		}
+	}
 	private void OnTriggerExit(Collider x)
 	{
 		if (x.gameObject.tag == "mudZone")
 		{
 			slowed = false;
 		}
+	}
+	private IEnumerator stunTimer()
+    {
+		yield return new WaitForSeconds(3);
+		stunned = false;
 	}
 }

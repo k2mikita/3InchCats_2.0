@@ -13,6 +13,8 @@ TagManager:
   - iceFloor
   - AudioManager
   - Follow
+  - stunZone
+  - Node
   layers:
   - Default
   - TransparentFX
