@@ -87,6 +87,8 @@ public class Node : MonoBehaviour
         Instantiate(turretBuildVFX, GetBuildPosition(), Quaternion.identity);
         turret = _turret;
 
+        FindObjectOfType<AudioManager>().Play("TowerPlace");
+
         turretBlueprint = blueprint;
 
         Debug.Log("Turret built! Money left: " + PlayerStats.Money);
@@ -111,6 +113,17 @@ public class Node : MonoBehaviour
         Instantiate(turretBuildVFX, GetBuildPosition(), Quaternion.identity);
         turret = _turret;
 
+        int num = Random.Range(1, 2);
+        //play collision sounds
+        if (num == 1)
+        {
+            FindObjectOfType<AudioManager>().Play("Select1");
+        }
+        if (num == 2)
+        {
+            FindObjectOfType<AudioManager>().Play("Select2");
+        }
+
         isUpgraded = true;
 
         Debug.Log("Turret upgraded! Money left: " + PlayerStats.Money);
@@ -120,7 +133,16 @@ public class Node : MonoBehaviour
     {
         PlayerStats.Money += turretBlueprint.GetSellAmount();
 
-        
+        int num = Random.Range(1, 2);
+        //play collision sounds
+        if (num == 1)
+        {
+            FindObjectOfType<AudioManager>().Play("Select1");
+        }
+        if (num == 2)
+        {
+            FindObjectOfType<AudioManager>().Play("Select2");
+        }
 
         Destroy(turret);
         render = true;
