@@ -3854,7 +3854,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 441331445937a7c45b5b9c2378da0132, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startMoney: 1000
+  startMoney: 10000
   startLives: 100
 --- !u!1001 &258981453
 PrefabInstance:
@@ -24741,17 +24741,21 @@ MonoBehaviour:
   - WParts:
     - enemy: {fileID: 6059904603282647607, guid: b3d14101371737b41b0857121003db4e,
         type: 3}
-      count: 1
+      count: 120
       rate: 40
     - enemy: {fileID: 6059904603282647607, guid: 28b019d2d9b3b5046b5846928ee37255,
         type: 3}
-      count: 1
+      count: 40
       rate: 40
     - enemy: {fileID: 6059904603282647607, guid: 4f73701f464a0f742a86872e86aae084,
         type: 3}
+      count: 40
+      rate: 40
+  - WParts:
+    - enemy: {fileID: 6059904603282647607, guid: d968370365798fc4c943b686c82bcc05,
+        type: 3}
       count: 1
       rate: 40
-  - WParts: []
   - WParts: []
   spawnPoint:
   - {fileID: 1885137204}
@@ -24762,7 +24766,7 @@ MonoBehaviour:
   - {fileID: 2060614254}
   - {fileID: 1379199896}
   timeBetweenWaves: 15
-  countdown: 1
+  countdown: 30
   waveCountdownText: {fileID: 1723146799}
   waveIndex: 0
   wincondition: 400

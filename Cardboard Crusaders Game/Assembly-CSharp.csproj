@@ -92,6 +92,7 @@
      <Compile Include="Assets\Scripts\Billboard.cs" />
      <Compile Include="Assets\Scenes\UI Screens\UI Scripts\CreditsMenu.cs" />
      <Compile Include="Assets\Scripts\Turrets\Bullet.cs" />
+     <Compile Include="Assets\Scripts\delayBossAttack.cs" />
      <Compile Include="Assets\3rdPerson+Fly\Scripts\PlayerScripts\MoveBehaviour.cs" />
      <Compile Include="Assets\VFX\Spell VFX\VFXScripts\DestroySelfOverTime.cs" />
      <Compile Include="Assets\Scripts\AudioSound.cs" />
@@ -127,7 +128,6 @@
      <Compile Include="Assets\Scripts\LevelSounds\Level3Audio.cs" />
      <Compile Include="Assets\VFX\Spell VFX\VFXScripts\METEORDestroySelfOverTime.cs" />
      <Compile Include="Assets\VFX\Spell VFX\VFXScripts\SpellDragon.cs" />
-     <Compile Include="Assets\Scripts\delayBossAttack.cs" />
      <None Include="Assets\VFX\Spell VFX\SpellMaterial\Shader_ForEffects\Shader_Decal.shader" />
      <None Include="Assets\QuickOutline\Resources\Shaders\OutlineMask.shader" />
      <None Include="Assets\VFX\Spell VFX\SpellMaterial\Shader_ForEffects\Shader_DistortionEffect.shader" />

@@ -158,7 +158,10 @@ public class WaveSpawner : MonoBehaviour
 		}
 
 		yield return new WaitForSeconds(10);
-		StartCoroutine(spawnAttacks());
+		if (EnemiesKilled <= wincondition/2)
+		{
+			StartCoroutine(spawnAttacks());
+		}
 	}
 
 }

@@ -33,7 +33,12 @@ public class EnemyBehavior : MonoBehaviour
    public Image healthBar;
 
     private bool isDead = false;
-    
+
+    public bool Boss = false;
+    int attackNumber = 0;
+    public GameObject dragonAttack;
+    public GameObject dragonAttackvfx;
+
 
 
     //call Animator
@@ -65,6 +70,40 @@ public class EnemyBehavior : MonoBehaviour
                 timer = 0;
             }
         }
+
+        if (Boss)
+        {
+            if ((attackNumber == 5 )&& health < 11)
+            {
+                spawnAttacks();
+
+            }
+            if ((attackNumber == 4) && health < 26)
+            {
+                spawnAttacks();
+                attackNumber++;
+            }
+            if ((attackNumber == 3) && health < 41)
+            {
+                spawnAttacks();
+                attackNumber++;
+            }
+            if ((attackNumber == 2) && health < 56)
+            {
+                spawnAttacks();
+                attackNumber++;
+            }
+            if ((attackNumber == 1) && health < 71)
+            {
+                spawnAttacks();
+                attackNumber++;
+            }
+            if ((attackNumber == 0) && health < 86){
+                spawnAttacks();
+                attackNumber++;
+            }
+        }
+
     }
 
     public void TakeDamage(int amount)
@@ -211,6 +250,32 @@ public class EnemyBehavior : MonoBehaviour
         if (y.gameObject.tag == "mudZone")
         {
             x.speed = speed;
+        }
+    }
+    private void spawnAttacks()
+    {
+
+        GameObject[] nodes = GameObject.FindGameObjectsWithTag("Node");
+        for (int i = 0; i < 24; i++)
+        {
+            int x = Random.Range(0, nodes.Length);
+            Instantiate(dragonAttack, nodes[x].transform.position, nodes[x].transform.rotation);
+            Instantiate(dragonAttackvfx, nodes[x].transform.position, nodes[x].transform.rotation);
+
+            int num = Random.Range(1, 3);
+            //play collision sounds
+            if (num == 1)
+            {
+                FindObjectOfType<AudioManager>().Play("BossAttack1");
+            }
+            if (num == 2)
+            {
+                FindObjectOfType<AudioManager>().Play("BossAttack2");
+            }
+            if (num == 3)
+            {
+                FindObjectOfType<AudioManager>().Play("BossAttack3");
+            }
         }
     }
 }

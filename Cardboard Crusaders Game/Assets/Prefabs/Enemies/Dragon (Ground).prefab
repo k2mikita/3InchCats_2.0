@@ -425,6 +425,11 @@ MonoBehaviour:
   worth: 2147483647
   deathSound: BossDeathMaybe
   healthBar: {fileID: 966740628155583442}
+  Boss: 1
+  dragonAttack: {fileID: 8092817153108725434, guid: c28346afdb84ab849a579209d823b297,
+    type: 3}
+  dragonAttackvfx: {fileID: 8857606528426141988, guid: 9d88218d7feb4be499604a9dfcfbf01f,
+    type: 3}
   anim: {fileID: 0}
 --- !u!1001 &6893961372423580531
 PrefabInstance:
