@@ -458,7 +458,7 @@ MonoBehaviour:
   attackCooldown: 1
   boom: 1
   worth: 15
-  deathSound: 
+  deathSound: BomberDeath
   healthBar: {fileID: 966740628155583442}
   anim: {fileID: 2716741576646581146}
 --- !u!1001 &1479256756462617477

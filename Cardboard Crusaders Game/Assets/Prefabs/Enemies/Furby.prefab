@@ -459,7 +459,7 @@ MonoBehaviour:
   attackCooldown: 1
   boom: 0
   worth: 25
-  deathSound: 
+  deathSound: FuzzclopsDeath1
   healthBar: {fileID: 966740628155583442}
   anim: {fileID: 7107764607424887683}
 --- !u!95 &1748663212555599692

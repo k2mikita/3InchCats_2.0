@@ -457,7 +457,7 @@ MonoBehaviour:
   attackCooldown: 1
   boom: 0
   worth: 30
-  deathSound: 
+  deathSound: BearDeath
   healthBar: {fileID: 966740628155583442}
   anim: {fileID: 7798273453736186569}
 --- !u!1001 &1641191459282858318

@@ -140,6 +140,21 @@ public class WaveSpawner : MonoBehaviour
 			int x = Random.Range(0, nodes.Length);
 			Instantiate(dragonAttack, nodes[x].transform.position, nodes[x].transform.rotation);
 			Instantiate(dragonAttackvfx, nodes[x].transform.position, nodes[x].transform.rotation);
+
+			int num = Random.Range(1, 3);
+			//play collision sounds
+			if (num == 1)
+			{
+				FindObjectOfType<AudioManager>().Play("BossAttack1");
+			}
+			if (num == 2)
+			{
+				FindObjectOfType<AudioManager>().Play("BossAttack2");
+			}
+			if (num == 3)
+			{
+				FindObjectOfType<AudioManager>().Play("BossAttack3");
+			}
 		}
 
 		yield return new WaitForSeconds(10);

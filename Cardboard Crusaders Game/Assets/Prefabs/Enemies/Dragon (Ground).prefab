@@ -413,6 +413,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startSpeed: 3
+  ImpactVFX: {fileID: 0}
+  DeathVFX: {fileID: 0}
+  target: {fileID: 0}
   speed: 0
   startHealth: 100
   attackDamage: 25
@@ -420,7 +423,9 @@ MonoBehaviour:
   attackCooldown: 1
   boom: 0
   worth: 2147483647
+  deathSound: BossDeathMaybe
   healthBar: {fileID: 966740628155583442}
+  anim: {fileID: 0}
 --- !u!1001 &6893961372423580531
 PrefabInstance:
   m_ObjectHideFlags: 0
