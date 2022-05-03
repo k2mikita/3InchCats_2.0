@@ -22,7 +22,7 @@ public class EnemyBehavior : MonoBehaviour
     public int worth = 50;
 
     bool slowed;
-
+    public string deathSound;
     UnityEngine.AI.NavMeshAgent x;
     bool stunned = false;
     int timer = 0;
@@ -46,6 +46,7 @@ public class EnemyBehavior : MonoBehaviour
         health = startHealth;
         x = gameObject.GetComponent<UnityEngine.AI.NavMeshAgent>();
         x.speed = speed;
+
      //   anim = GetComponent<Animator>();
         anim.SetBool("isAttacking", false);
     }
@@ -85,7 +86,7 @@ public class EnemyBehavior : MonoBehaviour
     void Die()
     {
         isDead = true;
-
+        FindObjectOfType<AudioManager>().Play(deathSound);
         PlayerStats.Money += worth;
         WaveSpawner.EnemiesAlive--;
         WaveSpawner.EnemiesAlive--;
@@ -170,6 +171,7 @@ public class EnemyBehavior : MonoBehaviour
                 }
                 if (boom)
                 {
+                    FindObjectOfType<AudioManager>().Play("BomberAttack");
 
                     Die();
                 }
@@ -209,13 +211,6 @@ public class EnemyBehavior : MonoBehaviour
             x.speed = speed;
         }
     }
-    private IEnumerator Fuse()
-{
-    yield return new WaitForSeconds(1);
-        FindObjectOfType<AudioManager>().Play("BomberAttack");
-        yield return new WaitForSeconds(2);
-    Die();
-}
 }
 
 
