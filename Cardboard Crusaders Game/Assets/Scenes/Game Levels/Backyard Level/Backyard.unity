@@ -1858,7 +1858,7 @@ MonoBehaviour:
   - {fileID: 1515285080}
   - {fileID: 1014924810}
   timeBetweenWaves: 15
-  countdown: 30
+  countdown: 1
   waveCountdownText: {fileID: 1766730622}
   waveIndex: 0
   wincondition: 259

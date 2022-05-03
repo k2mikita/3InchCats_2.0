@@ -129,8 +129,9 @@
     <Compile Include="Assets\Scenes\UI Screens\UI Scripts\ControlsMenu.cs" />
     <Compile Include="Assets\Scenes\UI Screens\UI Scripts\LevelSelectMenu.cs" />
     <Compile Include="Assets\Scripts\LevelSounds\Level3Audio.cs" />
-    <Compile Include="Assets\VFX\Spell VFX\VFXScripts\SpellDragon.cs" />
     <Compile Include="Assets\VFX\Spell VFX\VFXScripts\METEORDestroySelfOverTime.cs" />
+    <Compile Include="Assets\VFX\Spell VFX\VFXScripts\SpellDragon.cs" />
+    <Compile Include="Assets\QuickOutline\Scripts\RangeCircle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\VFX\Spell VFX\SpellMaterial\Shader_ForEffects\Shader_Decal.shader" />

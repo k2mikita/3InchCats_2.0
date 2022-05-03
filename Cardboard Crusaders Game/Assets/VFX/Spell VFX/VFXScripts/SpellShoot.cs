@@ -10,6 +10,7 @@ public class SpellShoot : MonoBehaviour
     public float projectileSpeed = 10f;
     public LayerMask Ignoreme;
     public GameObject SingleSpellVFX;
+    public bool altDown;
     //public GameObject SpellSpawn;
 
     
@@ -24,6 +25,7 @@ public class SpellShoot : MonoBehaviour
     void Update()
     {
         ShootSpell();
+        CanShoot();
         
     }
 
@@ -44,7 +46,7 @@ public class SpellShoot : MonoBehaviour
             destination = ray.GetPoint(1000);
         }
 
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && altDown == false)
         {
             InstantiateSpell(firePoint);
 
@@ -75,12 +77,18 @@ public class SpellShoot : MonoBehaviour
         var projectileObj = Instantiate(SingleSpellVFX, firePoint.position, Quaternion.Euler(new Vector3(0,90,0)));
         projectileObj.GetComponent<Rigidbody>().velocity = (destination - firePoint.position).normalized * projectileSpeed;
     }
-    void GetInput()
+    void CanShoot()
     {
 
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetKey(KeyCode.LeftAlt))
         {
-            
+
+            altDown = true;
+
+        }
+        else
+        {
+            altDown = false;
         }
 
 

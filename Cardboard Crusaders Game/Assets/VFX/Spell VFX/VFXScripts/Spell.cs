@@ -14,6 +14,7 @@ public class Spell : MonoBehaviour
     public Canvas spellCanvas;
     float cdtimer = 0;
     public GameObject MeteorDamage;
+    public bool altDown;
 
     
 
@@ -30,13 +31,13 @@ public class Spell : MonoBehaviour
     {
         
 
-        if (Input.GetMouseButtonDown(1))
+        if (Input.GetMouseButtonDown(1) && altDown == false)
         {
             SpellCircle();
         }
 
 
-        if (Input.GetMouseButtonUp(1) && offcooldown)
+        if (Input.GetMouseButtonUp(1) && offcooldown && altDown == false)
         {
             Debug.Log("a");
             offcooldown = false;
@@ -47,14 +48,29 @@ public class Spell : MonoBehaviour
             StartCoroutine(Sound());
         }
 
+        CanShoot();
         
+
+            
+
+
     }
 
-    void GetInput()
+    void CanShoot()
     {
-        
-        
-        
+
+        if (Input.GetKey(KeyCode.LeftAlt))
+        {
+
+            altDown = true;
+
+        }
+        else
+        {
+            altDown = false;
+        }
+
+
     }
 
     void SpellCircle()

@@ -448,6 +448,8 @@ MonoBehaviour:
   startSpeed: 10
   ImpactVFX: {fileID: 1008128114450027341, guid: ff0a0b6b95adf3f43b7477a925f9e61b,
     type: 3}
+  DeathVFX: {fileID: 1940738162126258967, guid: e43bc64901559aa46ac4659a255a6a7c,
+    type: 3}
   target: {fileID: 5703470256324836442}
   speed: 0
   startHealth: 1

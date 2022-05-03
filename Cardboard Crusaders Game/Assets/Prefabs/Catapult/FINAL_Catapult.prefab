@@ -84,9 +84,10 @@ GameObject:
   - component: {fileID: 8026546302081041475}
   - component: {fileID: -1380335457065103047}
   - component: {fileID: -8278992964872504753}
+  - component: {fileID: 1708854998677890196}
   m_Layer: 0
   m_Name: FINAL_Catapult
-  m_TagString: Untagged
+  m_TagString: tower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -102,7 +103,6 @@ Transform:
   m_LocalPosition: {x: -3.5985718, y: 2.356804, z: 1.0355988}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 8365607517295249989}
   - {fileID: 5139077384399992404}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -169,6 +169,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 867c6fbcb2e980545813738565455cb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1708854998677890196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5934577848349016202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63eb01e533145b8448c7155e1cdd75d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   targetCircle: {fileID: 6432262861067173923}
 --- !u!1 &6432262861067173923
 GameObject:
@@ -196,10 +208,10 @@ Transform:
   m_GameObject: {fileID: 6432262861067173923}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.3, y: 1.2999998, z: 1}
+  m_LocalScale: {x: 1.3, y: 1.2999997, z: 1}
   m_Children: []
-  m_Father: {fileID: 7577698963949167012}
-  m_RootOrder: 0
+  m_Father: {fileID: 5139077384399992404}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!212 &601858785208839056
 SpriteRenderer:
@@ -242,7 +254,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 447195468c9285245be77629bbf52712, type: 3}
-  m_Color: {r: 0.089711644, g: 0.4386377, b: 0.9056604, a: 0.3137255}
+  m_Color: {r: 0.9647059, g: 1, b: 0, a: 0.39215687}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -292,7 +304,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 66199222be25c1b47ad49d0e0c2532ed,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 66199222be25c1b47ad49d0e0c2532ed,
         type: 3}

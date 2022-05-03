@@ -15,6 +15,7 @@ TagManager:
   - Follow
   - stunZone
   - Node
+  - tower
   layers:
   - Default
   - TransparentFX
