@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DestroySelfOverTime : MonoBehaviour
+public class METEORDestroySelfOverTime : MonoBehaviour
 {
     // Start is called before the first frame update
-    public float time = 5.0f;
+    
     void Start()
     {
-        Destroy(gameObject, time);
+        Destroy(gameObject, 5.0f);
     }
 
     // Update is called once per frame

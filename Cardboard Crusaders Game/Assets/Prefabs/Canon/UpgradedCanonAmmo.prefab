@@ -98,7 +98,7 @@ MonoBehaviour:
   speed: 70
   damage: 5
   explosionRadius: 5
-  impactEffect: {fileID: 7399268527878185523, guid: 4d01d063271bff54489ebfbf3d1fdf4b,
+  impactEffect: {fileID: 1008128114450027341, guid: b3b798b70970c4449a2d03c800154ed4,
     type: 3}
 --- !u!65 &7460527035774868615
 BoxCollider:

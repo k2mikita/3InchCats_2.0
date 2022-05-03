@@ -24768,7 +24768,7 @@ MonoBehaviour:
   wincondition: 400
   dragonAttack: {fileID: 3177451345194415851, guid: 2cde34b5da2b7f74098f042afac1905b,
     type: 3}
-  dragonAttackvfx: {fileID: 4695398701779784281, guid: e9e18e876dae92a4ebdd20334a78337c,
+  dragonAttackvfx: {fileID: 6575401209536661147, guid: d96c1deb87629574682f17da5b232b51,
     type: 3}
 --- !u!114 &1697726362
 MonoBehaviour:

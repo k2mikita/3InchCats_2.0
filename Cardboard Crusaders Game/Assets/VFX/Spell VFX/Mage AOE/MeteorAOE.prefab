@@ -19287,6 +19287,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1958722846839971946}
   - component: {fileID: 7987343730590841968}
+  - component: {fileID: 6741225950384442682}
   m_Layer: 0
   m_Name: MeteorAOE
   m_TagString: Untagged
@@ -19319,9 +19320,22 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4695398701779784281}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bfc4402bc2e4e004bb4deb8e1cccd3f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  time: 5
+--- !u!114 &6741225950384442682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4695398701779784281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 712327d2a8c00514082a41d213f2c522, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &6117184182321728605

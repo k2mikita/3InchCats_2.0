@@ -5,6 +5,7 @@ using UnityEngine;
 public class RaycastRecieve : MonoBehaviour
 {
     bool outline;
+    public GameObject targetCircle;
     // Start is called before the first frame update
     void Start()
     {
@@ -35,7 +36,11 @@ public class RaycastRecieve : MonoBehaviour
             if (!outline)
             {
                 outline = true;
+                
+
             }
+
+            
         }
 
     }

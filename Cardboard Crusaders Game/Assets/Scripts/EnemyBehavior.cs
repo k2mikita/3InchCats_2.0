@@ -7,6 +7,7 @@ public class EnemyBehavior : MonoBehaviour
 {
     public float startSpeed = 10f;
     public GameObject ImpactVFX;
+    public GameObject DeathVFX;
     public GameObject target;
 
     [HideInInspector]
@@ -95,6 +96,7 @@ public class EnemyBehavior : MonoBehaviour
         Debug.Log("Enemy Dead:" + WaveSpawner.EnemiesKilled);
 
         // Add Enemy Death VFX here
+        Instantiate(DeathVFX, target.transform.position, target.transform.rotation);
         Destroy(gameObject);
     }
 

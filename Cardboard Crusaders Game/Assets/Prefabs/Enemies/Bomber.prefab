@@ -446,6 +446,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startSpeed: 10
+  ImpactVFX: {fileID: 1008128114450027341, guid: ff0a0b6b95adf3f43b7477a925f9e61b,
+    type: 3}
+  target: {fileID: 5703470256324836442}
   speed: 0
   startHealth: 1
   attackDamage: 8
@@ -453,6 +456,7 @@ MonoBehaviour:
   attackCooldown: 1
   boom: 1
   worth: 15
+  deathSound: 
   healthBar: {fileID: 966740628155583442}
   anim: {fileID: 2716741576646581146}
 --- !u!1001 &1479256756462617477
