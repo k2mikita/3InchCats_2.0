@@ -947,6 +947,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1160476819}
+        m_TargetAssemblyTypeName: ButtonSound, Assembly-CSharp
+        m_MethodName: ClickSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &747620359
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1071,6 +1083,18 @@ MonoBehaviour:
       - m_Target: {fileID: 550747037}
         m_TargetAssemblyTypeName: Menu, Assembly-CSharp
         m_MethodName: Settings
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1160476819}
+        m_TargetAssemblyTypeName: ButtonSound, Assembly-CSharp
+        m_MethodName: ClickSound
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1554,6 +1578,156 @@ MonoBehaviour:
     pitch: 1
     loop: 1
     source: {fileID: 0}
+  - name: Select1
+    clip: {fileID: 8300000, guid: 5e20e9d8fb80806489f46f00c6a1a2eb, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Select2
+    clip: {fileID: 8300000, guid: ced6c9ba068ee244caccd4b0a6c7a0d1, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: TowerPlace
+    clip: {fileID: 8300000, guid: d81a1406680a0c7469741daaed8dc6af, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Button1
+    clip: {fileID: 8300000, guid: a0c29795f7ba7dd4d9ba4cb19f40a8c3, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Button2
+    clip: {fileID: 8300000, guid: c1f8e77680902e3409f9800d7ccd9528, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Fireball1
+    clip: {fileID: 8300000, guid: 5cbc619f25e23e84fb4aac03e877f587, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Fireball2
+    clip: {fileID: 8300000, guid: 7b6fadfb11136f546a3f388757af852b, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Fireball3
+    clip: {fileID: 8300000, guid: 61807d504f997884cb92ff1ddc52340d, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PlayerMeteor
+    clip: {fileID: 8300000, guid: 45a3769293227d049b4365b47b14e15e, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BearWalk1
+    clip: {fileID: 8300000, guid: e9c0a5cd37272dd429ace0f7d6f0d89a, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BearWalk2
+    clip: {fileID: 8300000, guid: d42108b39e6b60941a48f96711d01748, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BearWalk3
+    clip: {fileID: 8300000, guid: a8a7e62446bb6dd40b8ada24a34fe17f, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BearWalk4
+    clip: {fileID: 8300000, guid: 5fe5e3c882ea3674aab66d75a15707dd, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BomberDeath
+    clip: {fileID: 8300000, guid: 608830bfbac04ae49917bde35c41b686, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BossAttack1
+    clip: {fileID: 8300000, guid: eb4f054796033414183e47e25b9199f0, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BossAttack2
+    clip: {fileID: 8300000, guid: b54542f2295d1b94e81fc89a58884779, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BossAttack3
+    clip: {fileID: 8300000, guid: 55c7fbe28d1d7df4da0c22736138b0fc, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BossDeath
+    clip: {fileID: 8300000, guid: 6703ce0024ae0774db0d4be90757936b, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BearDeath
+    clip: {fileID: 8300000, guid: f7c4237b53e4eae43be9dc293a999cfe, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BossWalk1
+    clip: {fileID: 8300000, guid: 8dedfc1f5557feb4a940e961dd354747, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BossWalk2
+    clip: {fileID: 8300000, guid: 9884d5e2b6fa9f64688c61a87c0afc59, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BossWalk3
+    clip: {fileID: 8300000, guid: e43bea76eac922646ac4d8ad9a475e46, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BossWalk4
+    clip: {fileID: 8300000, guid: 7e5bb42312728e24fbea6aaf36899587, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BomberAttack
+    clip: {fileID: 8300000, guid: 9620f79d2a33692448564cb027f36d25, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Level3Loop
+    clip: {fileID: 8300000, guid: cb758e33873755a47875c7c646bf1e57, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
 --- !u!82 &864110548
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1809,6 +1983,7 @@ GameObject:
   - component: {fileID: 1160476817}
   - component: {fileID: 1160476816}
   - component: {fileID: 1160476815}
+  - component: {fileID: 1160476819}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1905,6 +2080,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1160476819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1160476814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1d0f6aafd83c024084bba65b8d02073, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1162478252
 GameObject:
   m_ObjectHideFlags: 0
@@ -2332,6 +2519,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1160476819}
+        m_TargetAssemblyTypeName: ButtonSound, Assembly-CSharp
+        m_MethodName: ClickSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1288744362
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2589,6 +2788,18 @@ MonoBehaviour:
       - m_Target: {fileID: 550747037}
         m_TargetAssemblyTypeName: Menu, Assembly-CSharp
         m_MethodName: Credits
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1160476819}
+        m_TargetAssemblyTypeName: ButtonSound, Assembly-CSharp
+        m_MethodName: ClickSound
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

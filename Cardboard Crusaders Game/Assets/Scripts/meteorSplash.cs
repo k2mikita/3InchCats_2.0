@@ -7,6 +7,9 @@ public class meteorSplash : MonoBehaviour
     private IEnumerator coroutine;
     bool delay = false;
     int timer = 0;
+
+   // float soundTimer = 0.001f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -17,6 +20,11 @@ public class meteorSplash : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+       /* soundTimer -= Time.deltaTime;
+        if(soundTimer <= 0)
+        {
+            FindObjectOfType<AudioManager>().Play("PlayerMeteor");
+        }*/
 
         if (delay)
         {

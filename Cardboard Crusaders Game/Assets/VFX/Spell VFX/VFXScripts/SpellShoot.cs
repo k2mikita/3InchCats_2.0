@@ -47,6 +47,21 @@ public class SpellShoot : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             InstantiateSpell(firePoint);
+
+            int num = Random.Range(1, 3);
+            //play collision sounds
+            if (num == 1)
+            {
+                FindObjectOfType<AudioManager>().Play("Fireball1");
+            }
+            if (num == 2)
+            {
+                FindObjectOfType<AudioManager>().Play("Fireball2");
+            }
+            if (num == 3)
+            {
+                FindObjectOfType<AudioManager>().Play("Fireball3");
+            }
         }
 
         

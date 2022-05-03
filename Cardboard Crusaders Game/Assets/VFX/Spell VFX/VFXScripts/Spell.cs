@@ -15,6 +15,8 @@ public class Spell : MonoBehaviour
     float cdtimer = 0;
     public GameObject MeteorDamage;
 
+    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +28,8 @@ public class Spell : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
+
         if (Input.GetMouseButtonDown(1))
         {
             SpellCircle();
@@ -37,7 +41,13 @@ public class Spell : MonoBehaviour
             Debug.Log("a");
             offcooldown = false;
             SpellCast();
+
+
+
+            StartCoroutine(Sound());
         }
+
+        
     }
 
     void GetInput()
@@ -61,9 +71,9 @@ public class Spell : MonoBehaviour
         Instantiate(spellVFX, target.transform.position, target.transform.rotation);
         Instantiate(MeteorDamage, target.transform.position, target.transform.rotation);
         targetCircle.SetActive(false);
+
+
         
-
-
     }    
     private IEnumerator Cooldown()
     {
@@ -78,5 +88,12 @@ public class Spell : MonoBehaviour
             GUI.Label(new Rect(Screen.width - 100, Screen.height - 100, 100, 20), Math.Ceiling((cdtimer/2)).ToString());
             cdtimer -= Time.deltaTime;
         }
+    }
+
+    IEnumerator Sound()
+    {
+        yield return new WaitForSeconds(2);
+
+        FindObjectOfType<AudioManager>().Play("PlayerMeteor");
     }
 }

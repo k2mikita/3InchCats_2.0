@@ -27,6 +27,6 @@ public class Level3Audio : MonoBehaviour
 
     public void Level3Loop()
     {
-        FindObjectOfType<AudioManager>().Play("Level1Loop");
+        FindObjectOfType<AudioManager>().Play("Level3Loop");
     }
 }
