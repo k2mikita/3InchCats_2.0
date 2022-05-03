@@ -211,7 +211,9 @@ public class EnemyBehavior : MonoBehaviour
     }
     private IEnumerator Fuse()
 {
-    yield return new WaitForSeconds(3);
+    yield return new WaitForSeconds(1);
+        FindObjectOfType<AudioManager>().Play("BomberAttack");
+        yield return new WaitForSeconds(2);
     Die();
 }
 }

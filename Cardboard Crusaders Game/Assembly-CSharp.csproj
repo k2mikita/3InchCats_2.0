@@ -104,7 +104,7 @@
      <Compile Include="Assets\Scripts\TurretSounds\CatapultShootSound.cs" />
      <Compile Include="Assets\Scripts\Turrets\Missiles.cs" />
      <Compile Include="Assets\NavMeshComponents\Scripts\NavMeshModifier.cs" />
-     <Compile Include="Assets\Scenes\Game Levels\ButtonSound.cs" />
+     <Compile Include="Assets\Scripts\ButtonSound.cs" />
      <Compile Include="Assets\Scripts\LevelSounds\Level1Audio.cs" />
      <Compile Include="Assets\3rdPerson+Fly\Scripts\PlayerScripts\AimBehaviourBasic.cs" />
      <Compile Include="Assets\Scripts\Fuzzclops_ANIM.cs" />
