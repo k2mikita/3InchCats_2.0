@@ -24766,9 +24766,9 @@ MonoBehaviour:
   waveCountdownText: {fileID: 1723146799}
   waveIndex: 0
   wincondition: 400
-  dragonAttack: {fileID: 3177451345194415851, guid: 2cde34b5da2b7f74098f042afac1905b,
+  dragonAttack: {fileID: 8092817153108725434, guid: c28346afdb84ab849a579209d823b297,
     type: 3}
-  dragonAttackvfx: {fileID: 6575401209536661147, guid: d96c1deb87629574682f17da5b232b51,
+  dragonAttackvfx: {fileID: 8857606528426141988, guid: 9d88218d7feb4be499604a9dfcfbf01f,
     type: 3}
 --- !u!114 &1697726362
 MonoBehaviour:

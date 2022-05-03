@@ -7,7 +7,7 @@ public class meteorSplash : MonoBehaviour
     private IEnumerator coroutine;
     bool delay = false;
     int timer = 0;
-
+    
    // float soundTimer = 0.001f;
 
     // Start is called before the first frame update
@@ -40,7 +40,7 @@ public class meteorSplash : MonoBehaviour
     }
     private void OnTriggerStay(Collider x)
     {
-        if (x.tag == "Enemy")
+        if (x.tag == "Enemy" && tag != "stunZone")
         {
 
                 x.SendMessage("TakeDamage", 4);
@@ -51,7 +51,11 @@ public class meteorSplash : MonoBehaviour
     }
     private IEnumerator timedelay()
     {
-        yield return new WaitForSeconds(3.0f);
+        if (tag != "stunZone")
+        {
+            yield return new WaitForSeconds(3.0f);
+        }
+        yield return new WaitForSeconds(0.0f);
         Collider x = gameObject.GetComponent(typeof(Collider)) as Collider;
         x.enabled = true;
         delay = true;
