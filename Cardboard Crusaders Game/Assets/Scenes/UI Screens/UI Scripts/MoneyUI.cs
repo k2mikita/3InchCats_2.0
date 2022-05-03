@@ -10,6 +10,6 @@ public class MoneyUI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        moneyText.text = "Money: $" + PlayerStats.Money.ToString();
+        moneyText.text = "Coins: $" + PlayerStats.Money.ToString();
     }
 }
