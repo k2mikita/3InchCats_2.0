@@ -1252,7 +1252,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0.75
-  m_Text: "Welcome to Cardboard Crusaders! \n\nWill you be able to defend your castle?"
+  m_Text: "Welcome to Cardboard Crusaders! \n\nThere are FOUR levels for you to play.\n\nWill
+    you be able to defend your castle?"
 --- !u!222 &826103792
 CanvasRenderer:
   m_ObjectHideFlags: 0

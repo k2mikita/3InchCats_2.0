@@ -2190,28 +2190,28 @@ MonoBehaviour:
     - enemy: {fileID: 6059904603282647607, guid: b3d14101371737b41b0857121003db4e,
         type: 3}
       count: 15
-      rate: 10
+      rate: 8
     - enemy: {fileID: 6059904603282647607, guid: 28b019d2d9b3b5046b5846928ee37255,
         type: 3}
       count: 10
-      rate: 30
+      rate: 10
     - enemy: {fileID: 6059904603282647607, guid: b3d14101371737b41b0857121003db4e,
         type: 3}
       count: 20
-      rate: 15
+      rate: 10
     - enemy: {fileID: 6059904603282647607, guid: 28b019d2d9b3b5046b5846928ee37255,
         type: 3}
       count: 20
-      rate: 30
+      rate: 10
   - WParts:
     - enemy: {fileID: 6059904603282647607, guid: 4f73701f464a0f742a86872e86aae084,
         type: 3}
       count: 4
-      rate: 10
+      rate: 6
     - enemy: {fileID: 6059904603282647607, guid: 28b019d2d9b3b5046b5846928ee37255,
         type: 3}
       count: 40
-      rate: 40
+      rate: 15
   - WParts:
     - enemy: {fileID: 6059904603282647607, guid: b3d14101371737b41b0857121003db4e,
         type: 3}
