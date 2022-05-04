@@ -433,9 +433,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startSpeed: 3
-  ImpactVFX: {fileID: 0}
-  DeathVFX: {fileID: 0}
-  target: {fileID: 0}
+  ImpactVFX: {fileID: 5529669765663685590, guid: 3f886a9a00954fe4faef8f9b6bb8ae40,
+    type: 3}
+  DeathVFX: {fileID: 1940738162126258967, guid: e43bc64901559aa46ac4659a255a6a7c,
+    type: 3}
+  target: {fileID: 919132149155446097, guid: c68067de13f8932419442eca25445712, type: 3}
   speed: 0
   startHealth: 100
   attackDamage: 25
