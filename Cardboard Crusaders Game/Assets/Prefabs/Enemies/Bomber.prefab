@@ -460,6 +460,9 @@ MonoBehaviour:
   worth: 15
   deathSound: BomberDeath
   healthBar: {fileID: 966740628155583442}
+  Boss: 0
+  dragonAttack: {fileID: 0}
+  dragonAttackvfx: {fileID: 0}
   anim: {fileID: 2716741576646581146}
 --- !u!1001 &1479256756462617477
 PrefabInstance:
@@ -611,7 +614,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 9e031479252e3744d91cb40482302af1,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.313
+      value: -0.65
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9e031479252e3744d91cb40482302af1,
         type: 3}

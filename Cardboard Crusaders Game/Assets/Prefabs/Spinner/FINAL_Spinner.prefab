@@ -335,7 +335,7 @@ MonoBehaviour:
   target: {fileID: 0}
   targetEnemy: {fileID: 0}
   range: 2.5
-  fireRate: 2
+  fireRate: 1.5
   fireCountdown: 0
   cleave: 1
   enemyTag: Enemy
