@@ -19382,6 +19382,7 @@ MonoBehaviour:
   wincondition: 192
   dragonAttack: {fileID: 0}
   dragonAttackvfx: {fileID: 0}
+  AirChimera: {fileID: 0}
 --- !u!114 &1371116448
 MonoBehaviour:
   m_ObjectHideFlags: 0
