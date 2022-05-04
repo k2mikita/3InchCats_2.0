@@ -13,7 +13,7 @@ public class Turret : MonoBehaviour
     public float range = 15f;
     public float fireRate = 1f;
     public float fireCountdown = 0f;
-    
+    public bool cleave = false;
 
     [Header("Unity Setup")]
 
@@ -25,6 +25,9 @@ public class Turret : MonoBehaviour
     public GameObject bulletPrefab;
     public Transform firePoint;
     public Animator anim;
+
+
+    List<Transform> cleaveTargets = new List<Transform>();
     // Start is called before the first frame update
     void Start()
     {
@@ -33,29 +36,47 @@ public class Turret : MonoBehaviour
 
     public void UpdateTarget ()
     {
+        cleaveTargets.Clear();
         //Target Detection
         GameObject[] enemies = GameObject.FindGameObjectsWithTag(enemyTag);
         float shortestDistance = Mathf.Infinity;
         GameObject nearestEnemy = null;
+        if (cleave)
+        {
 
-        foreach (GameObject enemy in enemies)
-        {
-            float distanceToEnemy = Vector3.Distance(transform.position, enemy.transform.position);
-            if (distanceToEnemy < shortestDistance)
+            foreach (GameObject enemy in enemies)
             {
-                shortestDistance = distanceToEnemy;
-                nearestEnemy = enemy;
+                float distanceToEnemy = Vector3.Distance(transform.position, enemy.transform.position);
+                if (distanceToEnemy <= range )
+                {
+                    target = enemy.transform;
+                    cleaveTargets.Add(target);
+                }
             }
-        }
-        if (nearestEnemy != null && shortestDistance <= range)
-        {
-            target = nearestEnemy.transform;
-            targetEnemy = nearestEnemy.GetComponent<EnemyBehavior>();
+
         }
         else
         {
-            target = null;
+            foreach (GameObject enemy in enemies)
+            {
+                float distanceToEnemy = Vector3.Distance(transform.position, enemy.transform.position);
+                if (distanceToEnemy < shortestDistance)
+                {
+                    shortestDistance = distanceToEnemy;
+                    nearestEnemy = enemy;
+                }
+            }
+            if (nearestEnemy != null && shortestDistance <= range)
+            {
+                target = nearestEnemy.transform;
+                targetEnemy = nearestEnemy.GetComponent<EnemyBehavior>();
+            }
+            else
+            {
+                target = null;
+            }
         }
+
 
 
 
@@ -65,8 +86,16 @@ public class Turret : MonoBehaviour
     void Update()
     {
         anim.SetBool("isAttacking", false);
-        if ( target == null)
-            return;
+        if (!cleave)
+        {
+            if (target == null)
+                return;
+        }
+        if (cleave)
+        {
+            if (cleaveTargets.Count == 0)
+                return;
+        }
         
         //Target Lock On
         Vector3 dir = target.position - transform.position;
@@ -90,14 +119,32 @@ public class Turret : MonoBehaviour
     
     public void Shoot ()
     {
-        GameObject bulletGo = (GameObject)Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
-        Bullet bullet = bulletGo.GetComponent<Bullet>();
-
-        if(bullet != null)
+        if (!cleave)
         {
-            bullet.Seek(target);
+            GameObject bulletGo = (GameObject)Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+            Bullet bullet = bulletGo.GetComponent<Bullet>();
+
+            if (bullet != null)
+            {
+                bullet.Seek(target);
+            }
         }
-        
+        if (cleave)
+        {
+            Debug.Log('a');
+            foreach(Transform x in cleaveTargets)
+            {
+                Debug.Log('b');
+                GameObject bulletGo = (GameObject)Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+                Bullet bullet = bulletGo.GetComponent<Bullet>();
+
+                if (bullet != null)
+                {
+                    bullet.Seek(x);
+                }
+            }
+        }
+
     }
 
     void OnDrawGizmosSelected()

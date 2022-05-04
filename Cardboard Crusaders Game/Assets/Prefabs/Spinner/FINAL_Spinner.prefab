@@ -293,6 +293,7 @@ MonoBehaviour:
   range: 2
   fireRate: 2
   fireCountdown: 0
+  cleave: 0
   enemyTag: Enemy
   partToRotate: {fileID: 8182679091986798441}
   turnSpeed: 10
@@ -336,6 +337,7 @@ MonoBehaviour:
   range: 2.5
   fireRate: 2
   fireCountdown: 0
+  cleave: 1
   enemyTag: Enemy
   partToRotate: {fileID: 6287758205565370807}
   turnSpeed: 10

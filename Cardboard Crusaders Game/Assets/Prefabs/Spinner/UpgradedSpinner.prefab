@@ -159,30 +159,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 867c6fbcb2e980545813738565455cb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &3804289612865641490
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5403183877088087443}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 032d05d4e67b9114ba764b5b73ede629, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  targetEnemy: {fileID: 0}
-  range: 2
-  fireRate: 5
-  fireCountdown: 0
-  enemyTag: Enemy
-  partToRotate: {fileID: 9003121816455966071}
-  turnSpeed: 10
-  bulletPrefab: {fileID: 805674920831133577, guid: b3c6673d8d5358846bb8c79e2b56708a,
-    type: 3}
-  firePoint: {fileID: 848766755442859412}
-  anim: {fileID: 136501473278312530}
 --- !u!95 &136501473278312530
 Animator:
   serializedVersion: 3
@@ -202,6 +178,31 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &3804289612865641490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5403183877088087443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 032d05d4e67b9114ba764b5b73ede629, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  targetEnemy: {fileID: 0}
+  range: 2
+  fireRate: 5
+  fireCountdown: 0
+  cleave: 1
+  enemyTag: Enemy
+  partToRotate: {fileID: 9003121816455966071}
+  turnSpeed: 10
+  bulletPrefab: {fileID: 805674920831133577, guid: b3c6673d8d5358846bb8c79e2b56708a,
+    type: 3}
+  firePoint: {fileID: 848766755442859412}
+  anim: {fileID: 136501473278312530}
 --- !u!1001 &5060531721824972994
 PrefabInstance:
   m_ObjectHideFlags: 0
