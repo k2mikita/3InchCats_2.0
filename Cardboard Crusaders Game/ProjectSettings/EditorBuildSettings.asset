@@ -47,4 +47,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game Levels/Attic Level/Attic Level.unity
     guid: dbf18e4c47ae6594c8b2911f35db27a1
+  - enabled: 1
+    path: Assets/Scenes/UI Screens/Game Info.unity
+    guid: 9c4976fedda66d2499077be276d605bc
   m_configObjects: {}

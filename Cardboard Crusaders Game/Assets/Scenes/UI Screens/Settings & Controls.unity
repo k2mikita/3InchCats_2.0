@@ -942,7 +942,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &872978648
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1009,7 +1009,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1211925387}
         m_TargetAssemblyTypeName: ControlsMenu, Assembly-CSharp
-        m_MethodName: DeleteSaveData
+        m_MethodName: GameInfo
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1854,7 +1854,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: More Info
+  m_Text: Game Info
 --- !u!222 &2127219582
 CanvasRenderer:
   m_ObjectHideFlags: 0

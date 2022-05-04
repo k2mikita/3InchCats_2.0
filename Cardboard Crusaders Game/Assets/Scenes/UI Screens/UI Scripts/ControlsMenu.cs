@@ -22,6 +22,13 @@ public class ControlsMenu : MonoBehaviour
         Application.Quit();
 
     }
+
+    public void GameInfo()
+    {
+        SceneManager.LoadScene("Game Info");
+
+    }
+
     public void DeleteSaveData()
     {
         gameObject.SendMessage("resetData");
