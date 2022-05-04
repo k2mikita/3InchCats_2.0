@@ -15,11 +15,11 @@ C:/Users/Kyle's PC/Documents/GitHub/3InchCats_2.0/Cardboard Crusaders Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51042
+55178
 Successfully changed project path to: C:/Users/Kyle's PC/Documents/GitHub/3InchCats_2.0/Cardboard Crusaders Game
 C:/Users/Kyle's PC/Documents/GitHub/3InchCats_2.0/Cardboard Crusaders Game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 34.83 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 37.59 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
@@ -35,74 +35,74 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56132
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56468
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002257 seconds.
+Registered in 0.002190 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 32.97 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 33.79 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.803 seconds
+- Completed reload, in  1.830 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1803ms)
-		BeginReloadAssembly (53ms)
+	ReloadAssembly (1831ms)
+		BeginReloadAssembly (54ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (384ms)
-			LoadAssemblies (50ms)
+		EndReloadAssembly (391ms)
+			LoadAssemblies (52ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (144ms)
+			SetupTypeCache (143ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (149ms)
+			SetupLoadedEditorAssemblies (151ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (33ms)
+				RefreshPlugins (34ms)
 				BeforeProcessingInitializeOnLoad (15ms)
-				ProcessInitializeOnLoadAttributes (70ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
+				ProcessInitializeOnLoadAttributes (73ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003275 seconds.
+Registered in 0.003671 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.950 seconds
+- Completed reload, in  0.924 seconds
 Domain Reload Profiling:
-	ReloadAssembly (951ms)
-		BeginReloadAssembly (140ms)
+	ReloadAssembly (925ms)
+		BeginReloadAssembly (133ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (749ms)
-			LoadAssemblies (82ms)
+		EndReloadAssembly (730ms)
+			LoadAssemblies (78ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (258ms)
+			SetupTypeCache (255ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (279ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (277ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (71ms)
-				ProcessInitializeOnLoadAttributes (191ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (187ms)
 				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
@@ -110,14 +110,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1489 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 83.6 MB.
 System memory in use after: 83.7 MB.
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1947.
-Total: 3.234000 ms (FindLiveObjects: 0.166600 ms CreateObjectMapping: 0.075300 ms MarkObjects: 2.849700 ms  DeleteObjects: 0.141300 ms)
+Total: 2.527900 ms (FindLiveObjects: 0.133400 ms CreateObjectMapping: 0.039000 ms MarkObjects: 2.243200 ms  DeleteObjects: 0.111400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,200 +131,80 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/3D Models/Textures/OLD TEXTURES
-  artifactKey: Guid(7eae78707e1f8e74ea827664a95c9479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/OLD TEXTURES using Guid(7eae78707e1f8e74ea827664a95c9479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32ac55d5d318713bfd920c907f564cfd') in 0.007990 seconds 
-  Import took 0.011657 seconds .
+  path: Assets/Scenes/Game Levels/Bedroom Level/BedroomLevel V2.unity
+  artifactKey: Guid(ce542e4c2b526e94face6199af97d751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game Levels/Bedroom Level/BedroomLevel V2.unity using Guid(ce542e4c2b526e94face6199af97d751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '052d6a992212fb3c24a6d83ed0b049a9') in 0.013940 seconds 
+  Import took 0.016483 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 28.874534 seconds.
-  path: Assets/3D Models/Textures/Kitchen
-  artifactKey: Guid(33c000f4c2243cb4bb380009faba29b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen using Guid(33c000f4c2243cb4bb380009faba29b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e277173932251fd402a6c73ec0e7ed8c') in 0.006011 seconds 
-  Import took 0.008200 seconds .
+  Time since last request: 8.990884 seconds.
+  path: Assets/Scenes/Game Levels/Kitchen Level/Kitchen Level.unity
+  artifactKey: Guid(7933e22a96b40864ca1b87da946f0b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game Levels/Kitchen Level/Kitchen Level.unity using Guid(7933e22a96b40864ca1b87da946f0b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bf33003681bff8efc298281fe882eb4') in 0.005730 seconds 
+  Import took 0.009061 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.040931 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Cabinet Large001.psd
-  artifactKey: Guid(0a96108c808ff014387a79a15be7bd7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Cabinet Large001.psd using Guid(0a96108c808ff014387a79a15be7bd7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e41a10b7e9ea79003b4950b706b9dba') in 0.058267 seconds 
-  Import took 0.060541 seconds .
+  Time since last request: 87.819181 seconds.
+  path: Assets/3D Models/Textures/Bedroom/Materials/ToyChest001.mat
+  artifactKey: Guid(701149b4e5a54df4092f4671b20f47cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Textures/Bedroom/Materials/ToyChest001.mat using Guid(701149b4e5a54df4092f4671b20f47cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd372389e2b3f9de32bbb6e1913434a3c') in 0.122498 seconds 
+  Import took 0.127577 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Counter001.psd
-  artifactKey: Guid(18621abed0eea11458693b412d113e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Counter001.psd using Guid(18621abed0eea11458693b412d113e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3d9d8994784be742817f70dba011be0') in 0.015354 seconds 
-  Import took 0.017380 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Sink001.psd
-  artifactKey: Guid(797a8106c50465946a75493511f483cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Sink001.psd using Guid(797a8106c50465946a75493511f483cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '540f27d5f702326e25b8d4e5771f58ee') in 0.014224 seconds 
-  Import took 0.016723 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Cieling Light.psd
-  artifactKey: Guid(5b2616d44cb79524c9aa523e7a8d01ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Cieling Light.psd using Guid(5b2616d44cb79524c9aa523e7a8d01ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a41f6425d9a94488318c6a8832806bcd') in 0.015057 seconds 
-  Import took 0.017475 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Table Chair001.psd
-  artifactKey: Guid(40dca8c7da412ad4393850f57f32057e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Table Chair001.psd using Guid(40dca8c7da412ad4393850f57f32057e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86cc82fd57af0911c06cb116f13cd68a') in 0.015644 seconds 
-  Import took 0.017922 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Plate001.psd
-  artifactKey: Guid(4699071456ec5254fa77a63f3c2a1cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Plate001.psd using Guid(4699071456ec5254fa77a63f3c2a1cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b9b2d7f0de19718fb99d0f0a5b24f35') in 0.016071 seconds 
-  Import took 0.018477 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Window001.psd
-  artifactKey: Guid(8dd6925fd3df03241beb600c76397489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Window001.psd using Guid(8dd6925fd3df03241beb600c76397489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '624d2722713e134a0c90f7fc7f4c701d') in 0.015990 seconds 
-  Import took 0.018531 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Counter Chair001.psd
-  artifactKey: Guid(b5f5a1648d6554a4da8a3152846e083f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Counter Chair001.psd using Guid(b5f5a1648d6554a4da8a3152846e083f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '054e2ef08087e51c13c78fb0399477d4') in 0.015426 seconds 
-  Import took 0.017794 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000135 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Corner Cabinet Large001.psd
-  artifactKey: Guid(b10ae52fcd5acb149ac47eec98fde213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Corner Cabinet Large001.psd using Guid(b10ae52fcd5acb149ac47eec98fde213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcea36e6abf6adcc0b27b40cdeaeb1d1') in 0.013424 seconds 
-  Import took 0.015737 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Cabinet Small001.psd
-  artifactKey: Guid(40b6d5c8e8344984f83170227dead315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Cabinet Small001.psd using Guid(40b6d5c8e8344984f83170227dead315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57be0941c00732677a0bbf2ccd2c403e') in 0.014200 seconds 
-  Import took 0.016396 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000130 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Fridge001.psd
-  artifactKey: Guid(fc0180443cc66614d848f5373c4c3844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Fridge001.psd using Guid(fc0180443cc66614d848f5373c4c3844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08c45132d05298f14cd7eebfca9dca80') in 0.014233 seconds 
-  Import took 0.016824 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Placemat001.psd
-  artifactKey: Guid(1023e8582317fec41b4d319a16d51fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Placemat001.psd using Guid(1023e8582317fec41b4d319a16d51fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1583bc58b5ffed22251d8c08c2c4eeff') in 0.014683 seconds 
-  Import took 0.017146 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Door001.psd
-  artifactKey: Guid(6587485a80dad1645af3bc89c68e18cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Door001.psd using Guid(6587485a80dad1645af3bc89c68e18cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a6fda5d6eccde3def663a3486ac1ee') in 0.015825 seconds 
-  Import took 0.018531 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000492 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Table001.psd
-  artifactKey: Guid(8a4e223a35d0a024daf4f722a26f9b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Table001.psd using Guid(8a4e223a35d0a024daf4f722a26f9b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a9d5f83a37c62a15d68ffa89c203ea1') in 0.013066 seconds 
-  Import took 0.018125 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000506 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Drying Rack001.psd
-  artifactKey: Guid(0c79b1f6ce1d6fc42bdf30b3cd4d07e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Drying Rack001.psd using Guid(0c79b1f6ce1d6fc42bdf30b3cd4d07e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e17006964850e161bf5673d23f5353df') in 0.016576 seconds 
-  Import took 0.019362 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Kithcen Island001.psd
-  artifactKey: Guid(18b1d6fcce9f9414d81157a116531807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Kithcen Island001.psd using Guid(18b1d6fcce9f9414d81157a116531807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3520e1485c6091b669d0983d473e0f33') in 0.014766 seconds 
-  Import took 0.017709 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Room001.psd
-  artifactKey: Guid(8c604520bd497c5458d02889b7428749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Room001.psd using Guid(8c604520bd497c5458d02889b7428749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2d322ec3d7b54a03494c903bd14d39e') in 0.015308 seconds 
-  Import took 0.018001 seconds .
+  Time since last request: 13.235155 seconds.
+  path: Assets/Scenes/Game Levels/Kitchen Level/Kitchen Level.unity
+  artifactKey: Guid(7933e22a96b40864ca1b87da946f0b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game Levels/Kitchen Level/Kitchen Level.unity using Guid(7933e22a96b40864ca1b87da946f0b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2278df002fd396b906c066bd2335a9a') in 0.004482 seconds 
+  Import took 0.006887 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003302 seconds.
+Registered in 0.003299 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.189 seconds
+- Completed reload, in  1.029 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1190ms)
-		BeginReloadAssembly (146ms)
+	ReloadAssembly (1030ms)
+		BeginReloadAssembly (113ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (968ms)
-			LoadAssemblies (119ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (851ms)
+			LoadAssemblies (81ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (329ms)
+			SetupTypeCache (267ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (359ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (325ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (94ms)
-				ProcessInitializeOnLoadAttributes (237ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (13ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (213ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1479 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 83.1 MB.
-System memory in use after: 83.2 MB.
+System memory in use before: 86.4 MB.
+System memory in use after: 86.5 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1951.
-Total: 2.676400 ms (FindLiveObjects: 0.177300 ms CreateObjectMapping: 0.081800 ms MarkObjects: 2.399600 ms  DeleteObjects: 0.016500 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1989.
+Total: 2.613900 ms (FindLiveObjects: 0.167900 ms CreateObjectMapping: 0.053900 ms MarkObjects: 2.374600 ms  DeleteObjects: 0.015600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -337,193 +217,41 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 416.017686 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Materials
-  artifactKey: Guid(7b4c0bb618ed69d44af41383f02b70e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Materials using Guid(7b4c0bb618ed69d44af41383f02b70e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5207c6ccec87456a47cb964395196ed1') in 0.008838 seconds 
-  Import took 0.015863 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.038871 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Materials/Cabinet Large001.mat
-  artifactKey: Guid(1b233e2268efc7f45969882b8792403b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Materials/Cabinet Large001.mat using Guid(1b233e2268efc7f45969882b8792403b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4297e645f3ae549cb74a32fe4b6dab28') in 0.083616 seconds 
-  Import took 0.086186 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Materials/Kithcen Island001.mat
-  artifactKey: Guid(6ce13b89ad3283e4191150ff307fef91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Materials/Kithcen Island001.mat using Guid(6ce13b89ad3283e4191150ff307fef91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01b536e1b8fbeaf9e3d68356392e875c') in 0.011505 seconds 
-  Import took 0.014224 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Materials/Sink001.mat
-  artifactKey: Guid(63dc54ea2791a234089a41aaa74db363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Materials/Sink001.mat using Guid(63dc54ea2791a234089a41aaa74db363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d6f6167e9ee09c7e98f089bcb88bc68') in 0.019085 seconds 
-  Import took 0.023592 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Materials/Counter001.mat
-  artifactKey: Guid(9eda22d4859691f44a203aaddc7eb941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Materials/Counter001.mat using Guid(9eda22d4859691f44a203aaddc7eb941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62a42a1c385224f4983e692cd1442730') in 0.012463 seconds 
-  Import took 0.014886 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Materials/Fridge001.mat
-  artifactKey: Guid(18b095f1444e35b47acffc95214ff048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Materials/Fridge001.mat using Guid(18b095f1444e35b47acffc95214ff048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26437687c34f5a624a231d4e5c4b45f0') in 0.014183 seconds 
-  Import took 0.016553 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Materials/Cabinet Small001.mat
-  artifactKey: Guid(5ee31ae1200431f4f851e94418de78ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Materials/Cabinet Small001.mat using Guid(5ee31ae1200431f4f851e94418de78ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b1072b0a34a9746e9cc22711e66076') in 0.015442 seconds 
-  Import took 0.018079 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Materials/Window001.mat
-  artifactKey: Guid(098d37322caf4484fa1c681471752977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Materials/Window001.mat using Guid(098d37322caf4484fa1c681471752977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45d7bd3fe1f9af8ae6f494450345e886') in 0.014025 seconds 
-  Import took 0.016137 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Materials/Corner Cabinet Large001.mat
-  artifactKey: Guid(79f313db8ce7add4f8a67308e201d111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Materials/Corner Cabinet Large001.mat using Guid(79f313db8ce7add4f8a67308e201d111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0282ac39f6762ba72495fcc1039c832') in 0.012414 seconds 
-  Import took 0.015319 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Materials/Door001.mat
-  artifactKey: Guid(e1f6edd38614a8a46aff86b200fbeec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Materials/Door001.mat using Guid(e1f6edd38614a8a46aff86b200fbeec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c7a22a423145666a9dc92713621c542') in 0.012698 seconds 
-  Import took 0.015330 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Materials/Drying Rack001.mat
-  artifactKey: Guid(9ab5b009d6a4a5e47bd6bbe8a943dfae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Materials/Drying Rack001.mat using Guid(9ab5b009d6a4a5e47bd6bbe8a943dfae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e116224651d75affa9c40786494a8a83') in 0.013680 seconds 
-  Import took 0.016443 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000134 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Materials/Table001.mat
-  artifactKey: Guid(5a843742bea6f8140b32f9a00df25a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Materials/Table001.mat using Guid(5a843742bea6f8140b32f9a00df25a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '599add77d375c1c38c6594bf7c5d2bc1') in 0.015454 seconds 
-  Import took 0.018193 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Materials/Plate001.mat
-  artifactKey: Guid(4a34d6db943263b4b89b980c659e2603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Materials/Plate001.mat using Guid(4a34d6db943263b4b89b980c659e2603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '124489b7f7840511c6be55326b64c696') in 0.013909 seconds 
-  Import took 0.016149 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Materials/Counter Chair001.mat
-  artifactKey: Guid(1d14a86c39157ff46ade241822d9e5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Materials/Counter Chair001.mat using Guid(1d14a86c39157ff46ade241822d9e5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2299132f01dffdf252de13d1166d62ac') in 0.013121 seconds 
-  Import took 0.015764 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Materials/Placemat001.mat
-  artifactKey: Guid(cfef56512bc88f44587bead8c901551d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Materials/Placemat001.mat using Guid(cfef56512bc88f44587bead8c901551d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8223c6238cbcbeed62bac9eecf40e6d') in 0.015194 seconds 
-  Import took 0.017793 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Materials/Room001.mat
-  artifactKey: Guid(c4c77de61e5fd5243b310fdc031dbc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Materials/Room001.mat using Guid(c4c77de61e5fd5243b310fdc031dbc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ce4e57a6b07d25d2b755d9baf4884d9') in 0.013665 seconds 
-  Import took 0.016171 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Materials/Table Chair001.mat
-  artifactKey: Guid(f3d100ad7af103e44a70eb8000751f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Materials/Table Chair001.mat using Guid(f3d100ad7af103e44a70eb8000751f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b90524f266424083d95df239b90ab600') in 0.014241 seconds 
-  Import took 0.016858 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Materials/Cieling Light.mat
-  artifactKey: Guid(efd1dbc7c2d9303409419335e2d13303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Materials/Cieling Light.mat using Guid(efd1dbc7c2d9303409419335e2d13303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61b1796ca6515196d89e27a54babb362') in 0.016297 seconds 
-  Import took 0.018581 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.278100 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Materials/Room001.mat
-  artifactKey: Guid(c4c77de61e5fd5243b310fdc031dbc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Materials/Room001.mat using Guid(c4c77de61e5fd5243b310fdc031dbc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49a1c96a77358174430ba4f43ca049ff') in 0.011883 seconds 
-  Import took 0.014368 seconds .
-
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003813 seconds.
+Registered in 0.003289 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.869 seconds
+- Completed reload, in  0.908 seconds
 Domain Reload Profiling:
-	ReloadAssembly (869ms)
+	ReloadAssembly (909ms)
 		BeginReloadAssembly (108ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (702ms)
-			LoadAssemblies (78ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (743ms)
+			LoadAssemblies (76ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (244ms)
+			SetupTypeCache (272ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (255ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (263ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (166ms)
-				ProcessInitializeOnLoadMethodAttributes (3ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (175ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -531,8 +259,8 @@ Unloading 1479 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 86.4 MB.
 System memory in use after: 86.5 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1992.
-Total: 2.444000 ms (FindLiveObjects: 0.128400 ms CreateObjectMapping: 0.038300 ms MarkObjects: 2.260500 ms  DeleteObjects: 0.015000 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1991.
+Total: 2.632000 ms (FindLiveObjects: 0.207700 ms CreateObjectMapping: 0.074500 ms MarkObjects: 2.331500 ms  DeleteObjects: 0.016900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -544,468 +272,4 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 198.841008 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Materials/Room001.mat
-  artifactKey: Guid(c4c77de61e5fd5243b310fdc031dbc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Materials/Room001.mat using Guid(c4c77de61e5fd5243b310fdc031dbc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2d334d093d7eb6cc780544af0ded4fa') in 0.064375 seconds 
-  Import took 0.067075 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 75.674244 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Materials/Cabinet Large001.mat
-  artifactKey: Guid(1b233e2268efc7f45969882b8792403b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Materials/Cabinet Large001.mat using Guid(1b233e2268efc7f45969882b8792403b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6bb4309a2a68f981ada1f6dc9d23bb3') in 0.014131 seconds 
-  Import took 0.016384 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Materials/Kithcen Island001.mat
-  artifactKey: Guid(6ce13b89ad3283e4191150ff307fef91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Materials/Kithcen Island001.mat using Guid(6ce13b89ad3283e4191150ff307fef91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1af653a938566d11fd86f1c373465f0') in 0.014259 seconds 
-  Import took 0.016911 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Materials/Sink001.mat
-  artifactKey: Guid(63dc54ea2791a234089a41aaa74db363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Materials/Sink001.mat using Guid(63dc54ea2791a234089a41aaa74db363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec0a66a2ec61a83d80652520110ec33f') in 0.013156 seconds 
-  Import took 0.016033 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Materials/Counter001.mat
-  artifactKey: Guid(9eda22d4859691f44a203aaddc7eb941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Materials/Counter001.mat using Guid(9eda22d4859691f44a203aaddc7eb941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fce99e530474d2d535533dbadf4f098') in 0.012792 seconds 
-  Import took 0.015375 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Materials/Fridge001.mat
-  artifactKey: Guid(18b095f1444e35b47acffc95214ff048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Materials/Fridge001.mat using Guid(18b095f1444e35b47acffc95214ff048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dccf732faf3cb126e74dc76573e512a') in 0.016319 seconds 
-  Import took 0.019188 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Materials/Cabinet Small001.mat
-  artifactKey: Guid(5ee31ae1200431f4f851e94418de78ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Materials/Cabinet Small001.mat using Guid(5ee31ae1200431f4f851e94418de78ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2873a8ce062612db52f565f2b5029e40') in 0.014984 seconds 
-  Import took 0.018723 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Materials/Window001.mat
-  artifactKey: Guid(098d37322caf4484fa1c681471752977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Materials/Window001.mat using Guid(098d37322caf4484fa1c681471752977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc5b1ebdb5b01b78574975353ba2a797') in 0.014539 seconds 
-  Import took 0.017624 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Materials/Corner Cabinet Large001.mat
-  artifactKey: Guid(79f313db8ce7add4f8a67308e201d111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Materials/Corner Cabinet Large001.mat using Guid(79f313db8ce7add4f8a67308e201d111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68a26498a3bf73d89488bdc27d20d344') in 0.012713 seconds 
-  Import took 0.015877 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Materials/Door001.mat
-  artifactKey: Guid(e1f6edd38614a8a46aff86b200fbeec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Materials/Door001.mat using Guid(e1f6edd38614a8a46aff86b200fbeec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76926bf90801835a196396b1462b1470') in 0.012032 seconds 
-  Import took 0.014502 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000294 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Materials/Drying Rack001.mat
-  artifactKey: Guid(9ab5b009d6a4a5e47bd6bbe8a943dfae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Materials/Drying Rack001.mat using Guid(9ab5b009d6a4a5e47bd6bbe8a943dfae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b86d9c2ce621e176c6972c9f2e18e5c6') in 0.011695 seconds 
-  Import took 0.014929 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Materials/Table001.mat
-  artifactKey: Guid(5a843742bea6f8140b32f9a00df25a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Materials/Table001.mat using Guid(5a843742bea6f8140b32f9a00df25a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b412013c3ee3801a71d7f1c5e67599') in 0.013712 seconds 
-  Import took 0.016886 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Materials/Plate001.mat
-  artifactKey: Guid(4a34d6db943263b4b89b980c659e2603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Materials/Plate001.mat using Guid(4a34d6db943263b4b89b980c659e2603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd55cbeca42d48d008383a1b72d1a4036') in 0.011959 seconds 
-  Import took 0.015838 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Materials/Counter Chair001.mat
-  artifactKey: Guid(1d14a86c39157ff46ade241822d9e5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Materials/Counter Chair001.mat using Guid(1d14a86c39157ff46ade241822d9e5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e50c4381b415f7f730e59e9f24a9bd') in 0.013166 seconds 
-  Import took 0.016443 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Materials/Placemat001.mat
-  artifactKey: Guid(cfef56512bc88f44587bead8c901551d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Materials/Placemat001.mat using Guid(cfef56512bc88f44587bead8c901551d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaba19d9cb6460a1c3357c3db6590e9e') in 0.016233 seconds 
-  Import took 0.019669 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Materials/Room001.mat
-  artifactKey: Guid(c4c77de61e5fd5243b310fdc031dbc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Materials/Room001.mat using Guid(c4c77de61e5fd5243b310fdc031dbc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1567b9360c23476784cc37017ca8fc03') in 0.014849 seconds 
-  Import took 0.017877 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Materials/Table Chair001.mat
-  artifactKey: Guid(f3d100ad7af103e44a70eb8000751f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Materials/Table Chair001.mat using Guid(f3d100ad7af103e44a70eb8000751f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebd5216ba5daddd5347af8b3352b3310') in 0.015191 seconds 
-  Import took 0.017809 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Materials/Cieling Light.mat
-  artifactKey: Guid(efd1dbc7c2d9303409419335e2d13303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Materials/Cieling Light.mat using Guid(efd1dbc7c2d9303409419335e2d13303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9652bc698a2b189855dd8347a664f31') in 0.016672 seconds 
-  Import took 0.018990 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 97.697492 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Materials/Cabinet Large001.mat
-  artifactKey: Guid(1b233e2268efc7f45969882b8792403b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Materials/Cabinet Large001.mat using Guid(1b233e2268efc7f45969882b8792403b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc032856cb04e91f30d698075c24c69a') in 0.012967 seconds 
-  Import took 0.015725 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Materials/Kithcen Island001.mat
-  artifactKey: Guid(6ce13b89ad3283e4191150ff307fef91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Materials/Kithcen Island001.mat using Guid(6ce13b89ad3283e4191150ff307fef91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10889cdd672929daf1ee9f951c7d2f9c') in 0.014053 seconds 
-  Import took 0.016679 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Materials/Sink001.mat
-  artifactKey: Guid(63dc54ea2791a234089a41aaa74db363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Materials/Sink001.mat using Guid(63dc54ea2791a234089a41aaa74db363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a731ec93b5f9ab45d9054f2f3c53ecd') in 0.014594 seconds 
-  Import took 0.017111 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Materials/Counter001.mat
-  artifactKey: Guid(9eda22d4859691f44a203aaddc7eb941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Materials/Counter001.mat using Guid(9eda22d4859691f44a203aaddc7eb941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '573f0cdcc83d75a07f6962f900cd6c6b') in 0.013423 seconds 
-  Import took 0.016988 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Materials/Fridge001.mat
-  artifactKey: Guid(18b095f1444e35b47acffc95214ff048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Materials/Fridge001.mat using Guid(18b095f1444e35b47acffc95214ff048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d15fe02131b44b6676d888b2b72eeff') in 0.012590 seconds 
-  Import took 0.015102 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Materials/Cabinet Small001.mat
-  artifactKey: Guid(5ee31ae1200431f4f851e94418de78ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Materials/Cabinet Small001.mat using Guid(5ee31ae1200431f4f851e94418de78ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ca0967776dbaab60022ba0eea3556e1') in 0.013286 seconds 
-  Import took 0.015664 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Materials/Window001.mat
-  artifactKey: Guid(098d37322caf4484fa1c681471752977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Materials/Window001.mat using Guid(098d37322caf4484fa1c681471752977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03d006c103474eead3c63c595a85d9d2') in 0.012420 seconds 
-  Import took 0.015047 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Materials/Corner Cabinet Large001.mat
-  artifactKey: Guid(79f313db8ce7add4f8a67308e201d111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Materials/Corner Cabinet Large001.mat using Guid(79f313db8ce7add4f8a67308e201d111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f31286e2dff8441368e0bf27f52fa8ed') in 0.012353 seconds 
-  Import took 0.015866 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Materials/Door001.mat
-  artifactKey: Guid(e1f6edd38614a8a46aff86b200fbeec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Materials/Door001.mat using Guid(e1f6edd38614a8a46aff86b200fbeec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6093a61d27b2aa301c87b832e18b052') in 0.013808 seconds 
-  Import took 0.016027 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Materials/Drying Rack001.mat
-  artifactKey: Guid(9ab5b009d6a4a5e47bd6bbe8a943dfae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Materials/Drying Rack001.mat using Guid(9ab5b009d6a4a5e47bd6bbe8a943dfae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a97f0ee34e73288c46cb6a51fce318c') in 0.014793 seconds 
-  Import took 0.017731 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000131 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Materials/Table001.mat
-  artifactKey: Guid(5a843742bea6f8140b32f9a00df25a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Materials/Table001.mat using Guid(5a843742bea6f8140b32f9a00df25a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3993af5eb256f3eec4bd8b5b9e288bf') in 0.013865 seconds 
-  Import took 0.016393 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Materials/Plate001.mat
-  artifactKey: Guid(4a34d6db943263b4b89b980c659e2603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Materials/Plate001.mat using Guid(4a34d6db943263b4b89b980c659e2603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eafe035f51790abd3b67270869c42035') in 0.015724 seconds 
-  Import took 0.018446 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Materials/Counter Chair001.mat
-  artifactKey: Guid(1d14a86c39157ff46ade241822d9e5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Materials/Counter Chair001.mat using Guid(1d14a86c39157ff46ade241822d9e5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66ba3c830569ff0a461e81ce9dedfaa8') in 0.013934 seconds 
-  Import took 0.016698 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Materials/Placemat001.mat
-  artifactKey: Guid(cfef56512bc88f44587bead8c901551d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Materials/Placemat001.mat using Guid(cfef56512bc88f44587bead8c901551d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76063b32187fee297030fc97a57fd31a') in 0.015339 seconds 
-  Import took 0.019621 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Materials/Table Chair001.mat
-  artifactKey: Guid(f3d100ad7af103e44a70eb8000751f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Materials/Table Chair001.mat using Guid(f3d100ad7af103e44a70eb8000751f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04cba6cac3450bffda4a3012aea2a48e') in 0.019594 seconds 
-  Import took 0.023242 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/3D Models/Textures/Kitchen/Materials/Cieling Light.mat
-  artifactKey: Guid(efd1dbc7c2d9303409419335e2d13303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Kitchen/Materials/Cieling Light.mat using Guid(efd1dbc7c2d9303409419335e2d13303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc7ae65b1db2d03fe3214e61272ca92e') in 0.021411 seconds 
-  Import took 0.025534 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003297 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.919 seconds
-Domain Reload Profiling:
-	ReloadAssembly (919ms)
-		BeginReloadAssembly (105ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (750ms)
-			LoadAssemblies (85ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (261ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (272ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (74ms)
-				ProcessInitializeOnLoadAttributes (181ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1479 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.5 MB.
-System memory in use after: 86.6 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1995.
-Total: 2.689800 ms (FindLiveObjects: 0.141200 ms CreateObjectMapping: 0.046300 ms MarkObjects: 2.473400 ms  DeleteObjects: 0.027400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 80.867111 seconds.
-  path: Assets/3D Models/Textures/Bedroom/Materials
-  artifactKey: Guid(ed7a9d913fb45e949bf07271c56c0410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Bedroom/Materials using Guid(ed7a9d913fb45e949bf07271c56c0410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47a94e6be1f8a86221dde33efd92e15b') in 0.014255 seconds 
-  Import took 0.016901 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.049218 seconds.
-  path: Assets/3D Models/Textures/Bedroom/Materials/Mattress001.mat
-  artifactKey: Guid(e46042de44a624140b899f42febfe205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Bedroom/Materials/Mattress001.mat using Guid(e46042de44a624140b899f42febfe205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b79873c28705b383eac0e2813eb36c') in 0.065000 seconds 
-  Import took 0.067545 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000353 seconds.
-  path: Assets/3D Models/Textures/Bedroom/Materials/ToyChest001.mat
-  artifactKey: Guid(701149b4e5a54df4092f4671b20f47cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Bedroom/Materials/ToyChest001.mat using Guid(701149b4e5a54df4092f4671b20f47cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '288fffc156d3154a3e8d2a114d63fa5a') in 0.014384 seconds 
-  Import took 0.017660 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000321 seconds.
-  path: Assets/3D Models/Textures/Bedroom/Materials/Nightstand001.mat
-  artifactKey: Guid(9dfd90a47e62c784aa25f32eb886f885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Bedroom/Materials/Nightstand001.mat using Guid(9dfd90a47e62c784aa25f32eb886f885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80fa41fb356dd7f2795cb43f9ac8616a') in 0.016581 seconds 
-  Import took 0.019292 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/3D Models/Textures/Bedroom/Materials/WindowFrame001.mat
-  artifactKey: Guid(971cfa8fb0094d0488ef50763d2b62ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Bedroom/Materials/WindowFrame001.mat using Guid(971cfa8fb0094d0488ef50763d2b62ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'def58407576913afd6ee9d27877ed301') in 0.014249 seconds 
-  Import took 0.017004 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/3D Models/Textures/Bedroom/Materials/Room001.mat
-  artifactKey: Guid(b8a59f43bc3980c4c922ef440c3c4aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Bedroom/Materials/Room001.mat using Guid(b8a59f43bc3980c4c922ef440c3c4aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9b16cbe2199d751e04022db670c5cc6') in 0.012869 seconds 
-  Import took 0.015433 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/3D Models/Textures/Bedroom/Materials/Rug001.mat
-  artifactKey: Guid(706632cff63ed4c428f47f6e453715b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Bedroom/Materials/Rug001.mat using Guid(706632cff63ed4c428f47f6e453715b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f89c1cf5120b428fb3243479525abbb0') in 0.017081 seconds 
-  Import took 0.020047 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.010304 seconds.
-  path: Assets/3D Models/Textures/Bedroom/Materials/BedFrame001.mat
-  artifactKey: Guid(4179d69a3f563014ca37f3a287f9d761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Bedroom/Materials/BedFrame001.mat using Guid(4179d69a3f563014ca37f3a287f9d761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3261cfed10323e2c73573e4245dc932c') in 0.016153 seconds 
-  Import took 0.018784 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/3D Models/Textures/Bedroom/Materials/ToyChest001.mat
-  artifactKey: Guid(701149b4e5a54df4092f4671b20f47cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Bedroom/Materials/ToyChest001.mat using Guid(701149b4e5a54df4092f4671b20f47cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0ea82d789299a1fdc3bf78f1ae56d10') in 0.014368 seconds 
-  Import took 0.018213 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/3D Models/Textures/Bedroom/Materials/Mattress001.mat
-  artifactKey: Guid(e46042de44a624140b899f42febfe205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Bedroom/Materials/Mattress001.mat using Guid(e46042de44a624140b899f42febfe205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c676fc18d691e94009824065439a09f6') in 0.019091 seconds 
-  Import took 0.021737 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/3D Models/Textures/Bedroom/Materials/Dresser001.mat
-  artifactKey: Guid(8079ae044fc30df40861b76317d170bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Bedroom/Materials/Dresser001.mat using Guid(8079ae044fc30df40861b76317d170bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa7f9bf9c7843c077f813809e13f6f2d') in 0.017149 seconds 
-  Import took 0.019498 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/3D Models/Textures/Bedroom/Materials/Nightstand001.mat
-  artifactKey: Guid(9dfd90a47e62c784aa25f32eb886f885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Bedroom/Materials/Nightstand001.mat using Guid(9dfd90a47e62c784aa25f32eb886f885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aa7e29127828f3f7929fe4a68f85211') in 0.015863 seconds 
-  Import took 0.019169 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000754 seconds.
-  path: Assets/3D Models/Textures/Bedroom/Materials/Door001.mat
-  artifactKey: Guid(fa9cd566dfc4fc64c9a31e3729d42e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Bedroom/Materials/Door001.mat using Guid(fa9cd566dfc4fc64c9a31e3729d42e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c026850fd0e1dbfb86e39959d4488371') in 0.015606 seconds 
-  Import took 0.018793 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/3D Models/Textures/Bedroom/Materials/Fan001.mat
-  artifactKey: Guid(1f7337eb9223c5747b123d0a394f3ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Bedroom/Materials/Fan001.mat using Guid(1f7337eb9223c5747b123d0a394f3ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00f904a4f37a4e250750ddd62f7c8e4e') in 0.018077 seconds 
-  Import took 0.020658 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/3D Models/Textures/Bedroom/Materials/Room001.mat
-  artifactKey: Guid(b8a59f43bc3980c4c922ef440c3c4aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Bedroom/Materials/Room001.mat using Guid(b8a59f43bc3980c4c922ef440c3c4aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e26d7dd201de0d42f87e898177c580') in 0.016387 seconds 
-  Import took 0.018681 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/3D Models/Textures/Bedroom/Materials/WindowFrame001.mat
-  artifactKey: Guid(971cfa8fb0094d0488ef50763d2b62ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Bedroom/Materials/WindowFrame001.mat using Guid(971cfa8fb0094d0488ef50763d2b62ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cea8bb71fad11b6e77f9152101deeda6') in 0.015573 seconds 
-  Import took 0.018243 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/3D Models/Textures/Bedroom/Materials/Rug001.mat
-  artifactKey: Guid(706632cff63ed4c428f47f6e453715b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Textures/Bedroom/Materials/Rug001.mat using Guid(706632cff63ed4c428f47f6e453715b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e077eff88057edbdeac1bca2b60384c8') in 0.014000 seconds 
-  Import took 0.016494 seconds .
-
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
