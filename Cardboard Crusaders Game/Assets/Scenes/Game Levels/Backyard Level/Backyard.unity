@@ -1719,14 +1719,14 @@ MonoBehaviour:
   LevelName: Backyard
   waves:
   - WParts:
-    - enemy: {fileID: 6059904603282647607, guid: b3d14101371737b41b0857121003db4e,
-        type: 3}
-      count: 15
-      rate: 10
     - enemy: {fileID: 6059904603282647607, guid: 28b019d2d9b3b5046b5846928ee37255,
         type: 3}
       count: 10
       rate: 30
+    - enemy: {fileID: 6059904603282647607, guid: b3d14101371737b41b0857121003db4e,
+        type: 3}
+      count: 15
+      rate: 10
     - enemy: {fileID: 6059904603282647607, guid: b3d14101371737b41b0857121003db4e,
         type: 3}
       count: 20
