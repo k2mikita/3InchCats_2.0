@@ -443,7 +443,7 @@ MonoBehaviour:
   attackCooldown: 1
   boom: 0
   worth: 2147483647
-  deathSound: BossDeathMaybe
+  deathSound: BossDeath
   healthBar: {fileID: 966740628155583442}
   Boss: 1
   dragonAttack: {fileID: 8092817153108725434, guid: c28346afdb84ab849a579209d823b297,

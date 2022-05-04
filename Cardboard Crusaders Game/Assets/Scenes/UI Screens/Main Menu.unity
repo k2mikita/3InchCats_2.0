@@ -1294,19 +1294,19 @@ MonoBehaviour:
   sounds:
   - name: CastleDamage1
     clip: {fileID: 8300000, guid: 943a36c0658a08d4cb766a38a45bcd45, type: 3}
-    volume: 0.5
+    volume: 0.7
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: CastleDamage2
     clip: {fileID: 8300000, guid: 98c16aaff26687e43814ba9deb7f8919, type: 3}
-    volume: 0.5
+    volume: 0.6
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: CastleDamage3
     clip: {fileID: 8300000, guid: f519c1ed3b0757e4ab9820101c279213, type: 3}
-    volume: 0.5
+    volume: 0.8
     pitch: 1
     loop: 0
     source: {fileID: 0}
@@ -1318,19 +1318,19 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: CastleDamage5
     clip: {fileID: 8300000, guid: 0734b46901eb76241a725893f8e64e21, type: 3}
-    volume: 0.5
+    volume: 0.7
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: CastleDamage6
     clip: {fileID: 8300000, guid: 269515bbe26afce4fbe805949388c112, type: 3}
-    volume: 0.5
+    volume: 0.6
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: CastleDamage7
     clip: {fileID: 8300000, guid: 51402653eee682c4b90bfdcea5f62704, type: 3}
-    volume: 0.5
+    volume: 0.8
     pitch: 1
     loop: 0
     source: {fileID: 0}
@@ -1342,19 +1342,19 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: CastleDamage9
     clip: {fileID: 8300000, guid: 7ce4c399b5a043d46b6dca18f07107e6, type: 3}
-    volume: 0.5
+    volume: 0.7
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: CastleDamage10
     clip: {fileID: 8300000, guid: 9736aaa70f2cff347b6b57b5267c6e80, type: 3}
-    volume: 0.5
+    volume: 0.6
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: CastleDamage11
     clip: {fileID: 8300000, guid: 9c8714ce3ccc118458714f86ca2d22f1, type: 3}
-    volume: 0.5
+    volume: 0.8
     pitch: 1
     loop: 0
     source: {fileID: 0}
@@ -1366,7 +1366,7 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: CastleDamage13
     clip: {fileID: 8300000, guid: c2f9aca53897aed4fa496f3da3bcd2df, type: 3}
-    volume: 0.5
+    volume: 0.7
     pitch: 1
     loop: 0
     source: {fileID: 0}
@@ -1432,55 +1432,55 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: Cannon1
     clip: {fileID: 8300000, guid: 37ccb4c2cb746d04b8ef6cf20519e664, type: 3}
-    volume: 0.5
+    volume: 0.3
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Cannon2
     clip: {fileID: 8300000, guid: aaac157bc178e2d4cb6b3fd21c07867d, type: 3}
-    volume: 0.5
+    volume: 0.4
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Cannon3
     clip: {fileID: 8300000, guid: 1fb51f12f86ad61458255904fe40d87b, type: 3}
-    volume: 0.5
+    volume: 0.3
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Cannon4
     clip: {fileID: 8300000, guid: 40fe2dabcc7dac54397abf9a2bc8e4ea, type: 3}
-    volume: 0.5
+    volume: 0.4
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Catapult1
     clip: {fileID: 8300000, guid: ddf376ec4feb8c6499984acd16478331, type: 3}
-    volume: 0.5
+    volume: 0.1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Catapult2
     clip: {fileID: 8300000, guid: bec8f8ecb29dec342a81884fab49b524, type: 3}
-    volume: 0.5
+    volume: 0.1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Catapult3
     clip: {fileID: 8300000, guid: 0bacc052eb890594987fa90d7d98e70f, type: 3}
-    volume: 0.5
+    volume: 0.1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Crossbow1
     clip: {fileID: 8300000, guid: 29802655f4561a94f93250a58b7c39d0, type: 3}
-    volume: 0.5
+    volume: 0.4
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: FidgetSpinner1
     clip: {fileID: 8300000, guid: 55cc75b7bb62b6541958336c68d6aaf1, type: 3}
-    volume: 0.5
+    volume: 0.7
     pitch: 1
     loop: 1
     source: {fileID: 0}
@@ -1492,13 +1492,13 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: BomberWalk1
     clip: {fileID: 8300000, guid: 37c42659bc606f847b139aa3af987be9, type: 3}
-    volume: 0.5
+    volume: 0.3
     pitch: 1
     loop: 1
     source: {fileID: 0}
   - name: BomberWalk2
     clip: {fileID: 8300000, guid: dd195ce47e2f764469c09fde7d63312a, type: 3}
-    volume: 0.5
+    volume: 0.3
     pitch: 1
     loop: 1
     source: {fileID: 0}
@@ -1522,13 +1522,13 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: FuzzclopsDeath1
     clip: {fileID: 8300000, guid: 5f37a888c26cdd442879d729a8ab0766, type: 3}
-    volume: 0.5
+    volume: 0.2
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: FuzzclopsDeath2
     clip: {fileID: 8300000, guid: a7be02592cda7ba4f80ccd349723c725, type: 3}
-    volume: 0.5
+    volume: 0.2
     pitch: 1
     loop: 0
     source: {fileID: 0}
@@ -1582,37 +1582,37 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: Level1Loop
     clip: {fileID: 8300000, guid: 220b0b9008b8364478093859fd54e241, type: 3}
-    volume: 0.5
+    volume: 0.3
     pitch: 1
     loop: 1
     source: {fileID: 0}
   - name: MenuLoop
     clip: {fileID: 8300000, guid: ebd5b5257c41bcb40a9a3949b389fa05, type: 3}
-    volume: 0.5
+    volume: 0.3
     pitch: 1
     loop: 1
     source: {fileID: 0}
   - name: MenuIntro
     clip: {fileID: 8300000, guid: 9f755e111bd96994aab06eb1b678af4d, type: 3}
-    volume: 0.507
+    volume: 0.2
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Level2Loop
     clip: {fileID: 8300000, guid: e0845790ccba8d242b69863ff581d3e3, type: 3}
-    volume: 0.5
+    volume: 0.3
     pitch: 1
     loop: 1
     source: {fileID: 0}
   - name: BossIntro
     clip: {fileID: 8300000, guid: ee984a9486ee3fe4c97c0c2726c2dbec, type: 3}
-    volume: 0.5
+    volume: 0.4
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: BossLoop
     clip: {fileID: 8300000, guid: 79c465b696ce98f4f99ed642166092b8, type: 3}
-    volume: 0.5
+    volume: 0.4
     pitch: 1
     loop: 1
     source: {fileID: 0}
@@ -1630,43 +1630,43 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: TowerPlace
     clip: {fileID: 8300000, guid: d81a1406680a0c7469741daaed8dc6af, type: 3}
-    volume: 0.5
+    volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Button1
-    clip: {fileID: 8300000, guid: a0c29795f7ba7dd4d9ba4cb19f40a8c3, type: 3}
-    volume: 0.5
+    clip: {fileID: 8300000, guid: 0b4342baf6efeba4f95d779550d04045, type: 3}
+    volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Button2
-    clip: {fileID: 8300000, guid: c1f8e77680902e3409f9800d7ccd9528, type: 3}
-    volume: 0.5
+    clip: {fileID: 8300000, guid: 0fc78492029880949948dd86a4b7c528, type: 3}
+    volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Fireball1
     clip: {fileID: 8300000, guid: 5cbc619f25e23e84fb4aac03e877f587, type: 3}
-    volume: 0.5
+    volume: 0.2
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Fireball2
     clip: {fileID: 8300000, guid: 7b6fadfb11136f546a3f388757af852b, type: 3}
-    volume: 0.5
+    volume: 0.2
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Fireball3
     clip: {fileID: 8300000, guid: 61807d504f997884cb92ff1ddc52340d, type: 3}
-    volume: 0.5
+    volume: 0.2
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: PlayerMeteor
     clip: {fileID: 8300000, guid: 45a3769293227d049b4365b47b14e15e, type: 3}
-    volume: 0.5
+    volume: 0.7
     pitch: 1
     loop: 0
     source: {fileID: 0}
@@ -1702,19 +1702,19 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: BossAttack1
     clip: {fileID: 8300000, guid: eb4f054796033414183e47e25b9199f0, type: 3}
-    volume: 0.5
+    volume: 0.3
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: BossAttack2
     clip: {fileID: 8300000, guid: b54542f2295d1b94e81fc89a58884779, type: 3}
-    volume: 0.5
+    volume: 0.3
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: BossAttack3
     clip: {fileID: 8300000, guid: 55c7fbe28d1d7df4da0c22736138b0fc, type: 3}
-    volume: 0.5
+    volume: 0.3
     pitch: 1
     loop: 0
     source: {fileID: 0}
@@ -1726,7 +1726,7 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: BearDeath
     clip: {fileID: 8300000, guid: f7c4237b53e4eae43be9dc293a999cfe, type: 3}
-    volume: 0.5
+    volume: 0.2
     pitch: 1
     loop: 0
     source: {fileID: 0}
@@ -1756,13 +1756,13 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: BomberAttack
     clip: {fileID: 8300000, guid: 9620f79d2a33692448564cb027f36d25, type: 3}
-    volume: 0.5
+    volume: 0.4
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Level3Loop
     clip: {fileID: 8300000, guid: cb758e33873755a47875c7c646bf1e57, type: 3}
-    volume: 0.5
+    volume: 0.3
     pitch: 1
     loop: 1
     source: {fileID: 0}
