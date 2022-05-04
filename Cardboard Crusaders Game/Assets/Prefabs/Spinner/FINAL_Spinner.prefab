@@ -171,7 +171,7 @@ Transform:
   m_GameObject: {fileID: 4671864482765416707}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.34, y: 0.34, z: 1}
+  m_LocalScale: {x: 0.42, y: 0.42, z: 1}
   m_Children: []
   m_Father: {fileID: 1580066361034830208}
   m_RootOrder: 4
@@ -333,7 +333,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   targetEnemy: {fileID: 0}
-  range: 2
+  range: 2.5
   fireRate: 2
   fireCountdown: 0
   enemyTag: Enemy
