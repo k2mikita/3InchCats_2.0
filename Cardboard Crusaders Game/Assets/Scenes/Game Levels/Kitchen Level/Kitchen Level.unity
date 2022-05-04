@@ -16814,33 +16814,34 @@ MonoBehaviour:
     cost: 300
     upgradedPrefab: {fileID: 5934577848349016202, guid: de436ce257b8ffa43b33779648a45cfc,
       type: 3}
-    upgradeCost: 350
+    upgradeCost: 200
   Crossbow:
     prefab: {fileID: 3359469718228537518, guid: b9f37ee681c5d1341b1f429413d54308,
       type: 3}
     cost: 500
     upgradedPrefab: {fileID: 3359469718228537518, guid: 24e4145b841b8854198eb1d66ba952fc,
       type: 3}
-    upgradeCost: 550
+    upgradeCost: 275
   spinner:
     prefab: {fileID: 3359469718228537518, guid: 78432b923c6418a4fbbb44e84294692d,
       type: 3}
     cost: 200
     upgradedPrefab: {fileID: 3359469718228537518, guid: 2427886e7c26ea547bd5b5ee0644a564,
       type: 3}
-    upgradeCost: 250
+    upgradeCost: 125
   canon:
     prefab: {fileID: 3359469718228537518, guid: eff7208dfbf633a45bec31490c3d8e91,
       type: 3}
     cost: 400
     upgradedPrefab: {fileID: 3359469718228537518, guid: a7f77d7181395ed4195b36b6bb242189,
       type: 3}
-    upgradeCost: 450
+    upgradeCost: 250
   wall:
     prefab: {fileID: 4482573658511941430, guid: edc3f52e9f5e3eb4892658d25f365029,
       type: 3}
     cost: 50
-    upgradedPrefab: {fileID: 0}
+    upgradedPrefab: {fileID: 4482573658511941430, guid: edc3f52e9f5e3eb4892658d25f365029,
+      type: 3}
     upgradeCost: 0
 --- !u!114 &1208986421
 MonoBehaviour:

@@ -300,7 +300,7 @@ MonoBehaviour:
   target: {fileID: 0}
   targetEnemy: {fileID: 0}
   range: 16
-  fireRate: 0.2
+  fireRate: 0.4
   fireCountdown: 0
   enemyTag: Enemy
   partToRotate: {fileID: 3736215602002628075}

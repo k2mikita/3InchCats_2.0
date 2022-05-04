@@ -4339,7 +4339,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 441331445937a7c45b5b9c2378da0132, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startMoney: 10000
+  startMoney: 3000
   startLives: 100
 --- !u!1001 &256708881
 PrefabInstance:
@@ -5601,7 +5601,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '$150
+  m_Text: '$50
 
 '
 --- !u!222 &325851596
@@ -36978,25 +36978,41 @@ MonoBehaviour:
   - WParts:
     - enemy: {fileID: 6059904603282647607, guid: b3d14101371737b41b0857121003db4e,
         type: 3}
-      count: 10
-      rate: 40
+      count: 30
+      rate: 10
     - enemy: {fileID: 6059904603282647607, guid: 28b019d2d9b3b5046b5846928ee37255,
         type: 3}
       count: 10
-      rate: 40
+      rate: 10
     - enemy: {fileID: 6059904603282647607, guid: 4f73701f464a0f742a86872e86aae084,
         type: 3}
       count: 10
-      rate: 40
+      rate: 10
+  - WParts:
+    - enemy: {fileID: 6059904603282647607, guid: b3d14101371737b41b0857121003db4e,
+        type: 3}
+      count: 20
+      rate: 20
+    - enemy: {fileID: 6059904603282647607, guid: 4f73701f464a0f742a86872e86aae084,
+        type: 3}
+      count: 20
+      rate: 5
+    - enemy: {fileID: 6059904603282647607, guid: 28b019d2d9b3b5046b5846928ee37255,
+        type: 3}
+      count: 20
+      rate: 30
+    - enemy: {fileID: 6059904603282647607, guid: b3d14101371737b41b0857121003db4e,
+        type: 3}
+      count: 20
+      rate: 15
+  - WParts: []
+  - WParts: []
+  - WParts: []
   - WParts:
     - enemy: {fileID: 6059904603282647607, guid: d968370365798fc4c943b686c82bcc05,
         type: 3}
       count: 1
       rate: 40
-  - WParts: []
-  - WParts: []
-  - WParts: []
-  - WParts: []
   spawnPoint:
   - {fileID: 1885137204}
   - {fileID: 1884707944}
@@ -37019,11 +37035,11 @@ MonoBehaviour:
   - {fileID: 663618009}
   - {fileID: 851941382}
   - {fileID: 171729030}
-  timeBetweenWaves: 15
+  timeBetweenWaves: 20
   countdown: 45
   waveCountdownText: {fileID: 1723146799}
   waveIndex: 0
-  wincondition: 400
+  wincondition: 4000
   dragonAttack: {fileID: 8092817153108725434, guid: c28346afdb84ab849a579209d823b297,
     type: 3}
   dragonAttackvfx: {fileID: 8857606528426141988, guid: 9d88218d7feb4be499604a9dfcfbf01f,
@@ -39146,33 +39162,34 @@ MonoBehaviour:
     cost: 300
     upgradedPrefab: {fileID: 5934577848349016202, guid: de436ce257b8ffa43b33779648a45cfc,
       type: 3}
-    upgradeCost: 350
+    upgradeCost: 200
   Crossbow:
     prefab: {fileID: 3359469718228537518, guid: b9f37ee681c5d1341b1f429413d54308,
       type: 3}
     cost: 500
     upgradedPrefab: {fileID: 3359469718228537518, guid: 24e4145b841b8854198eb1d66ba952fc,
       type: 3}
-    upgradeCost: 550
+    upgradeCost: 275
   spinner:
     prefab: {fileID: 3359469718228537518, guid: 78432b923c6418a4fbbb44e84294692d,
       type: 3}
     cost: 200
     upgradedPrefab: {fileID: 3359469718228537518, guid: 2427886e7c26ea547bd5b5ee0644a564,
       type: 3}
-    upgradeCost: 250
+    upgradeCost: 125
   canon:
     prefab: {fileID: 3359469718228537518, guid: eff7208dfbf633a45bec31490c3d8e91,
       type: 3}
     cost: 400
     upgradedPrefab: {fileID: 3359469718228537518, guid: a7f77d7181395ed4195b36b6bb242189,
       type: 3}
-    upgradeCost: 450
+    upgradeCost: 250
   wall:
     prefab: {fileID: 4482573658511941430, guid: edc3f52e9f5e3eb4892658d25f365029,
       type: 3}
-    cost: 150
-    upgradedPrefab: {fileID: 0}
+    cost: 50
+    upgradedPrefab: {fileID: 4482573658511941430, guid: edc3f52e9f5e3eb4892658d25f365029,
+      type: 3}
     upgradeCost: 0
 --- !u!114 &1750443895
 MonoBehaviour:
