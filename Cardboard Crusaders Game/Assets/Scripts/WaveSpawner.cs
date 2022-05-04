@@ -34,6 +34,8 @@ public class WaveSpawner : MonoBehaviour
 
 	public GameObject dragonAttack;
 	public GameObject dragonAttackvfx;
+	public GameObject AirChimera;
+	
 
 	void Start()
     {
@@ -123,6 +125,11 @@ public class WaveSpawner : MonoBehaviour
 		
 
 		waveIndex++;
+
+		if(waveIndex == 2)
+        {
+			AirChimera.SetActive(false);
+		}
 	}
 
 	void SpawnEnemy(GameObject enemy)
@@ -140,6 +147,7 @@ public class WaveSpawner : MonoBehaviour
 			int x = Random.Range(0, nodes.Length);
 			Instantiate(dragonAttack, nodes[x].transform.position, nodes[x].transform.rotation);
 			Instantiate(dragonAttackvfx, nodes[x].transform.position, nodes[x].transform.rotation);
+			
 
 			int num = Random.Range(1, 3);
 			//play collision sounds
@@ -161,6 +169,8 @@ public class WaveSpawner : MonoBehaviour
 		if (EnemiesKilled <= wincondition/2)
 		{
 			StartCoroutine(spawnAttacks());
+			//AirChimera.SetActive(false);
+
 		}
 	}
 

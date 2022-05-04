@@ -4453,7 +4453,7 @@ PrefabInstance:
     - target: {fileID: 1998291812615048619, guid: 4c297b4dbfe4dde44bfaa686274bb196,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1998291812615048619, guid: 4c297b4dbfe4dde44bfaa686274bb196,
         type: 3}
@@ -15750,6 +15750,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1049867706}
   m_CullTransparentMesh: 1
+--- !u!1001 &1056334346
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6059904603282647595, guid: 8670bd64c16121744bd9d1d6a0211cd6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6059904603282647595, guid: 8670bd64c16121744bd9d1d6a0211cd6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 504.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6059904603282647595, guid: 8670bd64c16121744bd9d1d6a0211cd6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 13.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 6059904603282647595, guid: 8670bd64c16121744bd9d1d6a0211cd6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 454.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 6059904603282647595, guid: 8670bd64c16121744bd9d1d6a0211cd6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6059904603282647595, guid: 8670bd64c16121744bd9d1d6a0211cd6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6059904603282647595, guid: 8670bd64c16121744bd9d1d6a0211cd6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6059904603282647595, guid: 8670bd64c16121744bd9d1d6a0211cd6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6059904603282647595, guid: 8670bd64c16121744bd9d1d6a0211cd6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6059904603282647595, guid: 8670bd64c16121744bd9d1d6a0211cd6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6059904603282647595, guid: 8670bd64c16121744bd9d1d6a0211cd6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6059904603282647607, guid: 8670bd64c16121744bd9d1d6a0211cd6,
+        type: 3}
+      propertyPath: m_Name
+      value: Chimera(Air)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8670bd64c16121744bd9d1d6a0211cd6, type: 3}
+--- !u!1 &1056334347 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6059904603282647607, guid: 8670bd64c16121744bd9d1d6a0211cd6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1056334346}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1057650081
 GameObject:
   m_ObjectHideFlags: 0
@@ -21378,7 +21453,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &1461418507
 GameObject:
@@ -22709,7 +22784,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1545470401
 GameObject:
@@ -24819,15 +24894,15 @@ MonoBehaviour:
   - WParts:
     - enemy: {fileID: 6059904603282647607, guid: b3d14101371737b41b0857121003db4e,
         type: 3}
-      count: 120
+      count: 10
       rate: 40
     - enemy: {fileID: 6059904603282647607, guid: 28b019d2d9b3b5046b5846928ee37255,
         type: 3}
-      count: 40
+      count: 10
       rate: 40
     - enemy: {fileID: 6059904603282647607, guid: 4f73701f464a0f742a86872e86aae084,
         type: 3}
-      count: 40
+      count: 10
       rate: 40
   - WParts:
     - enemy: {fileID: 6059904603282647607, guid: d968370365798fc4c943b686c82bcc05,
@@ -24852,6 +24927,7 @@ MonoBehaviour:
     type: 3}
   dragonAttackvfx: {fileID: 8857606528426141988, guid: 9d88218d7feb4be499604a9dfcfbf01f,
     type: 3}
+  AirChimera: {fileID: 1056334347}
 --- !u!114 &1697726362
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27599,7 +27675,7 @@ Transform:
   - {fileID: 570859300}
   - {fileID: 1245784094}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1882837947
 PrefabInstance:
