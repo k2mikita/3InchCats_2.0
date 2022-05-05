@@ -50,4 +50,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/UI Screens/Game Info.unity
     guid: 9c4976fedda66d2499077be276d605bc
+  - enabled: 1
+    path: Assets/Scenes/UI Screens/Unlock Screens/Crossbow_BigBear.unity
+    guid: 4acc0b7bc42f01444bddb59d5059ce16
+  - enabled: 1
+    path: Assets/Scenes/UI Screens/Unlock Screens/Cannon_Bomber.unity
+    guid: 5c73165bd023b874bbee314545bb42e9
+  - enabled: 1
+    path: Assets/Scenes/UI Screens/Unlock Screens/Spinner_Boss.unity
+    guid: 0bb399d20c4c4024c8c8d058e57a7638
   m_configObjects: {}

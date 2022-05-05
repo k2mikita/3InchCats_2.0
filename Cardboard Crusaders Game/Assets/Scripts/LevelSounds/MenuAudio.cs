@@ -24,7 +24,7 @@ public class MenuAudio : MonoBehaviour
     void Update()
     {
         FindObjectOfType<AudioManager>().Stop("Level1Loop");
-        //FindObjectOfType<AudioManager>().Stop("Level1Intro");
+        FindObjectOfType<AudioManager>().Stop("Level3Loop");
         FindObjectOfType<AudioManager>().Stop("Level2Loop");
         FindObjectOfType<AudioManager>().Stop("BossIntro");
         FindObjectOfType<AudioManager>().Stop("BossLoop");

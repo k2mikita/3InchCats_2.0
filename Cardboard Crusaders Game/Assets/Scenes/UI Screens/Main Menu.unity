@@ -1216,7 +1216,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 16, y: -95}
+  m_AnchoredPosition: {x: 16, y: -173}
   m_SizeDelta: {x: -749.9536, y: 395.2879}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &826103791
@@ -1252,8 +1252,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0.75
-  m_Text: "Welcome to Cardboard Crusaders! \n\nThere are FOUR levels for you to play.\n\nWill
-    you be able to defend your castle?"
+  m_Text: "Welcome to Cardboard Crusaders! \n\nWill YOU be able to defend your castle?"
 --- !u!222 &826103792
 CanvasRenderer:
   m_ObjectHideFlags: 0

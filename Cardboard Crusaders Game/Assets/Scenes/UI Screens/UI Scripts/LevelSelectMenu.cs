@@ -48,19 +48,19 @@ public class LevelSelectMenu : MonoBehaviour
     public void KitchenLevelButton()
     {
         gameObject.SendMessage("setLevel", "Kitchen");
-        SceneManager.LoadScene("Kitchen Level");
+        SceneManager.LoadScene("Crossbow_BigBear");
 
     }
     public void AtticLevelButton()
     {
         gameObject.SendMessage("setLevel", "Attic");
-        SceneManager.LoadScene("Attic Level");
+        SceneManager.LoadScene("Spinner_Boss");
 
     }
     public void BackyardLevelButton()
     {
         gameObject.SendMessage("setLevel", "Backyard");
-        SceneManager.LoadScene("Backyard");
+        SceneManager.LoadScene("Cannon_Bomber");
 
     }
 

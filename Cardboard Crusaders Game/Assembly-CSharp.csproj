@@ -80,6 +80,7 @@
     <Compile Include="Assets\Scenes\UI Screens\UI Scripts\LoseScreen.cs" />
     <Compile Include="Assets\VFX\Spell VFX\VFXScripts\SpellShoot.cs" />
     <Compile Include="Assets\Scripts\spawnCharacter.cs" />
+    <Compile Include="Assets\Scenes\UI Screens\UI Scripts\GameInfo.cs" />
     <Compile Include="Assets\Scripts\EnemySounds\TeddyBearWalkSound.cs" />
     <Compile Include="Assets\Scripts\PlayerSounds\WalkSoundScript.cs" />
     <Compile Include="Assets\Scripts\EnemySounds\FuzzWalkSound.cs" />
@@ -134,7 +135,9 @@
     <Compile Include="Assets\Scripts\LevelSounds\Level3Audio.cs" />
     <Compile Include="Assets\VFX\Spell VFX\VFXScripts\METEORDestroySelfOverTime.cs" />
     <Compile Include="Assets\VFX\Spell VFX\VFXScripts\SpellDragon.cs" />
-    <Compile Include="Assets\Scenes\UI Screens\UI Scripts\GameInfo.cs" />
+    <Compile Include="Assets\Scenes\UI Screens\UI Scripts\ToKitchen.cs" />
+    <Compile Include="Assets\Scenes\UI Screens\UI Scripts\ToBackyard.cs" />
+    <Compile Include="Assets\Scenes\UI Screens\UI Scripts\ToAttic.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\VFX\Spell VFX\SpellMaterial\Shader_ForEffects\Shader_Decal.shader" />
