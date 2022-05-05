@@ -912,11 +912,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0.85
-  m_Text: 'Check the level select
-
-    screen to see if another
-
-    level is unlocked!'
+  m_Text: New Level Unlocked!
 --- !u!222 &1647899284
 CanvasRenderer:
   m_ObjectHideFlags: 0

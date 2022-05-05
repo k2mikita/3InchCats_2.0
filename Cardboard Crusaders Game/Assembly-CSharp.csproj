@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scripts\PlayerSounds\SwordSwingSound.cs" />
     <Compile Include="Assets\Scenes\UI Screens\UI Scripts\Shop.cs" />
     <Compile Include="Assets\Scenes\UI Screens\UI Scripts\WinScreen.cs" />
+    <Compile Include="Assets\Scenes\UI Screens\UI Scripts\ToBackyard.cs" />
     <Compile Include="Assets\Scripts\PlayerStats.cs" />
     <Compile Include="Assets\Scenes\UI Screens\UI Scripts\LivesUI.cs" />
     <Compile Include="Assets\Scripts\TurretSounds\CannonShootSound.cs" />
@@ -76,6 +77,7 @@
     <Compile Include="Assets\VFX\Spell VFX\VFXScripts\_ObjectsMakeBase.cs" />
     <Compile Include="Assets\QuickOutline\Scripts\Rays.cs" />
     <Compile Include="Assets\Scripts\TurretBlueprint.cs" />
+    <Compile Include="Assets\Scenes\UI Screens\UI Scripts\ToKitchen.cs" />
     <Compile Include="Assets\Scripts\ShieldVFX.cs" />
     <Compile Include="Assets\Scenes\UI Screens\UI Scripts\LoseScreen.cs" />
     <Compile Include="Assets\VFX\Spell VFX\VFXScripts\SpellShoot.cs" />
@@ -85,6 +87,7 @@
     <Compile Include="Assets\Scripts\PlayerSounds\WalkSoundScript.cs" />
     <Compile Include="Assets\Scripts\EnemySounds\FuzzWalkSound.cs" />
     <Compile Include="Assets\3rdPerson+Fly\Scripts\PlayerScripts\BasicBehaviour.cs" />
+    <Compile Include="Assets\Scenes\UI Screens\UI Scripts\ToAttic.cs" />
     <Compile Include="Assets\Scripts\Node.cs" />
     <Compile Include="Assets\Scripts\TurretSounds\SpinnerShoot.cs" />
     <Compile Include="Assets\Scripts\EnemySounds\BomberWalkSound.cs" />
@@ -135,9 +138,6 @@
     <Compile Include="Assets\Scripts\LevelSounds\Level3Audio.cs" />
     <Compile Include="Assets\VFX\Spell VFX\VFXScripts\METEORDestroySelfOverTime.cs" />
     <Compile Include="Assets\VFX\Spell VFX\VFXScripts\SpellDragon.cs" />
-    <Compile Include="Assets\Scenes\UI Screens\UI Scripts\ToKitchen.cs" />
-    <Compile Include="Assets\Scenes\UI Screens\UI Scripts\ToBackyard.cs" />
-    <Compile Include="Assets\Scenes\UI Screens\UI Scripts\ToAttic.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\VFX\Spell VFX\SpellMaterial\Shader_ForEffects\Shader_Decal.shader" />

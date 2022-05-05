@@ -12,7 +12,7 @@ public class WinScreen : MonoBehaviour
 
     public void WinMainMenuButton()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 7);
+        SceneManager.LoadScene("Main Menu");
         FindObjectOfType<AudioManager>().Stop("BedroomMusic");
     }
 
