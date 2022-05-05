@@ -67,7 +67,16 @@ public class WaveSpawner : MonoBehaviour
 			}
 			EnemiesKilled = 0;
 			EnemiesAlive = 0;
-			SceneManager.LoadScene("Win Screen");
+			if (LevelName == "Attic")
+            {
+				SceneManager.LoadScene("Final Complete");
+
+			}
+			else
+            {
+				SceneManager.LoadScene("Win Screen");
+
+			}
 			this.enabled = false;
 		}
 

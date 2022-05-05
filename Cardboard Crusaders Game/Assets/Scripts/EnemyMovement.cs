@@ -52,7 +52,11 @@ public class EnemyMovement : MonoBehaviour
     {
         if(Agent.pathStatus != NavMeshPathStatus.PathComplete && Timer <= 0)
         {
+            Timer = 1;
             BuildManager.Obstructed();
+            GameObject.FindWithTag("GameController").SendMessage("DeselectNode");
+            Agent.ResetPath();
+            Agent.SetDestination(Target);
         }
         if(Timer > 0)
         {

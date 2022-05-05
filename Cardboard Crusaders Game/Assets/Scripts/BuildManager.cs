@@ -10,7 +10,7 @@ public class BuildManager : MonoBehaviour
     public static BuildManager instance;
 
     public static GameObject LastBuilt;
-
+    static bool fuckoff = true;
     void Awake()
     {
         if(instance != null)
@@ -66,7 +66,14 @@ public class BuildManager : MonoBehaviour
 
     public static void Obstructed()
     {
-        LastBuilt.GetComponent<Node>().ObstructedTurret();
-        LastBuilt = null;
+        Debug.Log("someone pinged me");
+        if (LastBuilt != null)
+        {
+            LastBuilt.GetComponent<Node>().ObstructedTurret();
+            LastBuilt = null;
+        }
+            
+
+        
     }
 }

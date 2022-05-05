@@ -23903,6 +23903,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Toy_Block_Obstacle (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 3039685238402560743, guid: 721a1e697f468754891b15c53364973f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3544295449145119538, guid: 721a1e697f468754891b15c53364973f,
         type: 3}
       propertyPath: m_Enabled
@@ -24159,7 +24164,7 @@ PrefabInstance:
     - target: {fileID: 6059904603282647607, guid: d73c82e881f99c543ad6cebfef1ea87b,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d73c82e881f99c543ad6cebfef1ea87b, type: 3}
@@ -24683,7 +24688,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1704452307}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 191.8, y: -362.54, z: 1021.73}
+  m_LocalPosition: {x: 191.8, y: -362.54, z: 1020.94}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 567911302}
